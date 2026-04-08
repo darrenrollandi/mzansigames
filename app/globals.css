@@ -1,26 +1,93 @@
 @import "tailwindcss";
 
+/* ── Dark-mode-first theme ─────────────────────────────────── */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #121213;
+  --foreground: #d7dadc;
+
+  /* Game colours */
+  --game-green: #6aaa64;
+  --game-yellow: #c9b458;
+  --game-grey: #3a3a3c;
+  --game-dark-grey: #121213;
+
+  /* Key / tile borders */
+  --tile-border: #3a3a3c;
+  --key-bg: #818384;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-game-green: var(--game-green);
+  --color-game-yellow: var(--game-yellow);
+  --color-game-grey: var(--game-grey);
+  --color-game-dark-grey: var(--game-dark-grey);
+  --color-tile-border: var(--tile-border);
+  --color-key-bg: var(--key-bg);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+/* ── Tile flip animation ───────────────────────────────────── */
+@keyframes flip {
+  0% {
+    transform: rotateX(0deg);
+  }
+  50% {
+    transform: rotateX(-90deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+
+.animate-flip {
+  animation: flip 0.5s ease-in-out;
+}
+
+/* ── Shake animation (invalid guess) ──────────────────────── */
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-4px);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(4px);
+  }
+}
+
+.animate-shake {
+  animation: shake 0.5s ease-in-out;
+}
+
+/* ── Bounce animation (correct guess) ─────────────────────── */
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.animate-bounce-tile {
+  animation: bounce 0.5s ease-in-out;
 }

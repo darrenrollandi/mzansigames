@@ -1,0 +1,6136 @@
+[
+  {
+    "grid": [
+      [
+        "S",
+        "T",
+        "O",
+        "E",
+        "P"
+      ],
+      [
+        "T",
+        "R",
+        "E",
+        "A",
+        "T"
+      ],
+      [
+        "O",
+        "I",
+        "N",
+        "K",
+        "S"
+      ],
+      [
+        "R",
+        "E",
+        "D",
+        "#",
+        "#"
+      ],
+      [
+        "E",
+        "S",
+        "S",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "SA veranda",
+        "answer": "STOEP",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Snack",
+        "answer": "TREAT",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Pig sounds",
+        "answer": "OINKS",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "Colour",
+        "answer": "RED",
+        "row": 3,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 9,
+        "clue": "Letter sound",
+        "answer": "ESS",
+        "row": 4,
+        "col": 0,
+        "length": 3
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Retail outlet",
+        "answer": "STORE",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Attempts",
+        "answer": "TRIES",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Sang solo",
+        "answer": "OINED",
+        "row": 0,
+        "col": 2,
+        "length": 5
+      },
+      {
+        "number": 4,
+        "clue": "Letters",
+        "answer": "EAK",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Covers",
+        "answer": "PTS",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "B",
+        "R",
+        "A",
+        "A",
+        "I"
+      ],
+      [
+        "L",
+        "A",
+        "N",
+        "D",
+        "S"
+      ],
+      [
+        "O",
+        "T",
+        "E",
+        "#",
+        "#"
+      ],
+      [
+        "C",
+        "E",
+        "D",
+        "#",
+        "#"
+      ],
+      [
+        "K",
+        "S",
+        "S",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "SA barbecue",
+        "answer": "BRAAI",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Countries",
+        "answer": "LANDS",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Musical note",
+        "answer": "OTE",
+        "row": 2,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 8,
+        "clue": "Given",
+        "answer": "CED",
+        "row": 3,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 9,
+        "clue": "Letters",
+        "answer": "KSS",
+        "row": 4,
+        "col": 0,
+        "length": 3
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Barrier",
+        "answer": "BLOCK",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Speed",
+        "answer": "RATES",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Plus",
+        "answer": "ANES",
+        "row": 0,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 4,
+        "clue": "Promo",
+        "answer": "AD",
+        "row": 0,
+        "col": 3,
+        "length": 2
+      },
+      {
+        "number": 5,
+        "clue": "Island",
+        "answer": "IS",
+        "row": 0,
+        "col": 4,
+        "length": 2
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "R",
+        "A",
+        "N",
+        "D",
+        "S"
+      ],
+      [
+        "O",
+        "P",
+        "E",
+        "R",
+        "A"
+      ],
+      [
+        "A",
+        "L",
+        "A",
+        "T",
+        "E"
+      ],
+      [
+        "S",
+        "E",
+        "D",
+        "#",
+        "#"
+      ],
+      [
+        "T",
+        "D",
+        "S",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "SA money",
+        "answer": "RANDS",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Musical show",
+        "answer": "OPERA",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Tardy",
+        "answer": "ALATE",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "Deposited",
+        "answer": "SED",
+        "row": 3,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 9,
+        "clue": "Touchdowns",
+        "answer": "TDS",
+        "row": 4,
+        "col": 0,
+        "length": 3
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "BBQ",
+        "answer": "ROAST",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Pleaded",
+        "answer": "APLED",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Named",
+        "answer": "NEADS",
+        "row": 0,
+        "col": 2,
+        "length": 5
+      },
+      {
+        "number": 4,
+        "clue": "Doctor",
+        "answer": "DRT",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Ocean",
+        "answer": "SAE",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "M",
+        "A",
+        "L",
+        "V",
+        "A"
+      ],
+      [
+        "O",
+        "R",
+        "A",
+        "N",
+        "G"
+      ],
+      [
+        "N",
+        "E",
+        "S",
+        "T",
+        "S"
+      ],
+      [
+        "E",
+        "D",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "Y",
+        "S",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "SA sponge pudding",
+        "answer": "MALVA",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Citrus colour",
+        "answer": "ORANG",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Bird homes",
+        "answer": "NESTS",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "Edited",
+        "answer": "ED",
+        "row": 3,
+        "col": 0,
+        "length": 2
+      },
+      {
+        "number": 9,
+        "clue": "Yes",
+        "answer": "YS",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Cash",
+        "answer": "MONEY",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Creative",
+        "answer": "AREDS",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Final",
+        "answer": "LAS",
+        "row": 0,
+        "col": 2,
+        "length": 3
+      },
+      {
+        "number": 4,
+        "clue": "Vehicle",
+        "answer": "VNT",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Years",
+        "answer": "AGS",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "K",
+        "R",
+        "A",
+        "A",
+        "L"
+      ],
+      [
+        "N",
+        "E",
+        "E",
+        "D",
+        "S"
+      ],
+      [
+        "E",
+        "E",
+        "L",
+        "#",
+        "#"
+      ],
+      [
+        "E",
+        "D",
+        "S",
+        "#",
+        "#"
+      ],
+      [
+        "S",
+        "S",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "SA livestock pen",
+        "answer": "KRAAL",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Requirements",
+        "answer": "NEEDS",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Slippery fish",
+        "answer": "EEL",
+        "row": 2,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 8,
+        "clue": "Editors",
+        "answer": "EDS",
+        "row": 3,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 9,
+        "clue": "Plural",
+        "answer": "SS",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Leg joints",
+        "answer": "KNEES",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Marsh plants",
+        "answer": "REEDS",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Beer",
+        "answer": "AELS",
+        "row": 0,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 4,
+        "clue": "Promo",
+        "answer": "AD",
+        "row": 0,
+        "col": 3,
+        "length": 2
+      },
+      {
+        "number": 5,
+        "clue": "Pounds",
+        "answer": "LS",
+        "row": 0,
+        "col": 4,
+        "length": 2
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "S",
+        "P",
+        "A",
+        "Z",
+        "A"
+      ],
+      [
+        "T",
+        "R",
+        "I",
+        "C",
+        "K"
+      ],
+      [
+        "A",
+        "I",
+        "N",
+        "T",
+        "S"
+      ],
+      [
+        "R",
+        "D",
+        "E",
+        "#",
+        "#"
+      ],
+      [
+        "E",
+        "S",
+        "D",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "SA tuckshop",
+        "answer": "SPAZA",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Magic move",
+        "answer": "TRICK",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Colours",
+        "answer": "AINTS",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "Drove",
+        "answer": "RDE",
+        "row": 3,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 9,
+        "clue": "Letters",
+        "answer": "ESD",
+        "row": 4,
+        "col": 0,
+        "length": 3
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Gazes",
+        "answer": "STARE",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Took joy",
+        "answer": "PRIDS",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Hurt",
+        "answer": "AINED",
+        "row": 0,
+        "col": 2,
+        "length": 5
+      },
+      {
+        "number": 4,
+        "clue": "Zone",
+        "answer": "ZCT",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Asked",
+        "answer": "AKS",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "V",
+        "E",
+        "L",
+        "D",
+        "T"
+      ],
+      [
+        "I",
+        "N",
+        "N",
+        "E",
+        "R"
+      ],
+      [
+        "B",
+        "E",
+        "A",
+        "T",
+        "S"
+      ],
+      [
+        "E",
+        "D",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "S",
+        "S",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "SA grassland",
+        "answer": "VELDT",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Inside",
+        "answer": "INNER",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Rhythms",
+        "answer": "BEATS",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "Edited",
+        "answer": "ED",
+        "row": 3,
+        "col": 0,
+        "length": 2
+      },
+      {
+        "number": 9,
+        "clue": "Sounds",
+        "answer": "SS",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Good feelings",
+        "answer": "VIBES",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Finishes",
+        "answer": "ENEDS",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Street",
+        "answer": "LNEA",
+        "row": 0,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 4,
+        "clue": "Dates",
+        "answer": "DET",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Rodents",
+        "answer": "TRS",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "B",
+        "O",
+        "K",
+        "K",
+        "E"
+      ],
+      [
+        "A",
+        "R",
+        "I",
+        "D",
+        "S"
+      ],
+      [
+        "S",
+        "E",
+        "N",
+        "D",
+        "S"
+      ],
+      [
+        "I",
+        "D",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "C",
+        "S",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "SA rugby cheer",
+        "answer": "BOKKE",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Dry zones",
+        "answer": "ARIDS",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Dispatches",
+        "answer": "SENDS",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "Identity",
+        "answer": "ID",
+        "row": 3,
+        "col": 0,
+        "length": 2
+      },
+      {
+        "number": 9,
+        "clue": "Letters",
+        "answer": "CS",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Foundation",
+        "answer": "BASIC",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Commands",
+        "answer": "OREDS",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Family",
+        "answer": "KIN",
+        "row": 0,
+        "col": 2,
+        "length": 3
+      },
+      {
+        "number": 4,
+        "clue": "Kin",
+        "answer": "KDD",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Finish",
+        "answer": "ESS",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "C",
+        "A",
+        "P",
+        "E",
+        "S"
+      ],
+      [
+        "R",
+        "A",
+        "I",
+        "N",
+        "S"
+      ],
+      [
+        "A",
+        "N",
+        "T",
+        "S",
+        "#"
+      ],
+      [
+        "N",
+        "E",
+        "S",
+        "#",
+        "#"
+      ],
+      [
+        "E",
+        "S",
+        "T",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "SA regions",
+        "answer": "CAPES",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Downpours",
+        "answer": "RAINS",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Small insects",
+        "answer": "ANTS",
+        "row": 2,
+        "col": 0,
+        "length": 4
+      },
+      {
+        "number": 8,
+        "clue": "Eggs",
+        "answer": "NES",
+        "row": 3,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 9,
+        "clue": "Eastern time",
+        "answer": "EST",
+        "row": 4,
+        "col": 0,
+        "length": 3
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Machine",
+        "answer": "CRANE",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Canal",
+        "answer": "AANES",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Tool",
+        "answer": "PITST",
+        "row": 0,
+        "col": 2,
+        "length": 5
+      },
+      {
+        "number": 4,
+        "clue": "End",
+        "answer": "ENS",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Letter",
+        "answer": "SS",
+        "row": 0,
+        "col": 4,
+        "length": 2
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "T",
+        "A",
+        "X",
+        "I",
+        "S"
+      ],
+      [
+        "A",
+        "R",
+        "E",
+        "N",
+        "A"
+      ],
+      [
+        "B",
+        "E",
+        "N",
+        "D",
+        "S"
+      ],
+      [
+        "L",
+        "E",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "E",
+        "D",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "SA minibus rides",
+        "answer": "TAXIS",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Stadium",
+        "answer": "ARENA",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Curves",
+        "answer": "BENDS",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "Left",
+        "answer": "LE",
+        "row": 3,
+        "col": 0,
+        "length": 2
+      },
+      {
+        "number": 9,
+        "clue": "Edited",
+        "answer": "ED",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Surface",
+        "answer": "TABLE",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Zones",
+        "answer": "AREED",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Goes in",
+        "answer": "XEN",
+        "row": 0,
+        "col": 2,
+        "length": 3
+      },
+      {
+        "number": 4,
+        "clue": "Native",
+        "answer": "IND",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Opening",
+        "answer": "SAS",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "M",
+        "E",
+        "A",
+        "L",
+        "S"
+      ],
+      [
+        "A",
+        "D",
+        "D",
+        "E",
+        "D"
+      ],
+      [
+        "I",
+        "N",
+        "N",
+        "E",
+        "R"
+      ],
+      [
+        "Z",
+        "E",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "E",
+        "D",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Food servings",
+        "answer": "MEALS",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Put in",
+        "answer": "ADDED",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Not outer",
+        "answer": "INNER",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "Sleep",
+        "answer": "ZE",
+        "row": 3,
+        "col": 0,
+        "length": 2
+      },
+      {
+        "number": 9,
+        "clue": "Editor",
+        "answer": "ED",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "SA corn",
+        "answer": "MAIZE",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Finishes",
+        "answer": "EDNED",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Also",
+        "answer": "ADN",
+        "row": 0,
+        "col": 2,
+        "length": 3
+      },
+      {
+        "number": 4,
+        "clue": "Shrink",
+        "answer": "LEE",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Signal",
+        "answer": "SDR",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "P",
+        "R",
+        "O",
+        "T",
+        "E"
+      ],
+      [
+        "L",
+        "A",
+        "N",
+        "D",
+        "S"
+      ],
+      [
+        "A",
+        "N",
+        "T",
+        "E",
+        "D"
+      ],
+      [
+        "N",
+        "E",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "E",
+        "D",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "SA national flower",
+        "answer": "PROTE",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Territories",
+        "answer": "LANDS",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Wagered",
+        "answer": "ANTED",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "Neon",
+        "answer": "NE",
+        "row": 3,
+        "col": 0,
+        "length": 2
+      },
+      {
+        "number": 9,
+        "clue": "Edited",
+        "answer": "ED",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Aircraft",
+        "answer": "PLANE",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Grew",
+        "answer": "RANED",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Negative",
+        "answer": "ONT",
+        "row": 0,
+        "col": 2,
+        "length": 3
+      },
+      {
+        "number": 4,
+        "clue": "Cluster",
+        "answer": "TDE",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Done",
+        "answer": "ESD",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "J",
+        "O",
+        "B",
+        "U",
+        "R"
+      ],
+      [
+        "A",
+        "P",
+        "E",
+        "N",
+        "S"
+      ],
+      [
+        "C",
+        "A",
+        "N",
+        "D",
+        "Y"
+      ],
+      [
+        "K",
+        "L",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "S",
+        "E",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "SA city (abbr.)",
+        "answer": "JOBUR",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Unlocks",
+        "answer": "OPENS",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Sweets",
+        "answer": "CANDY",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "Card suit",
+        "answer": "KL",
+        "row": 3,
+        "col": 0,
+        "length": 2
+      },
+      {
+        "number": 9,
+        "clue": "South East",
+        "answer": "SE",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Coats",
+        "answer": "JACKS",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Launched",
+        "answer": "OPALE",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Ban",
+        "answer": "BEN",
+        "row": 0,
+        "col": 2,
+        "length": 3
+      },
+      {
+        "number": 4,
+        "clue": "Below",
+        "answer": "UND",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Annoy",
+        "answer": "RSY",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "S",
+        "O",
+        "W",
+        "E",
+        "T"
+      ],
+      [
+        "A",
+        "P",
+        "E",
+        "R",
+        "S"
+      ],
+      [
+        "G",
+        "A",
+        "N",
+        "D",
+        "A"
+      ],
+      [
+        "E",
+        "L",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "S",
+        "E",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "SA township",
+        "answer": "SOWET",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Newspapers",
+        "answer": "APERS",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Uganda part",
+        "answer": "GANDA",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "Time",
+        "answer": "EL",
+        "row": 3,
+        "col": 0,
+        "length": 2
+      },
+      {
+        "number": 9,
+        "clue": "Plural",
+        "answer": "SE",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Wise ones",
+        "answer": "SAGES",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Acted",
+        "answer": "OPALE",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Gained",
+        "answer": "WEN",
+        "row": 0,
+        "col": 2,
+        "length": 3
+      },
+      {
+        "number": 4,
+        "clue": "Colour",
+        "answer": "ERD",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Tea",
+        "answer": "TSA",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "N",
+        "D",
+        "E",
+        "B",
+        "E"
+      ],
+      [
+        "O",
+        "R",
+        "A",
+        "N",
+        "G"
+      ],
+      [
+        "T",
+        "E",
+        "S",
+        "T",
+        "S"
+      ],
+      [
+        "E",
+        "D",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "S",
+        "S",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "SA people group",
+        "answer": "NDEBE",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Citrus colour",
+        "answer": "ORANG",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Exams",
+        "answer": "TESTS",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "Edited",
+        "answer": "ED",
+        "row": 3,
+        "col": 0,
+        "length": 2
+      },
+      {
+        "number": 9,
+        "clue": "Sounds",
+        "answer": "SS",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Written records",
+        "answer": "NOTES",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Outfits",
+        "answer": "DRESS",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Continent",
+        "answer": "EAS",
+        "row": 0,
+        "col": 2,
+        "length": 3
+      },
+      {
+        "number": 4,
+        "clue": "Bin",
+        "answer": "BNT",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Direction",
+        "answer": "EGS",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "Z",
+        "U",
+        "L",
+        "U",
+        "S"
+      ],
+      [
+        "E",
+        "N",
+        "D",
+        "E",
+        "D"
+      ],
+      [
+        "B",
+        "R",
+        "A",
+        "V",
+        "E"
+      ],
+      [
+        "R",
+        "E",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "A",
+        "D",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "SA ethnic group",
+        "answer": "ZULUS",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Finished",
+        "answer": "ENDED",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Courageous",
+        "answer": "BRAVE",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "About",
+        "answer": "RE",
+        "row": 3,
+        "col": 0,
+        "length": 2
+      },
+      {
+        "number": 9,
+        "clue": "Promotion",
+        "answer": "AD",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Striped animal",
+        "answer": "ZEBRA",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Below",
+        "answer": "UNRED",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Boy",
+        "answer": "LDA",
+        "row": 0,
+        "col": 2,
+        "length": 3
+      },
+      {
+        "number": 4,
+        "clue": "Even",
+        "answer": "UEV",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Letters",
+        "answer": "SDE",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "G",
+        "A",
+        "M",
+        "E",
+        "S"
+      ],
+      [
+        "R",
+        "I",
+        "N",
+        "D",
+        "S"
+      ],
+      [
+        "A",
+        "D",
+        "E",
+        "#",
+        "#"
+      ],
+      [
+        "S",
+        "E",
+        "D",
+        "#",
+        "#"
+      ],
+      [
+        "S",
+        "S",
+        "S",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Mzansi word ___",
+        "answer": "GAMES",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Outer layers",
+        "answer": "RINDS",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Helpers",
+        "answer": "ADE",
+        "row": 2,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 8,
+        "clue": "Deposited",
+        "answer": "SED",
+        "row": 3,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 9,
+        "clue": "Sounds",
+        "answer": "SSS",
+        "row": 4,
+        "col": 0,
+        "length": 3
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Lawn",
+        "answer": "GRASS",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Walks",
+        "answer": "AIDES",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Men",
+        "answer": "MNEDS",
+        "row": 0,
+        "col": 2,
+        "length": 5
+      },
+      {
+        "number": 4,
+        "clue": "End",
+        "answer": "ED",
+        "row": 0,
+        "col": 3,
+        "length": 2
+      },
+      {
+        "number": 5,
+        "clue": "Water",
+        "answer": "SS",
+        "row": 0,
+        "col": 4,
+        "length": 2
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "F",
+        "Y",
+        "N",
+        "B",
+        "O"
+      ],
+      [
+        "L",
+        "E",
+        "A",
+        "R",
+        "N"
+      ],
+      [
+        "O",
+        "A",
+        "T",
+        "S",
+        "#"
+      ],
+      [
+        "R",
+        "R",
+        "S",
+        "#",
+        "#"
+      ],
+      [
+        "A",
+        "S",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "SA shrubland",
+        "answer": "FYNBO",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Study",
+        "answer": "LEARN",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Cereal",
+        "answer": "OATS",
+        "row": 2,
+        "col": 0,
+        "length": 4
+      },
+      {
+        "number": 8,
+        "clue": "Letters",
+        "answer": "RRS",
+        "row": 3,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 9,
+        "clue": "Ending",
+        "answer": "AS",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Plant life",
+        "answer": "FLORA",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Duration",
+        "answer": "YEARS",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Country",
+        "answer": "NATS",
+        "row": 0,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 4,
+        "clue": "Pubs",
+        "answer": "BRS",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Mineral",
+        "answer": "ON",
+        "row": 0,
+        "col": 4,
+        "length": 2
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "L",
+        "E",
+        "K",
+        "K",
+        "E"
+      ],
+      [
+        "I",
+        "N",
+        "N",
+        "E",
+        "R"
+      ],
+      [
+        "O",
+        "N",
+        "E",
+        "S",
+        "#"
+      ],
+      [
+        "N",
+        "E",
+        "D",
+        "#",
+        "#"
+      ],
+      [
+        "S",
+        "S",
+        "S",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "SA slang: great",
+        "answer": "LEKKE",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Interior",
+        "answer": "INNER",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Singles",
+        "answer": "ONES",
+        "row": 2,
+        "col": 0,
+        "length": 4
+      },
+      {
+        "number": 8,
+        "clue": "Named",
+        "answer": "NED",
+        "row": 3,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 9,
+        "clue": "Sounds",
+        "answer": "SSS",
+        "row": 4,
+        "col": 0,
+        "length": 3
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Big cats",
+        "answer": "LIONS",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Wiser",
+        "answer": "ENNES",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Sharp",
+        "answer": "KNEDS",
+        "row": 0,
+        "col": 2,
+        "length": 5
+      },
+      {
+        "number": 4,
+        "clue": "Letters",
+        "answer": "KE",
+        "row": 0,
+        "col": 3,
+        "length": 2
+      },
+      {
+        "number": 5,
+        "clue": "Finish",
+        "answer": "ER",
+        "row": 0,
+        "col": 4,
+        "length": 2
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "B",
+        "O",
+        "E",
+        "R",
+        "E"
+      ],
+      [
+        "A",
+        "N",
+        "E",
+        "W",
+        "S"
+      ],
+      [
+        "S",
+        "T",
+        "A",
+        "R",
+        "S"
+      ],
+      [
+        "I",
+        "E",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "C",
+        "D",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "SA farmers (Afr.)",
+        "answer": "BOERE",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Fresh info",
+        "answer": "ANEWS",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Celebrities",
+        "answer": "STARS",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "Island",
+        "answer": "IE",
+        "row": 3,
+        "col": 0,
+        "length": 2
+      },
+      {
+        "number": 9,
+        "clue": "Disc",
+        "answer": "CD",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Foundation",
+        "answer": "BASIC",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Start",
+        "answer": "ONTED",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Consume",
+        "answer": "EEA",
+        "row": 0,
+        "col": 2,
+        "length": 3
+      },
+      {
+        "number": 4,
+        "clue": "Conflict",
+        "answer": "RWR",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Letter",
+        "answer": "ESS",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "T",
+        "A",
+        "B",
+        "L",
+        "E"
+      ],
+      [
+        "R",
+        "I",
+        "D",
+        "E",
+        "S"
+      ],
+      [
+        "U",
+        "N",
+        "I",
+        "T",
+        "S"
+      ],
+      [
+        "S",
+        "T",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "T",
+        "S",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Flat surface",
+        "answer": "TABLE",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Journeys",
+        "answer": "RIDES",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Measurements",
+        "answer": "UNITS",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "Road",
+        "answer": "ST",
+        "row": 3,
+        "col": 0,
+        "length": 2
+      },
+      {
+        "number": 9,
+        "clue": "Letters",
+        "answer": "TS",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Confidence",
+        "answer": "TRUST",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Subjects",
+        "answer": "AINTS",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Offered",
+        "answer": "BDI",
+        "row": 0,
+        "col": 2,
+        "length": 3
+      },
+      {
+        "number": 4,
+        "clue": "Letters",
+        "answer": "LET",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Letters",
+        "answer": "ESS",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "S",
+        "T",
+        "E",
+        "A",
+        "K"
+      ],
+      [
+        "P",
+        "R",
+        "I",
+        "D",
+        "E"
+      ],
+      [
+        "I",
+        "E",
+        "N",
+        "D",
+        "S"
+      ],
+      [
+        "E",
+        "D",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "S",
+        "S",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Braai meat cut",
+        "answer": "STEAK",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Lion group",
+        "answer": "PRIDE",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Companions",
+        "answer": "IENDS",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "Editor",
+        "answer": "ED",
+        "row": 3,
+        "col": 0,
+        "length": 2
+      },
+      {
+        "number": 9,
+        "clue": "Sounds",
+        "answer": "SS",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Flavours",
+        "answer": "SPIES",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Trees",
+        "answer": "TREDS",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Start",
+        "answer": "EIN",
+        "row": 0,
+        "col": 2,
+        "length": 3
+      },
+      {
+        "number": 4,
+        "clue": "Added",
+        "answer": "ADD",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Lock parts",
+        "answer": "KES",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "S",
+        "H",
+        "A",
+        "R",
+        "K"
+      ],
+      [
+        "T",
+        "E",
+        "R",
+        "M",
+        "S"
+      ],
+      [
+        "O",
+        "A",
+        "D",
+        "#",
+        "#"
+      ],
+      [
+        "R",
+        "D",
+        "S",
+        "#",
+        "#"
+      ],
+      [
+        "E",
+        "S",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Durban predator",
+        "answer": "SHARK",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Conditions",
+        "answer": "TERMS",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Path",
+        "answer": "OAD",
+        "row": 2,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 8,
+        "clue": "Records",
+        "answer": "RDS",
+        "row": 3,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 9,
+        "clue": "Sounds",
+        "answer": "ES",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Kept",
+        "answer": "STORE",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Leaders",
+        "answer": "HEADS",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Skill",
+        "answer": "ARDS",
+        "row": 0,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 4,
+        "clue": "Space",
+        "answer": "RM",
+        "row": 0,
+        "col": 3,
+        "length": 2
+      },
+      {
+        "number": 5,
+        "clue": "Lock",
+        "answer": "KS",
+        "row": 0,
+        "col": 4,
+        "length": 2
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "W",
+        "A",
+        "T",
+        "E",
+        "R"
+      ],
+      [
+        "I",
+        "D",
+        "E",
+        "A",
+        "S"
+      ],
+      [
+        "N",
+        "E",
+        "N",
+        "D",
+        "S"
+      ],
+      [
+        "D",
+        "S",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "S",
+        "#",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "H2O",
+        "answer": "WATER",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Thoughts",
+        "answer": "IDEAS",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Conclusions",
+        "answer": "NENDS",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "Letters",
+        "answer": "DS",
+        "row": 3,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Air movement",
+        "answer": "WINDS",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Ades",
+        "answer": "ADES",
+        "row": 0,
+        "col": 1,
+        "length": 4
+      },
+      {
+        "number": 3,
+        "clue": "Rented",
+        "answer": "TEEN",
+        "row": 0,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 4,
+        "clue": "Period",
+        "answer": "EAD",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Plural",
+        "answer": "RSS",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "S",
+        "O",
+        "U",
+        "T",
+        "H"
+      ],
+      [
+        "T",
+        "R",
+        "A",
+        "I",
+        "N"
+      ],
+      [
+        "A",
+        "E",
+        "N",
+        "D",
+        "S"
+      ],
+      [
+        "R",
+        "D",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "T",
+        "S",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "___ Africa",
+        "answer": "SOUTH",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Railway",
+        "answer": "TRAIN",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Finishes",
+        "answer": "AENDS",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "Record",
+        "answer": "RD",
+        "row": 3,
+        "col": 0,
+        "length": 2
+      },
+      {
+        "number": 9,
+        "clue": "Letters",
+        "answer": "TS",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Begin",
+        "answer": "START",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Sequence",
+        "answer": "OREDS",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Joined",
+        "answer": "UAN",
+        "row": 0,
+        "col": 2,
+        "length": 3
+      },
+      {
+        "number": 4,
+        "clue": "Helped",
+        "answer": "TID",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Hens",
+        "answer": "HNS",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "P",
+        "E",
+        "A",
+        "R",
+        "L"
+      ],
+      [
+        "E",
+        "A",
+        "R",
+        "T",
+        "H"
+      ],
+      [
+        "N",
+        "D",
+        "E",
+        "#",
+        "#"
+      ],
+      [
+        "C",
+        "E",
+        "D",
+        "#",
+        "#"
+      ],
+      [
+        "E",
+        "D",
+        "S",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "SA wine town",
+        "answer": "PEARL",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Planet",
+        "answer": "EARTH",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Named",
+        "answer": "NDE",
+        "row": 2,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 8,
+        "clue": "Given",
+        "answer": "CED",
+        "row": 3,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 9,
+        "clue": "Editors",
+        "answer": "EDS",
+        "row": 4,
+        "col": 0,
+        "length": 3
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Writing tool",
+        "answer": "PENCE",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Ate",
+        "answer": "EADED",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Skill",
+        "answer": "AREDS",
+        "row": 0,
+        "col": 2,
+        "length": 5
+      },
+      {
+        "number": 4,
+        "clue": "Decay",
+        "answer": "RT",
+        "row": 0,
+        "col": 3,
+        "length": 2
+      },
+      {
+        "number": 5,
+        "clue": "Mixed",
+        "answer": "LH",
+        "row": 0,
+        "col": 4,
+        "length": 2
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "T",
+        "A",
+        "F",
+        "E",
+        "L"
+      ],
+      [
+        "R",
+        "U",
+        "L",
+        "E",
+        "S"
+      ],
+      [
+        "E",
+        "N",
+        "I",
+        "T",
+        "S"
+      ],
+      [
+        "E",
+        "D",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "S",
+        "S",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "___ Mountain",
+        "answer": "TAFEL",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Laws",
+        "answer": "RULES",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Pieces",
+        "answer": "ENITS",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "Editor",
+        "answer": "ED",
+        "row": 3,
+        "col": 0,
+        "length": 2
+      },
+      {
+        "number": 9,
+        "clue": "Sounds",
+        "answer": "SS",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Vegetation",
+        "answer": "TREES",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Below",
+        "answer": "AUNDS",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Files",
+        "answer": "FLI",
+        "row": 0,
+        "col": 2,
+        "length": 3
+      },
+      {
+        "number": 4,
+        "clue": "Time",
+        "answer": "EET",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Letters",
+        "answer": "LSS",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "C",
+        "U",
+        "R",
+        "R",
+        "Y"
+      ],
+      [
+        "L",
+        "I",
+        "N",
+        "E",
+        "S"
+      ],
+      [
+        "A",
+        "R",
+        "E",
+        "A",
+        "S"
+      ],
+      [
+        "S",
+        "E",
+        "D",
+        "#",
+        "#"
+      ],
+      [
+        "S",
+        "S",
+        "S",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Durban spice dish",
+        "answer": "CURRY",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Rows",
+        "answer": "LINES",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Zones",
+        "answer": "AREAS",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "Deposited",
+        "answer": "SED",
+        "row": 3,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 9,
+        "clue": "Sounds",
+        "answer": "SSS",
+        "row": 4,
+        "col": 0,
+        "length": 3
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Rank",
+        "answer": "CLASS",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Joined",
+        "answer": "UIRES",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Gained",
+        "answer": "RNEDS",
+        "row": 0,
+        "col": 2,
+        "length": 5
+      },
+      {
+        "number": 4,
+        "clue": "Colour",
+        "answer": "REA",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Yes",
+        "answer": "YSS",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "R",
+        "U",
+        "G",
+        "B",
+        "Y"
+      ],
+      [
+        "O",
+        "N",
+        "D",
+        "E",
+        "R"
+      ],
+      [
+        "A",
+        "I",
+        "E",
+        "#",
+        "#"
+      ],
+      [
+        "S",
+        "T",
+        "S",
+        "#",
+        "#"
+      ],
+      [
+        "T",
+        "S",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "SA national sport",
+        "answer": "RUGBY",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Beneath (Afr.)",
+        "answer": "ONDER",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Perish",
+        "answer": "AIE",
+        "row": 2,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 8,
+        "clue": "Letters",
+        "answer": "STS",
+        "row": 3,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 9,
+        "clue": "Letters",
+        "answer": "TS",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Cooked",
+        "answer": "ROAST",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Joined",
+        "answer": "UNITS",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Guide",
+        "answer": "GDES",
+        "row": 0,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 4,
+        "clue": "Drink",
+        "answer": "BEE",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Yes",
+        "answer": "YR",
+        "row": 0,
+        "col": 4,
+        "length": 2
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "S",
+        "A",
+        "N",
+        "D",
+        "S"
+      ],
+      [
+        "T",
+        "O",
+        "N",
+        "E",
+        "S"
+      ],
+      [
+        "O",
+        "R",
+        "E",
+        "#",
+        "#"
+      ],
+      [
+        "R",
+        "E",
+        "D",
+        "#",
+        "#"
+      ],
+      [
+        "M",
+        "S",
+        "S",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Beach grains",
+        "answer": "SANDS",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Rocks",
+        "answer": "TONES",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Mineral",
+        "answer": "ORE",
+        "row": 2,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 8,
+        "clue": "Colour",
+        "answer": "RED",
+        "row": 3,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 9,
+        "clue": "Letters",
+        "answer": "MSS",
+        "row": 4,
+        "col": 0,
+        "length": 3
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Thunder",
+        "answer": "STORM",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Helpers",
+        "answer": "AORES",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Past",
+        "answer": "NNEDS",
+        "row": 0,
+        "col": 2,
+        "length": 5
+      },
+      {
+        "number": 4,
+        "clue": "Letters",
+        "answer": "DE",
+        "row": 0,
+        "col": 3,
+        "length": 2
+      },
+      {
+        "number": 5,
+        "clue": "Letters",
+        "answer": "SS",
+        "row": 0,
+        "col": 4,
+        "length": 2
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "G",
+        "O",
+        "L",
+        "D",
+        "S"
+      ],
+      [
+        "R",
+        "A",
+        "N",
+        "D",
+        "S"
+      ],
+      [
+        "E",
+        "N",
+        "D",
+        "E",
+        "D"
+      ],
+      [
+        "E",
+        "D",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "N",
+        "S",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Joburg mineral",
+        "answer": "GOLDS",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "SA currency",
+        "answer": "RANDS",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Finished",
+        "answer": "ENDED",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "Edited",
+        "answer": "ED",
+        "row": 3,
+        "col": 0,
+        "length": 2
+      },
+      {
+        "number": 9,
+        "clue": "Letters",
+        "answer": "NS",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Colour",
+        "answer": "GREEN",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Began",
+        "answer": "OANDS",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Credit",
+        "answer": "LND",
+        "row": 0,
+        "col": 2,
+        "length": 3
+      },
+      {
+        "number": 4,
+        "clue": "Died",
+        "answer": "DDE",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Letters",
+        "answer": "SSD",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "C",
+        "R",
+        "I",
+        "M",
+        "E"
+      ],
+      [
+        "L",
+        "A",
+        "N",
+        "E",
+        "S"
+      ],
+      [
+        "A",
+        "I",
+        "D",
+        "E",
+        "D"
+      ],
+      [
+        "S",
+        "E",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "S",
+        "D",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Offence",
+        "answer": "CRIME",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Roads",
+        "answer": "LANES",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Helped",
+        "answer": "AIDED",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "That is",
+        "answer": "SE",
+        "row": 3,
+        "col": 0,
+        "length": 2
+      },
+      {
+        "number": 9,
+        "clue": "Letters",
+        "answer": "SD",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Rank",
+        "answer": "CLASS",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Lifted",
+        "answer": "RAIED",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "India",
+        "answer": "IND",
+        "row": 0,
+        "col": 2,
+        "length": 3
+      },
+      {
+        "number": 4,
+        "clue": "Me",
+        "answer": "MEE",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Done",
+        "answer": "ESD",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "P",
+        "O",
+        "W",
+        "E",
+        "R"
+      ],
+      [
+        "R",
+        "A",
+        "I",
+        "N",
+        "S"
+      ],
+      [
+        "I",
+        "D",
+        "E",
+        "A",
+        "S"
+      ],
+      [
+        "D",
+        "E",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "E",
+        "S",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Eskom product",
+        "answer": "POWER",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Storms",
+        "answer": "RAINS",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Thoughts",
+        "answer": "IDEAS",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "Done",
+        "answer": "DE",
+        "row": 3,
+        "col": 0,
+        "length": 2
+      },
+      {
+        "number": 9,
+        "clue": "Yes (Sp.)",
+        "answer": "ES",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Happy feeling",
+        "answer": "PRIDE",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Stale",
+        "answer": "OADES",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Smart",
+        "answer": "WIE",
+        "row": 0,
+        "col": 2,
+        "length": 3
+      },
+      {
+        "number": 4,
+        "clue": "End",
+        "answer": "ENA",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Done",
+        "answer": "RSS",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "C",
+        "H",
+        "E",
+        "F",
+        "S"
+      ],
+      [
+        "R",
+        "A",
+        "N",
+        "D",
+        "S"
+      ],
+      [
+        "E",
+        "N",
+        "D",
+        "E",
+        "D"
+      ],
+      [
+        "S",
+        "T",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "T",
+        "S",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Kitchen bosses",
+        "answer": "CHEFS",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "SA money",
+        "answer": "RANDS",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Concluded",
+        "answer": "ENDED",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "Road",
+        "answer": "ST",
+        "row": 3,
+        "col": 0,
+        "length": 2
+      },
+      {
+        "number": 9,
+        "clue": "Letters",
+        "answer": "TS",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Boxes",
+        "answer": "CREST",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Bird",
+        "answer": "HANTS",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Finish",
+        "answer": "END",
+        "row": 0,
+        "col": 2,
+        "length": 3
+      },
+      {
+        "number": 4,
+        "clue": "Fed",
+        "answer": "FDE",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Letters",
+        "answer": "SSD",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "S",
+        "T",
+        "O",
+        "R",
+        "M"
+      ],
+      [
+        "L",
+        "A",
+        "N",
+        "D",
+        "S"
+      ],
+      [
+        "I",
+        "D",
+        "E",
+        "A",
+        "S"
+      ],
+      [
+        "D",
+        "E",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "E",
+        "S",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Weather event",
+        "answer": "STORM",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Countries",
+        "answer": "LANDS",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Concepts",
+        "answer": "IDEAS",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "Edited",
+        "answer": "DE",
+        "row": 3,
+        "col": 0,
+        "length": 2
+      },
+      {
+        "number": 9,
+        "clue": "Letters",
+        "answer": "ES",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Glide",
+        "answer": "SLIDE",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Helped",
+        "answer": "TADES",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Single",
+        "answer": "ONE",
+        "row": 0,
+        "col": 2,
+        "length": 3
+      },
+      {
+        "number": 4,
+        "clue": "Letters",
+        "answer": "RDA",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Letters",
+        "answer": "MSS",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "F",
+        "L",
+        "A",
+        "G",
+        "S"
+      ],
+      [
+        "I",
+        "N",
+        "N",
+        "E",
+        "R"
+      ],
+      [
+        "R",
+        "E",
+        "D",
+        "S",
+        "#"
+      ],
+      [
+        "S",
+        "T",
+        "S",
+        "#",
+        "#"
+      ],
+      [
+        "T",
+        "S",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "SA colourful one",
+        "answer": "FLAGS",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Interior",
+        "answer": "INNER",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Colours",
+        "answer": "REDS",
+        "row": 2,
+        "col": 0,
+        "length": 4
+      },
+      {
+        "number": 8,
+        "clue": "Roads",
+        "answer": "STS",
+        "row": 3,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 9,
+        "clue": "Letters",
+        "answer": "TS",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Priority",
+        "answer": "FIRST",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Loaned",
+        "answer": "LNETS",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Plus",
+        "answer": "ANDS",
+        "row": 0,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 4,
+        "clue": "Fuel",
+        "answer": "GES",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Letters",
+        "answer": "SR",
+        "row": 0,
+        "col": 4,
+        "length": 2
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "W",
+        "I",
+        "N",
+        "E",
+        "S"
+      ],
+      [
+        "A",
+        "D",
+        "E",
+        "A",
+        "L"
+      ],
+      [
+        "T",
+        "E",
+        "N",
+        "D",
+        "S"
+      ],
+      [
+        "E",
+        "R",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "R",
+        "S",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Stellenbosch product",
+        "answer": "WINES",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Bargain",
+        "answer": "ADEAL",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Leans",
+        "answer": "TENDS",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "About",
+        "answer": "ER",
+        "row": 3,
+        "col": 0,
+        "length": 2
+      },
+      {
+        "number": 9,
+        "clue": "Letters",
+        "answer": "RS",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Liquid",
+        "answer": "WATER",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Ideas",
+        "answer": "IDEAS",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Fresh",
+        "answer": "NEN",
+        "row": 0,
+        "col": 2,
+        "length": 3
+      },
+      {
+        "number": 4,
+        "clue": "Done",
+        "answer": "EAD",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Letters",
+        "answer": "SLS",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "C",
+        "O",
+        "A",
+        "S",
+        "T"
+      ],
+      [
+        "R",
+        "A",
+        "N",
+        "D",
+        "S"
+      ],
+      [
+        "A",
+        "T",
+        "E",
+        "#",
+        "#"
+      ],
+      [
+        "N",
+        "E",
+        "D",
+        "#",
+        "#"
+      ],
+      [
+        "E",
+        "S",
+        "S",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Beach zone",
+        "answer": "COAST",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "SA money",
+        "answer": "RANDS",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Consumed",
+        "answer": "ATE",
+        "row": 2,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 8,
+        "clue": "Named",
+        "answer": "NED",
+        "row": 3,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 9,
+        "clue": "Letter sound",
+        "answer": "ESS",
+        "row": 4,
+        "col": 0,
+        "length": 3
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Machine",
+        "answer": "CRANE",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Pitch",
+        "answer": "OATES",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Plus",
+        "answer": "ANEDS",
+        "row": 0,
+        "col": 2,
+        "length": 5
+      },
+      {
+        "number": 4,
+        "clue": "Letters",
+        "answer": "SD",
+        "row": 0,
+        "col": 3,
+        "length": 2
+      },
+      {
+        "number": 5,
+        "clue": "Letters",
+        "answer": "TS",
+        "row": 0,
+        "col": 4,
+        "length": 2
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "M",
+        "A",
+        "I",
+        "Z",
+        "E"
+      ],
+      [
+        "O",
+        "P",
+        "E",
+        "N",
+        "S"
+      ],
+      [
+        "N",
+        "E",
+        "T",
+        "S",
+        "#"
+      ],
+      [
+        "E",
+        "D",
+        "S",
+        "#",
+        "#"
+      ],
+      [
+        "Y",
+        "S",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "SA corn",
+        "answer": "MAIZE",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Unlocks",
+        "answer": "OPENS",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Traps",
+        "answer": "NETS",
+        "row": 2,
+        "col": 0,
+        "length": 4
+      },
+      {
+        "number": 8,
+        "clue": "Editors",
+        "answer": "EDS",
+        "row": 3,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 9,
+        "clue": "Why",
+        "answer": "YS",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Cash",
+        "answer": "MONEY",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Launch",
+        "answer": "APEDS",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Things",
+        "answer": "IETS",
+        "row": 0,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 4,
+        "clue": "Area",
+        "answer": "ZNS",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Letter",
+        "answer": "ES",
+        "row": 0,
+        "col": 4,
+        "length": 2
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "D",
+        "A",
+        "N",
+        "C",
+        "E"
+      ],
+      [
+        "R",
+        "I",
+        "N",
+        "D",
+        "S"
+      ],
+      [
+        "I",
+        "N",
+        "N",
+        "E",
+        "R"
+      ],
+      [
+        "E",
+        "D",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "S",
+        "S",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Gumboot style",
+        "answer": "DANCE",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Fruit skins",
+        "answer": "RINDS",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Interior",
+        "answer": "INNER",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "Editor",
+        "answer": "ED",
+        "row": 3,
+        "col": 0,
+        "length": 2
+      },
+      {
+        "number": 9,
+        "clue": "Sounds",
+        "answer": "SS",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Dries out",
+        "answer": "DRIES",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Past",
+        "answer": "AINDS",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Sister",
+        "answer": "NNN",
+        "row": 0,
+        "col": 2,
+        "length": 3
+      },
+      {
+        "number": 4,
+        "clue": "Code",
+        "answer": "CDE",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Hear",
+        "answer": "ESR",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "S",
+        "P",
+        "R",
+        "I",
+        "N"
+      ],
+      [
+        "T",
+        "R",
+        "I",
+        "D",
+        "E"
+      ],
+      [
+        "O",
+        "A",
+        "N",
+        "G",
+        "E"
+      ],
+      [
+        "R",
+        "D",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "E",
+        "S",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Fast run",
+        "answer": "SPRIN",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Joy",
+        "answer": "TRIDE",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Citrus",
+        "answer": "OANGE",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "Record",
+        "answer": "RD",
+        "row": 3,
+        "col": 0,
+        "length": 2
+      },
+      {
+        "number": 9,
+        "clue": "Sounds",
+        "answer": "ES",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Shop",
+        "answer": "STORE",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Praised",
+        "answer": "PRADS",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Rain",
+        "answer": "RAIN",
+        "row": 0,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 4,
+        "clue": "Sharp",
+        "answer": "IDG",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Letters",
+        "answer": "NEE",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "M",
+        "A",
+        "N",
+        "D",
+        "E"
+      ],
+      [
+        "I",
+        "N",
+        "N",
+        "E",
+        "R"
+      ],
+      [
+        "N",
+        "E",
+        "T",
+        "S",
+        "#"
+      ],
+      [
+        "E",
+        "D",
+        "S",
+        "#",
+        "#"
+      ],
+      [
+        "S",
+        "S",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Nelson ___la",
+        "answer": "MANDE",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Inside",
+        "answer": "INNER",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Fishing gear",
+        "answer": "NETS",
+        "row": 2,
+        "col": 0,
+        "length": 4
+      },
+      {
+        "number": 8,
+        "clue": "Editors",
+        "answer": "EDS",
+        "row": 3,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 9,
+        "clue": "Sounds",
+        "answer": "SS",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Digs",
+        "answer": "MINES",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Before",
+        "answer": "ANEDS",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Nil",
+        "answer": "NNETS",
+        "row": 0,
+        "col": 2,
+        "length": 5
+      },
+      {
+        "number": 4,
+        "clue": "Letters",
+        "answer": "DES",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "End",
+        "answer": "ER",
+        "row": 0,
+        "col": 4,
+        "length": 2
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "B",
+        "U",
+        "N",
+        "N",
+        "Y"
+      ],
+      [
+        "A",
+        "N",
+        "D",
+        "E",
+        "R"
+      ],
+      [
+        "S",
+        "E",
+        "G",
+        "E",
+        "L"
+      ],
+      [
+        "I",
+        "D",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "C",
+        "S",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Rabbit",
+        "answer": "BUNNY",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Also",
+        "answer": "ANDER",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Sail (Afr.)",
+        "answer": "SEGEL",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "Identity",
+        "answer": "ID",
+        "row": 3,
+        "col": 0,
+        "length": 2
+      },
+      {
+        "number": 9,
+        "clue": "Abbr.",
+        "answer": "CS",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Foundation",
+        "answer": "BASIC",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Below",
+        "answer": "UNEDS",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Push",
+        "answer": "NDG",
+        "row": 0,
+        "col": 2,
+        "length": 3
+      },
+      {
+        "number": 4,
+        "clue": "Letters",
+        "answer": "NEE",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Annoyed",
+        "answer": "YRL",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "R",
+        "H",
+        "I",
+        "N",
+        "O"
+      ],
+      [
+        "A",
+        "E",
+        "N",
+        "D",
+        "S"
+      ],
+      [
+        "I",
+        "N",
+        "C",
+        "E",
+        "#"
+      ],
+      [
+        "N",
+        "D",
+        "E",
+        "#",
+        "#"
+      ],
+      [
+        "S",
+        "S",
+        "D",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Kruger big 5",
+        "answer": "RHINO",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Finishes",
+        "answer": "AENDS",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "From then",
+        "answer": "INCE",
+        "row": 2,
+        "col": 0,
+        "length": 4
+      },
+      {
+        "number": 8,
+        "clue": "Named",
+        "answer": "NDE",
+        "row": 3,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 9,
+        "clue": "Letters",
+        "answer": "SSD",
+        "row": 4,
+        "col": 0,
+        "length": 3
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Rain",
+        "answer": "RAINS",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Hens",
+        "answer": "HENDS",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Spice",
+        "answer": "INCED",
+        "row": 0,
+        "col": 2,
+        "length": 5
+      },
+      {
+        "number": 4,
+        "clue": "Result",
+        "answer": "NDE",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Letter",
+        "answer": "OS",
+        "row": 0,
+        "col": 4,
+        "length": 2
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "H",
+        "O",
+        "P",
+        "E",
+        "S"
+      ],
+      [
+        "A",
+        "U",
+        "T",
+        "E",
+        "R"
+      ],
+      [
+        "N",
+        "D",
+        "S",
+        "#",
+        "#"
+      ],
+      [
+        "D",
+        "E",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "S",
+        "D",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Cape of Good ___",
+        "answer": "HOPES",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "More outer",
+        "answer": "AUTER",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Letters",
+        "answer": "NDS",
+        "row": 2,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 8,
+        "clue": "Palm",
+        "answer": "DE",
+        "row": 3,
+        "col": 0,
+        "length": 2
+      },
+      {
+        "number": 9,
+        "clue": "Letters",
+        "answer": "SD",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Palms",
+        "answer": "HANDS",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Outdated",
+        "answer": "OUDED",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Pet",
+        "answer": "PTS",
+        "row": 0,
+        "col": 2,
+        "length": 3
+      },
+      {
+        "number": 4,
+        "clue": "Letters",
+        "answer": "EE",
+        "row": 0,
+        "col": 3,
+        "length": 2
+      },
+      {
+        "number": 5,
+        "clue": "Letters",
+        "answer": "SR",
+        "row": 0,
+        "col": 4,
+        "length": 2
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "S",
+        "I",
+        "X",
+        "E",
+        "S"
+      ],
+      [
+        "T",
+        "O",
+        "N",
+        "E",
+        "S"
+      ],
+      [
+        "E",
+        "N",
+        "E",
+        "R",
+        "G"
+      ],
+      [
+        "E",
+        "D",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "L",
+        "S",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Cricket hits",
+        "answer": "SIXES",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Musical sounds",
+        "answer": "TONES",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Power",
+        "answer": "ENERG",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "Editor",
+        "answer": "ED",
+        "row": 3,
+        "col": 0,
+        "length": 2
+      },
+      {
+        "number": 9,
+        "clue": "Pounds",
+        "answer": "LS",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Metals",
+        "answer": "STEEL",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Ions",
+        "answer": "IONDS",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "One",
+        "answer": "XNE",
+        "row": 0,
+        "col": 2,
+        "length": 3
+      },
+      {
+        "number": 4,
+        "clue": "Letters",
+        "answer": "EER",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Letters",
+        "answer": "SSG",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "S",
+        "C",
+        "O",
+        "N",
+        "E"
+      ],
+      [
+        "L",
+        "A",
+        "N",
+        "D",
+        "S"
+      ],
+      [
+        "I",
+        "N",
+        "N",
+        "E",
+        "R"
+      ],
+      [
+        "D",
+        "E",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "E",
+        "S",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Tea bake",
+        "answer": "SCONE",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Ground",
+        "answer": "LANDS",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Inside",
+        "answer": "INNER",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "Done",
+        "answer": "DE",
+        "row": 3,
+        "col": 0,
+        "length": 2
+      },
+      {
+        "number": 9,
+        "clue": "Yes (Sp.)",
+        "answer": "ES",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Ice move",
+        "answer": "SLIDE",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Lamps",
+        "answer": "CANES",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Zero",
+        "answer": "ONN",
+        "row": 0,
+        "col": 2,
+        "length": 3
+      },
+      {
+        "number": 4,
+        "clue": "End",
+        "answer": "NDE",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Letters",
+        "answer": "ESR",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "K",
+        "O",
+        "P",
+        "P",
+        "I"
+      ],
+      [
+        "U",
+        "N",
+        "D",
+        "E",
+        "R"
+      ],
+      [
+        "D",
+        "U",
+        "E",
+        "#",
+        "#"
+      ],
+      [
+        "U",
+        "S",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "S",
+        "#",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "SA instant coffee",
+        "answer": "KOPPI",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Beneath",
+        "answer": "UNDER",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Owing",
+        "answer": "DUE",
+        "row": 2,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 8,
+        "clue": "America",
+        "answer": "US",
+        "row": 3,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Antelope",
+        "answer": "KUDUS",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Burden",
+        "answer": "ONUS",
+        "row": 0,
+        "col": 1,
+        "length": 4
+      },
+      {
+        "number": 3,
+        "clue": "Digital",
+        "answer": "PDE",
+        "row": 0,
+        "col": 2,
+        "length": 3
+      },
+      {
+        "number": 4,
+        "clue": "Mood",
+        "answer": "PE",
+        "row": 0,
+        "col": 3,
+        "length": 2
+      },
+      {
+        "number": 5,
+        "clue": "Iran",
+        "answer": "IR",
+        "row": 0,
+        "col": 4,
+        "length": 2
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "B",
+        "I",
+        "L",
+        "T",
+        "O"
+      ],
+      [
+        "O",
+        "N",
+        "E",
+        "R",
+        "S"
+      ],
+      [
+        "N",
+        "E",
+        "A",
+        "R",
+        "S"
+      ],
+      [
+        "D",
+        "W",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "S",
+        "S",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "SA dried meat",
+        "answer": "BILTO",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Dollar bills",
+        "answer": "ONERS",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Approaches",
+        "answer": "NEARS",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "Abbr.",
+        "answer": "DW",
+        "row": 3,
+        "col": 0,
+        "length": 2
+      },
+      {
+        "number": 9,
+        "clue": "Sounds",
+        "answer": "SS",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Links",
+        "answer": "BONDS",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Within",
+        "answer": "INEWS",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Past",
+        "answer": "LEA",
+        "row": 0,
+        "col": 2,
+        "length": 3
+      },
+      {
+        "number": 4,
+        "clue": "Strips",
+        "answer": "TRR",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Words",
+        "answer": "OSS",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  },
+  {
+    "grid": [
+      [
+        "P",
+        "R",
+        "I",
+        "D",
+        "E"
+      ],
+      [
+        "L",
+        "A",
+        "N",
+        "D",
+        "S"
+      ],
+      [
+        "A",
+        "N",
+        "T",
+        "E",
+        "D"
+      ],
+      [
+        "N",
+        "E",
+        "#",
+        "#",
+        "#"
+      ],
+      [
+        "S",
+        "D",
+        "#",
+        "#",
+        "#"
+      ]
+    ],
+    "across": [
+      {
+        "number": 1,
+        "clue": "Lion group",
+        "answer": "PRIDE",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 6,
+        "clue": "Territories",
+        "answer": "LANDS",
+        "row": 1,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 7,
+        "clue": "Wagered",
+        "answer": "ANTED",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "Neon",
+        "answer": "NE",
+        "row": 3,
+        "col": 0,
+        "length": 2
+      },
+      {
+        "number": 9,
+        "clue": "Letters",
+        "answer": "SD",
+        "row": 4,
+        "col": 0,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Strategy",
+        "answer": "PLANS",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Race",
+        "answer": "RANED",
+        "row": 0,
+        "col": 1,
+        "length": 5
+      },
+      {
+        "number": 3,
+        "clue": "Inside",
+        "answer": "INT",
+        "row": 0,
+        "col": 2,
+        "length": 3
+      },
+      {
+        "number": 4,
+        "clue": "Dyed",
+        "answer": "DDE",
+        "row": 0,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Done",
+        "answer": "ESD",
+        "row": 0,
+        "col": 4,
+        "length": 3
+      }
+    ]
+  }
+]
