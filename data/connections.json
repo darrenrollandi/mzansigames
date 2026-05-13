@@ -1,858 +1,4710 @@
 [
   {
     "groups": [
-      { "category": "SA Provinces", "difficulty": 1, "words": ["Gauteng", "Limpopo", "Mpumalanga", "KwaZulu-Natal"] },
-      { "category": "SA Languages", "difficulty": 2, "words": ["Zulu", "Xhosa", "Tswana", "Venda"] },
-      { "category": "Braai Essentials", "difficulty": 3, "words": ["Tongs", "Grid", "Firelighters", "Charcoal"] },
-      { "category": "Eskom Load Shedding Stages", "difficulty": 4, "words": ["Stage 1", "Stage 4", "Stage 6", "Stage 8"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Rugby Teams (Super Rugby)", "difficulty": 1, "words": ["Stormers", "Bulls", "Sharks", "Lions"] },
-      { "category": "SA Animals (Big Five)", "difficulty": 2, "words": ["Buffalo", "Leopard", "Elephant", "Rhino"] },
-      { "category": "SA Music Genres", "difficulty": 3, "words": ["Kwaito", "Amapiano", "Maskandi", "Gqom"] },
-      { "category": "SA Struggle Heroes", "difficulty": 4, "words": ["Mandela", "Biko", "Sisulu", "Tambo"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Fast Food Chains", "difficulty": 1, "words": ["Nandos", "Steers", "Debonairs", "Wimpy"] },
-      { "category": "SA Drinks", "difficulty": 2, "words": ["Amarula", "Rooibos", "Appletiser", "Savanna"] },
-      { "category": "SA Slang for Money", "difficulty": 3, "words": ["Bucks", "Randelas", "Mazembe", "Moolah"] },
-      { "category": "SA TV Channels", "difficulty": 4, "words": ["SABC 1", "SABC 2", "eTV", "Mzansi Magic"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "Cape Town Landmarks", "difficulty": 1, "words": ["Table Mountain", "Robben Island", "V&A Waterfront", "Camps Bay"] },
-      { "category": "Joburg Landmarks", "difficulty": 2, "words": ["Ponte Tower", "Gold Reef City", "Mandela House", "Carlton Centre"] },
-      { "category": "Durban Landmarks", "difficulty": 3, "words": ["Moses Mabhida", "uShaka", "Golden Mile", "Suncoast"] },
-      { "category": "SA National Parks", "difficulty": 4, "words": ["Kruger", "Addo", "Tsitsikamma", "Pilanesberg"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Taxi Hand Signals Mean...", "difficulty": 1, "words": ["Town", "Rank", "Four Ways", "Short Left"] },
-      { "category": "Things You Hear in a Taxi", "difficulty": 2, "words": ["After robot", "Sharp sharp", "Ngi short", "Two two"] },
-      { "category": "SA Slang Greetings", "difficulty": 3, "words": ["Howzit", "Aweh", "Heita", "Yebo"] },
-      { "category": "SA Slang for 'Good'", "difficulty": 4, "words": ["Lekker", "Kief", "Grand", "Hundred"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Beers", "difficulty": 1, "words": ["Castle", "Black Label", "Hansa", "Windhoek"] },
-      { "category": "SA Snack Brands", "difficulty": 2, "words": ["Simba", "Nik Naks", "Ghost Pops", "Lays"] },
-      { "category": "SA Chocolate Brands", "difficulty": 3, "words": ["Lunch Bar", "Bar One", "Tex", "Peppermint Crisp"] },
-      { "category": "SA Biscuit Brands", "difficulty": 4, "words": ["Romany Creams", "Tennis", "Eet-Sum-Mor", "Marie"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Public Holidays", "difficulty": 1, "words": ["Heritage Day", "Freedom Day", "Youth Day", "Workers Day"] },
-      { "category": "Months They Fall In", "difficulty": 2, "words": ["September", "April", "June", "May"] },
-      { "category": "SA Political Parties", "difficulty": 3, "words": ["ANC", "DA", "EFF", "MK"] },
-      { "category": "SA Currencies Through History", "difficulty": 4, "words": ["Rand", "Pound", "Florin", "Shilling"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Traditional Foods", "difficulty": 1, "words": ["Bobotie", "Bunny Chow", "Biltong", "Potjiekos"] },
-      { "category": "Braai Meats", "difficulty": 2, "words": ["Boerewors", "Sosatie", "Lamb Chops", "Chicken Wings"] },
-      { "category": "SA Breakfast Items", "difficulty": 3, "words": ["Mieliepap", "Pronutro", "Rusks", "Morvite"] },
-      { "category": "SA Desserts", "difficulty": 4, "words": ["Melktert", "Koeksister", "Malva Pudding", "Hertzoggies"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "Springbok Captains", "difficulty": 1, "words": ["Siya Kolisi", "Jean de Villiers", "John Smit", "Francois Pienaar"] },
-      { "category": "SA Cricket Legends", "difficulty": 2, "words": ["Pollock", "Kallis", "De Villiers", "Steyn"] },
-      { "category": "SA Soccer Teams", "difficulty": 3, "words": ["Chiefs", "Pirates", "Sundowns", "AmaZulu"] },
-      { "category": "Bafana Bafana Legends", "difficulty": 4, "words": ["Benni", "Shalulile", "Mokoena", "Tshabalala"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Universities (Abbreviations)", "difficulty": 1, "words": ["UCT", "Wits", "Stellies", "Tuks"] },
-      { "category": "SA Banks", "difficulty": 2, "words": ["FNB", "ABSA", "Nedbank", "Capitec"] },
-      { "category": "SA Retailers", "difficulty": 3, "words": ["Woolworths", "Pick n Pay", "Checkers", "Spar"] },
-      { "category": "SA Telecom Companies", "difficulty": 4, "words": ["Vodacom", "MTN", "Cell C", "Telkom"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "Things at a Braai", "difficulty": 1, "words": ["Weber", "Cooler Box", "Braai Master", "Wood"] },
-      { "category": "SA Road Trip Snacks", "difficulty": 2, "words": ["Droewors", "Padkos", "Chutney", "Provitas"] },
-      { "category": "SA Petrol Station Items", "difficulty": 3, "words": ["Garage Pie", "Slush Puppy", "Vienna", "Atchar"] },
-      { "category": "SA Swear Words (Mild)", "difficulty": 4, "words": ["Bliksem", "Donner", "Eina", "Voetsek"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Snake Species", "difficulty": 1, "words": ["Mamba", "Puff Adder", "Boomslang", "Rinkhals"] },
-      { "category": "SA Bird Species", "difficulty": 2, "words": ["Hadeda", "Hornbill", "Weaver", "Sunbird"] },
-      { "category": "SA Marine Life", "difficulty": 3, "words": ["Great White", "Sardine", "Penguin", "Abalone"] },
-      { "category": "SA Antelope Species", "difficulty": 4, "words": ["Springbok", "Kudu", "Impala", "Eland"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Surnames (Very Common)", "difficulty": 1, "words": ["Nkosi", "Van der Merwe", "Dlamini", "Botha"] },
-      { "category": "SA First Names (Women)", "difficulty": 2, "words": ["Nombuso", "Anele", "Thandi", "Lerato"] },
-      { "category": "SA First Names (Men)", "difficulty": 3, "words": ["Sipho", "Thabo", "Johan", "Pieter"] },
-      { "category": "Names That Are Also SA Places", "difficulty": 4, "words": ["Louis", "George", "Alice", "Richmond"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "Afrikaans Words Everyone Knows", "difficulty": 1, "words": ["Braai", "Bakkie", "Bru", "Lekker"] },
-      { "category": "Zulu Words Everyone Knows", "difficulty": 2, "words": ["Sawubona", "Yebo", "Ubuntu", "Indaba"] },
-      { "category": "SA English Slang", "difficulty": 3, "words": ["Robot", "Circle", "Tackies", "Ja-nee"] },
-      { "category": "Tsotsitaal Words", "difficulty": 4, "words": ["Sgelenge", "Sbwl", "Dlala", "Chesa"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Mountain Passes", "difficulty": 1, "words": ["Chapmans Peak", "Franschhoek", "Bainskloof", "Swartberg"] },
-      { "category": "SA Rivers", "difficulty": 2, "words": ["Orange", "Vaal", "Limpopo", "Tugela"] },
-      { "category": "SA Beaches", "difficulty": 3, "words": ["Clifton", "Muizenberg", "Umhlanga", "Jeffreys Bay"] },
-      { "category": "SA Wine Regions", "difficulty": 4, "words": ["Stellenbosch", "Franschhoek", "Paarl", "Constantia"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA School Subjects", "difficulty": 1, "words": ["Life Orientation", "Maths Lit", "Accounting", "Tourism"] },
-      { "category": "Matric Exam Terms", "difficulty": 2, "words": ["NSC", "IEB", "Supplementary", "Distinction"] },
-      { "category": "SA School Types", "difficulty": 3, "words": ["Model C", "Township", "Private", "Technical"] },
-      { "category": "Things At SA Schools", "difficulty": 4, "words": ["Tuckshop", "Assembly", "Prefect", "Detention"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Clothing Brands", "difficulty": 1, "words": ["Mr Price", "Edgars", "Truworths", "Jet"] },
-      { "category": "SA Shoe Brands/Stores", "difficulty": 2, "words": ["Bathu", "Sportscene", "Totalsports", "Tekkie Town"] },
-      { "category": "SA Fashion Items", "difficulty": 3, "words": ["Shweshwe", "Doek", "Madiba Shirt", "Blanket"] },
-      { "category": "SA Traditional Attire", "difficulty": 4, "words": ["Isicholo", "Xibelani", "Mushanana", "Kaross"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Award Shows", "difficulty": 1, "words": ["SAMAs", "DStv Mzansi Viewers Choice", "SAFTAs", "Feather Awards"] },
-      { "category": "SA Amapiano Artists", "difficulty": 2, "words": ["Kabza De Small", "DJ Maphorisa", "Focalistic", "Uncle Waffles"] },
-      { "category": "SA Kwaito Artists", "difficulty": 3, "words": ["Arthur", "Zola", "Mandoza", "Trompies"] },
-      { "category": "SA Gospel Artists", "difficulty": 4, "words": ["Rebecca Malope", "Joyous Celebration", "Benjamin Dube", "Lebo Sekgobela"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Mining Terms", "difficulty": 1, "words": ["Shaft", "Reef", "Tailings", "Headgear"] },
-      { "category": "SA Minerals Mined", "difficulty": 2, "words": ["Gold", "Platinum", "Diamond", "Manganese"] },
-      { "category": "SA Mining Towns", "difficulty": 3, "words": ["Welkom", "Rustenburg", "Kimberley", "Barberton"] },
-      { "category": "Things Underground in SA", "difficulty": 4, "words": ["Cradle", "Cango Caves", "Sterkfontein", "Sudwala"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "Eskom Vocabulary", "difficulty": 1, "words": ["Load Shedding", "Blackout", "Grid", "Megawatt"] },
-      { "category": "SA Infrastructure Issues", "difficulty": 2, "words": ["Pothole", "Water Cut", "Cable Theft", "Sewage"] },
-      { "category": "SA Government Departments", "difficulty": 3, "words": ["SARS", "Home Affairs", "SASSA", "Public Works"] },
-      { "category": "SA Corruption Scandals", "difficulty": 4, "words": ["Nkandla", "Gupta", "Arms Deal", "VBS"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Dance Moves", "difficulty": 1, "words": ["Vosho", "Gwara Gwara", "Bhenga", "Dlala"] },
-      { "category": "SA Music Terms", "difficulty": 2, "words": ["Log Drum", "Bacardi", "Vocal Chop", "Bass Line"] },
-      { "category": "SA Festival Names", "difficulty": 3, "words": ["Oppikoppi", "Rocking the Daisies", "AfrikaBurn", "Splashy Fen"] },
-      { "category": "SA Dances (Traditional)", "difficulty": 4, "words": ["Gumboot", "Reed Dance", "Indlamu", "Domba"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Car Brands Popular Here", "difficulty": 1, "words": ["Toyota", "VW", "Ford", "BMW"] },
-      { "category": "SA Taxi Types", "difficulty": 2, "words": ["Quantum", "Siyaya", "Inyathi", "Sprinter"] },
-      { "category": "SA Road Features", "difficulty": 3, "words": ["Robot", "Circle", "Offramp", "Toll Gate"] },
-      { "category": "SA Highway Names", "difficulty": 4, "words": ["N1", "N2", "N3", "N12"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Township Names", "difficulty": 1, "words": ["Soweto", "Khayelitsha", "Umlazi", "Mamelodi"] },
-      { "category": "SA Suburb Stereotypes (Rich)", "difficulty": 2, "words": ["Sandton", "Constantia", "Umhlanga", "Waterkloof"] },
-      { "category": "SA Cities by Province", "difficulty": 3, "words": ["Bloemfontein", "Nelspruit", "Polokwane", "Mahikeng"] },
-      { "category": "Old Names for SA Cities", "difficulty": 4, "words": ["Pretoria", "Pietersburg", "Port Elizabeth", "Durban"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Reality TV Shows", "difficulty": 1, "words": ["Idols SA", "Big Brother Mzansi", "The Bachelor SA", "Date My Family"] },
-      { "category": "SA Soapies", "difficulty": 2, "words": ["Generations", "Isidingo", "7de Laan", "Uzalo"] },
-      { "category": "SA Comedy Shows", "difficulty": 3, "words": ["Late Nite News", "Tumi Morake", "Trevor Noah", "Marc Lottering"] },
-      { "category": "Classic SA Films", "difficulty": 4, "words": ["Tsotsi", "District 9", "Sarafina", "Mr Bones"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "Things at Checkers", "difficulty": 1, "words": ["Xtra Savings", "Sixty60", "House Brand", "Shoprite"] },
-      { "category": "SA App Services", "difficulty": 2, "words": ["Mr D Food", "Bolt", "Takealot", "Snapscan"] },
-      { "category": "SA Insurance Companies", "difficulty": 3, "words": ["Discovery", "Sanlam", "Old Mutual", "Outsurance"] },
-      { "category": "SA Tech Companies", "difficulty": 4, "words": ["Naspers", "Takealot", "Yoco", "Aerobotics"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Spaza Shop Items", "difficulty": 1, "words": ["Loose Cigarette", "Airtime", "Fat Cake", "Quarter Loaf"] },
-      { "category": "SA Street Food", "difficulty": 2, "words": ["Kota", "Pap & Vleis", "Vetkoek", "Smiley"] },
-      { "category": "SA Condiments", "difficulty": 3, "words": ["Chakalaka", "Mrs Balls", "All Gold", "Atchar"] },
-      { "category": "SA Cooldrinks", "difficulty": 4, "words": ["Stoney", "Creme Soda", "Iron Brew", "Sparletta"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "Proteas Cricket Grounds", "difficulty": 1, "words": ["Newlands", "Wanderers", "SuperSport Park", "Kingsmead"] },
-      { "category": "SA Olympic Sports", "difficulty": 2, "words": ["Swimming", "Athletics", "Rugby Sevens", "Boxing"] },
-      { "category": "SA Comrades Marathon Terms", "difficulty": 3, "words": ["Up Run", "Down Run", "Green Number", "Bill Rowan"] },
-      { "category": "SA Sports Rivalries", "difficulty": 4, "words": ["Soweto Derby", "Jukskei Derby", "Currie Cup", "Super Rugby"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "Kruger Park Animals", "difficulty": 1, "words": ["Lion", "Hyena", "Giraffe", "Hippo"] },
-      { "category": "SA Flora", "difficulty": 2, "words": ["Protea", "Baobab", "Yellowwood", "Strelitzia"] },
-      { "category": "SA Biomes", "difficulty": 3, "words": ["Fynbos", "Savanna", "Karoo", "Grassland"] },
-      { "category": "SA Conservation Terms", "difficulty": 4, "words": ["SANParks", "Rhino Poaching", "Game Reserve", "Conservancy"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Newspaper Names", "difficulty": 1, "words": ["Sowetan", "Daily Sun", "City Press", "Sunday Times"] },
-      { "category": "SA Radio Stations", "difficulty": 2, "words": ["Metro FM", "Ukhozi FM", "5FM", "Jacaranda"] },
-      { "category": "SA News Channels", "difficulty": 3, "words": ["eNCA", "Newzroom Afrika", "SABC News", "Morning Live"] },
-      { "category": "SA Media Moguls", "difficulty": 4, "words": ["Koos Bekker", "Iqbal Survé", "Deon du Plessis", "Given Mkhari"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Constitution Rights", "difficulty": 1, "words": ["Dignity", "Equality", "Freedom", "Privacy"] },
-      { "category": "SA Historic Dates", "difficulty": 2, "words": ["1994", "1976", "1961", "1948"] },
-      { "category": "SA Apartheid Terms", "difficulty": 3, "words": ["Bantustans", "Pass Laws", "Group Areas", "Homeland"] },
-      { "category": "SA Truth & Reconciliation", "difficulty": 4, "words": ["Tutu", "Amnesty", "Reparation", "Testimony"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Weather Terms", "difficulty": 1, "words": ["Berg Wind", "Cape Doctor", "Highveld Storm", "Southeaster"] },
-      { "category": "SA Natural Disasters", "difficulty": 2, "words": ["Knysna Fires", "KZN Floods", "Drought", "Hailstorm"] },
-      { "category": "SA Seasons Activities", "difficulty": 3, "words": ["Braai", "Whale Watching", "Ski", "Sardine Run"] },
-      { "category": "SA Climate Zones", "difficulty": 4, "words": ["Mediterranean", "Subtropical", "Semi-arid", "Temperate"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Wedding Traditions", "difficulty": 1, "words": ["Lobola", "Umembeso", "Umkhehlo", "White Wedding"] },
-      { "category": "SA Funeral Traditions", "difficulty": 2, "words": ["Night Vigil", "After Tears", "Tombstone", "Cleansing"] },
-      { "category": "SA Initiation Terms", "difficulty": 3, "words": ["Ulwaluko", "Lebollo", "Bush School", "Coming of Age"] },
-      { "category": "SA Cultural Ceremonies", "difficulty": 4, "words": ["Umhlanga", "Musevhetho", "Ukuthwasa", "Intonjane"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Rand Coin Values", "difficulty": 1, "words": ["R5", "R2", "R1", "50c"] },
-      { "category": "SA Rand Note Values", "difficulty": 2, "words": ["R10", "R20", "R50", "R100"] },
-      { "category": "SA Rand Note Animals", "difficulty": 3, "words": ["Rhino", "Elephant", "Lion", "Buffalo"] },
-      { "category": "What's on SA Coins", "difficulty": 4, "words": ["Wildebeest", "Kudu", "Springbok", "Crane"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Pharmacy Items", "difficulty": 1, "words": ["Panado", "Grandpa", "Lennon's", "Allergex"] },
-      { "category": "SA Home Remedies", "difficulty": 2, "words": ["Rooibos", "Umhlonyane", "Buchu", "Aloe"] },
-      { "category": "SA Medical Aid Schemes", "difficulty": 3, "words": ["Discovery", "Bonitas", "Momentum", "Gems"] },
-      { "category": "SA Hospital Types", "difficulty": 4, "words": ["Charlotte Maxeke", "Baragwanath", "Groote Schuur", "Tygerberg"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Slang for Police", "difficulty": 1, "words": ["Maphodisa", "Five-O", "Ama Yellow", "Boere"] },
-      { "category": "SA Crime Types (Sadly Common)", "difficulty": 2, "words": ["Hijacking", "Load Shedding Theft", "Smash and Grab", "Cable Theft"] },
-      { "category": "SA Security Features", "difficulty": 3, "words": ["Electric Fence", "Boom Gate", "Armed Response", "Spike Strip"] },
-      { "category": "SA Private Security Companies", "difficulty": 4, "words": ["ADT", "Fidelity", "G4S", "Hi-Tech"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Garden Route Towns", "difficulty": 1, "words": ["Knysna", "Plettenberg Bay", "Wilderness", "Sedgefield"] },
-      { "category": "SA West Coast Towns", "difficulty": 2, "words": ["Langebaan", "Saldanha", "Paternoster", "Yzerfontein"] },
-      { "category": "SA Karoo Towns", "difficulty": 3, "words": ["Graaff-Reinet", "Prince Albert", "Nieu-Bethesda", "Beaufort West"] },
-      { "category": "SA Towns Named After People", "difficulty": 4, "words": ["Pietermaritzburg", "Grahamstown", "Ladysmith", "Nelspruit"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Hip Hop Artists", "difficulty": 1, "words": ["Nasty C", "Cassper", "AKA", "Kwesta"] },
-      { "category": "SA House DJs", "difficulty": 2, "words": ["Black Coffee", "Shimza", "Zinhle", "Da Capo"] },
-      { "category": "SA Rock Bands", "difficulty": 3, "words": ["Springbok Nude Girls", "Fokofpolisiekar", "Seether", "Civil Twilight"] },
-      { "category": "Classic SA Songs", "difficulty": 4, "words": ["Pata Pata", "Nkalakatha", "Weeping", "African Dream"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Afrikaans Idioms (Translated)", "difficulty": 1, "words": ["Fingers in the Hair", "Hit the Nail", "Warm Potato", "Donkey Bridge"] },
-      { "category": "Afrikaans Animals as Insults", "difficulty": 2, "words": ["Donkey", "Baboon", "Goat", "Jackal"] },
-      { "category": "SA English Unique Words", "difficulty": 3, "words": ["Now-now", "Just now", "Shame", "Is it"] },
-      { "category": "SA Words That Confuse Foreigners", "difficulty": 4, "words": ["Robot", "Cafe", "Braai", "Bakkies"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA University Rag Traditions", "difficulty": 1, "words": ["Float", "Jool", "RAG", "Charity"] },
-      { "category": "SA Student Life Terms", "difficulty": 2, "words": ["Res", "Koshuis", "NSFAS", "Registration"] },
-      { "category": "SA Gap Year Activities", "difficulty": 3, "words": ["Volunteering", "Travel", "Au Pair", "Working Holiday"] },
-      { "category": "SA Matric Dance Terms", "difficulty": 4, "words": ["Matric Ball", "After Party", "Dress Code", "Limo"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Internet Slang", "difficulty": 1, "words": ["Shem", "Neh", "Mos", "Nogal"] },
-      { "category": "SA Social Media Stars", "difficulty": 2, "words": ["Lasizwe", "Mihlali", "Bonang", "Minnie Dlamini"] },
-      { "category": "SA TikTok Trends", "difficulty": 3, "words": ["John Vuli Gate", "Umlando", "Amalanga", "Siyathandana"] },
-      { "category": "SA Podcast Names", "difficulty": 4, "words": ["Podcast and Chill", "Real Talk", "The Fat Wallet", "Unpacked"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Train Services", "difficulty": 1, "words": ["Gautrain", "Metrorail", "Blue Train", "Shosholoza Meyl"] },
-      { "category": "SA Airlines", "difficulty": 2, "words": ["SAA", "Kulula", "FlySafair", "Mango"] },
-      { "category": "SA Bus Services", "difficulty": 3, "words": ["MyCiTi", "Rea Vaya", "Greyhound", "Intercape"] },
-      { "category": "SA Transport Terms", "difficulty": 4, "words": ["e-toll", "Sanral", "PRASA", "Transnet"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Braai Wood Types", "difficulty": 1, "words": ["Sekelbos", "Kameeldoring", "Rooikrans", "Black Wattle"] },
-      { "category": "SA Braai Side Dishes", "difficulty": 2, "words": ["Mieliepap", "Braaibroodjie", "Potato Salad", "Coleslaw"] },
-      { "category": "Braai Roles", "difficulty": 3, "words": ["Braai Master", "Fire Starter", "Meat Buyer", "DJ"] },
-      { "category": "Braai Day Alternatives", "difficulty": 4, "words": ["Heritage Day", "National Braai Day", "Shaka Day", "24 September"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Lottery Terms", "difficulty": 1, "words": ["Lotto", "PowerBall", "Daily Lotto", "Pick 3"] },
-      { "category": "SA Gambling Terms", "difficulty": 2, "words": ["Slots", "Fafi", "Tab", "Tote"] },
-      { "category": "SA Casino Names", "difficulty": 3, "words": ["Montecasino", "GrandWest", "Sun City", "Emperors Palace"] },
-      { "category": "SA Horse Racing Terms", "difficulty": 4, "words": ["Durban July", "Met", "Turffontein", "Kenilworth"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Property Types", "difficulty": 1, "words": ["Complex", "Estate", "Cluster", "Freestanding"] },
-      { "category": "SA Property Website Names", "difficulty": 2, "words": ["Property24", "Private Property", "RE/MAX", "Seeff"] },
-      { "category": "SA Neighbourhood Security", "difficulty": 3, "words": ["CPF", "Neighbourhood Watch", "Patroller", "WhatsApp Group"] },
-      { "category": "SA Housing Crisis Terms", "difficulty": 4, "words": ["RDP", "Backyard Dwelling", "Shack", "Land Invasion"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA School Sport", "difficulty": 1, "words": ["Rugby", "Cricket", "Netball", "Athletics"] },
-      { "category": "SA School Traditions", "difficulty": 2, "words": ["War Cry", "Interhouse", "Prestige Day", "Old Boys"] },
-      { "category": "SA Elite Boys Schools", "difficulty": 3, "words": ["Grey College", "Paul Roos", "Bishops", "KES"] },
-      { "category": "SA Elite Girls Schools", "difficulty": 4, "words": ["Herschel", "Roedean", "DSG", "Bloemhof"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Languages (Nguni Group)", "difficulty": 1, "words": ["Zulu", "Xhosa", "Swati", "Ndebele"] },
-      { "category": "SA Languages (Sotho Group)", "difficulty": 2, "words": ["Sepedi", "Sesotho", "Setswana", "Silozi"] },
-      { "category": "SA Languages (Other Official)", "difficulty": 3, "words": ["Afrikaans", "English", "Tshivenda", "Xitsonga"] },
-      { "category": "SA Unofficial Languages", "difficulty": 4, "words": ["Fanagalo", "Kaaps", "Tsotsitaal", "Isicamtho"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Hardware Store Brands", "difficulty": 1, "words": ["Builders", "Cashbuild", "Mica", "CTM"] },
-      { "category": "SA DIY Terms (Uniquely SA)", "difficulty": 2, "words": ["Geysers", "Wendy House", "Lapa", "Stoep"] },
-      { "category": "SA Architecture Features", "difficulty": 3, "words": ["Cape Dutch", "Rondavel", "Ndebele Art", "Flat Roof"] },
-      { "category": "SA Home Security Features", "difficulty": 4, "words": ["Trellidor", "Burglar Bars", "Palisade", "Beams"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Water Terms", "difficulty": 1, "words": ["Day Zero", "Restrictions", "JoJo Tank", "Borehole"] },
-      { "category": "SA Farming Terms", "difficulty": 2, "words": ["Plaas", "Boer", "Mealie", "Kraal"] },
-      { "category": "SA Wine Terms", "difficulty": 3, "words": ["Pinotage", "Chenin Blanc", "Estate", "Cellar"] },
-      { "category": "SA Agriculture Products", "difficulty": 4, "words": ["Rooibos", "Macadamia", "Citrus", "Sugarcane"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Army Terms", "difficulty": 1, "words": ["SANDF", "Troopie", "Basics", "Beret"] },
-      { "category": "SA Border War Terms", "difficulty": 2, "words": ["Angola", "Conscription", "National Service", "Casspir"] },
-      { "category": "SA Defense Equipment", "difficulty": 3, "words": ["Ratel", "Rooivalk", "Denel", "Gripen"] },
-      { "category": "SA Military Bases", "difficulty": 4, "words": ["Saldanha", "Bloemfontein", "Thaba Tshwane", "Simon's Town"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Christmas Traditions", "difficulty": 1, "words": ["Braai", "Beach", "Cricket", "Sunshine"] },
-      { "category": "SA Easter Traditions", "difficulty": 2, "words": ["Hot Cross Buns", "Pickled Fish", "Church", "Family"] },
-      { "category": "SA December Holiday Spots", "difficulty": 3, "words": ["Ballito", "Plett", "Hermanus", "Margate"] },
-      { "category": "SA Long Weekend Activities", "difficulty": 4, "words": ["Road Trip", "Braai", "Heritage", "Strandloper"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "Things in a SA Kitchen", "difficulty": 1, "words": ["Potjie Pot", "Mielie Meal", "Mrs Balls", "Le Creuset"] },
-      { "category": "SA Household Brands", "difficulty": 2, "words": ["Sunlight", "Domestos", "Doom", "Jik"] },
-      { "category": "SA Garden Features", "difficulty": 3, "words": ["Bougainvillea", "Swimming Pool", "Lapa", "Stoep"] },
-      { "category": "SA Domestic Terms", "difficulty": 4, "words": ["Domestic Worker", "Security Guard", "Gardener", "Pool Man"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Numbers in Zulu", "difficulty": 1, "words": ["Kunye", "Kubili", "Kuthathu", "Kune"] },
-      { "category": "SA Counting in Afrikaans", "difficulty": 2, "words": ["Een", "Twee", "Drie", "Vier"] },
-      { "category": "SA Counting in Sesotho", "difficulty": 3, "words": ["Nngwe", "Pedi", "Tharo", "Nne"] },
-      { "category": "SA Counting in Xitsonga", "difficulty": 4, "words": ["Yin'we", "Mbirhi", "Nharhu", "Mune"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Music Festival Headliners (Type)", "difficulty": 1, "words": ["DJ", "Band", "MC", "Singer"] },
-      { "category": "SA Club Types", "difficulty": 2, "words": ["Shisa Nyama", "Groove", "Tavern", "Lounge"] },
-      { "category": "SA Party Drinks", "difficulty": 3, "words": ["Hunters", "Brutal Fruit", "Smirnoff Spin", "Flying Fish"] },
-      { "category": "SA Cider Brands", "difficulty": 4, "words": ["Savanna", "Hunters", "Strongbow", "Extreme"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Soccer Nicknames", "difficulty": 1, "words": ["Amakhosi", "Buccaneers", "Brazilians", "Usuthu"] },
-      { "category": "SA Rugby Nicknames", "difficulty": 2, "words": ["Springboks", "Blue Bulls", "Stormers", "Sharks"] },
-      { "category": "SA Cricket Nicknames", "difficulty": 3, "words": ["Proteas", "Titans", "Warriors", "Cobras"] },
-      { "category": "SA Athletics Stars", "difficulty": 4, "words": ["Caster", "Wayde", "Akani", "Luvo"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Farm Animals", "difficulty": 1, "words": ["Boerbok", "Nguni", "Dorper", "Brahman"] },
-      { "category": "SA Game Animals", "difficulty": 2, "words": ["Gemsbok", "Blesbok", "Tsessebe", "Bontebok"] },
-      { "category": "SA Monkey Species", "difficulty": 3, "words": ["Vervet", "Baboon", "Bushbaby", "Samango"] },
-      { "category": "SA Ocean Predators", "difficulty": 4, "words": ["Great White", "Tiger Shark", "Ragged Tooth", "Zambezi"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Afrikaans Songs (Classics)", "difficulty": 1, "words": ["De La Rey", "Toe Vat My", "Kaptein", "Dingaan"] },
-      { "category": "SA Wedding Songs", "difficulty": 2, "words": ["Nguye Lo", "Umthandazo", "Ngiyak'thanda", "Makoti"] },
-      { "category": "SA Protest Songs", "difficulty": 3, "words": ["Shosholoza", "Senzenina", "Nkosi Sikelel", "Toyi-Toyi"] },
-      { "category": "SA National Symbols", "difficulty": 4, "words": ["Protea", "Springbok", "Blue Crane", "Yellowwood"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Cape Malay Foods", "difficulty": 1, "words": ["Samoosa", "Koeksister", "Denningvleis", "Breyani"] },
-      { "category": "SA Indian Foods (Durban)", "difficulty": 2, "words": ["Bunny Chow", "Roti", "Samoosa", "Dhal"] },
-      { "category": "SA Afrikaner Foods", "difficulty": 3, "words": ["Beskuit", "Potbrood", "Boerewors", "Biltong"] },
-      { "category": "SA Indigenous Foods", "difficulty": 4, "words": ["Morogo", "Umngqusho", "Masonja", "Amadumbe"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Road Trip Stops", "difficulty": 1, "words": ["Wimpy", "Engen", "Total", "Shell Ultra City"] },
-      { "category": "SA Long Distance Routes", "difficulty": 2, "words": ["N1 Cape to Joburg", "N2 Coast", "N3 Durban", "N4 Platinum"] },
-      { "category": "SA Toll Names", "difficulty": 3, "words": ["Huguenot", "Du Toits Kloof", "Kranskop", "Oribi Gorge"] },
-      { "category": "SA Border Posts", "difficulty": 4, "words": ["Beitbridge", "Lebombo", "Maseru Bridge", "Kopfontein"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Winter Things", "difficulty": 1, "words": ["Heater", "Blanket", "Soup", "Fireplace"] },
-      { "category": "SA Summer Things", "difficulty": 2, "words": ["Pool", "Lilo", "Ice Cream", "Sunscreen"] },
-      { "category": "SA Autumn Things", "difficulty": 3, "words": ["Naartjie", "Easter", "Harvest", "School Holiday"] },
-      { "category": "SA Spring Things", "difficulty": 4, "words": ["Jacaranda", "Namaqualand", "Rugby Finals", "Wind"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Primary School Memories", "difficulty": 1, "words": ["Tuckshop", "Break Time", "Kennetjie", "Three Sticks"] },
-      { "category": "SA High School Memories", "difficulty": 2, "words": ["Matric Dance", "Prefect", "Derby Day", "Farewell"] },
-      { "category": "SA Childhood Games", "difficulty": 3, "words": ["Kennetjie", "Klip-klip", "Drie Blikkies", "Asgat"] },
-      { "category": "SA Childhood Sweets", "difficulty": 4, "words": ["Wilson Toffee", "Fizzers", "Chappies", "Astros"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Twitter/X Trends", "difficulty": 1, "words": ["Mzansi", "Shem", "Askies", "Yerrrr"] },
-      { "category": "SA WhatsApp Culture", "difficulty": 2, "words": ["Voice Note", "Forwarded", "Blue Tick", "Status"] },
-      { "category": "SA Data Bundles", "difficulty": 3, "words": ["1GB", "Night Owl", "Social Bundle", "WhatsApp Bundle"] },
-      { "category": "SA Network Slogans", "difficulty": 4, "words": ["Power to You", "Everywhere You Go", "Take it Easy", "Future Connected"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Government Buildings", "difficulty": 1, "words": ["Union Buildings", "Parliament", "City Hall", "Civic Centre"] },
-      { "category": "SA Historic Buildings", "difficulty": 2, "words": ["Castle of Good Hope", "Voortrekker Monument", "Constitution Hill", "Apartheid Museum"] },
-      { "category": "SA Stadiums", "difficulty": 3, "words": ["FNB Stadium", "Cape Town Stadium", "Ellis Park", "Loftus"] },
-      { "category": "SA Shopping Malls (Iconic)", "difficulty": 4, "words": ["Sandton City", "Canal Walk", "Gateway", "Mall of Africa"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Dog Breeds (Popular Here)", "difficulty": 1, "words": ["Boerboel", "Rhodesian Ridgeback", "Jack Russell", "Staffie"] },
-      { "category": "SA Horse Breeds", "difficulty": 2, "words": ["Boerperd", "Basuto Pony", "Nooitgedacht", "Cape Horse"] },
-      { "category": "SA Livestock Breeds", "difficulty": 3, "words": ["Bonsmara", "Drakensberger", "Afrino", "Meatmaster"] },
-      { "category": "SA Indigenous Dog Facts", "difficulty": 4, "words": ["Africanis", "Pavement Special", "Rescue", "SPCA"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Load Shedding Essentials", "difficulty": 1, "words": ["Candles", "Inverter", "Solar Panel", "Gas Stove"] },
-      { "category": "SA Load Shedding Apps", "difficulty": 2, "words": ["EskomSePush", "Load Shedding", "City Power", "GridWatch"] },
-      { "category": "SA Power Terms", "difficulty": 3, "words": ["Koeberg", "Medupi", "Kusile", "Eskom"] },
-      { "category": "SA Energy Alternatives", "difficulty": 4, "words": ["Solar", "Wind Farm", "Battery", "Generator"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Music Award Categories", "difficulty": 1, "words": ["Best Pop", "Best Kwaito", "Best Gospel", "Best Amapiano"] },
-      { "category": "SA Record Labels", "difficulty": 2, "words": ["Kalawa Jazmee", "Ambitiouz", "Open Mic", "Sony SA"] },
-      { "category": "SA Music Venues", "difficulty": 3, "words": ["Bassline", "Shimmy Beach", "Zone 6", "Taboo"] },
-      { "category": "SA Music Instruments", "difficulty": 4, "words": ["Uhadi", "Vuvuzela", "Marimba", "Concertina"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Chip Flavours", "difficulty": 1, "words": ["Tomato", "Salt & Vinegar", "Cheese & Onion", "BBQ"] },
-      { "category": "SA Ice Cream Brands", "difficulty": 2, "words": ["Magnum", "Dairymaid", "Ola", "Nestle"] },
-      { "category": "SA Sweet Treats", "difficulty": 3, "words": ["Beacon", "Cadbury", "Chappies", "Manhattan"] },
-      { "category": "SA Cereal Brands", "difficulty": 4, "words": ["Pronutro", "Weet-Bix", "Morvite", "Jungle Oats"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Traffic Officer Terms", "difficulty": 1, "words": ["Licence", "Roadblock", "Fine", "Breathalyser"] },
-      { "category": "SA Driving Test Terms", "difficulty": 2, "words": ["K53", "Yard", "Learners", "Eye Test"] },
-      { "category": "SA Vehicle Documents", "difficulty": 3, "words": ["Disc", "Licence Card", "Roadworthy", "Natis"] },
-      { "category": "SA Traffic Violations", "difficulty": 4, "words": ["Speeding", "Red Light", "Cellphone", "No Licence"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Garden Route Activities", "difficulty": 1, "words": ["Bungee", "Zipline", "Bloukrans", "Canopy Tour"] },
-      { "category": "SA Adventure Activities", "difficulty": 2, "words": ["Shark Diving", "Paragliding", "Sandboarding", "Abseiling"] },
-      { "category": "SA Hiking Trails", "difficulty": 3, "words": ["Otter Trail", "Drakensberg", "Table Mountain", "Wild Coast"] },
-      { "category": "SA Surf Spots", "difficulty": 4, "words": ["J-Bay", "Dungeons", "Cave Rock", "Kommetjie"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Christmas Foods", "difficulty": 1, "words": ["Malva Pudding", "Trifle", "Gammon", "Potato Salad"] },
-      { "category": "SA Heritage Day Foods", "difficulty": 2, "words": ["Boerewors", "Pap", "Chakalaka", "Sosatie"] },
-      { "category": "SA Picnic Foods", "difficulty": 3, "words": ["Biltong", "Droewors", "Provita", "Cheese Spread"] },
-      { "category": "SA Pantry Staples", "difficulty": 4, "words": ["Mielie Meal", "Sunflower Oil", "Aromat", "Rajah"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Protest Actions", "difficulty": 1, "words": ["March", "Strike", "Shutdown", "Boycott"] },
-      { "category": "SA Student Movement Terms", "difficulty": 2, "words": ["Fees Must Fall", "Rhodes Must Fall", "Decolonise", "Fallist"] },
-      { "category": "SA Trade Unions", "difficulty": 3, "words": ["COSATU", "NUMSA", "SADTU", "NUM"] },
-      { "category": "SA Political Abbreviations", "difficulty": 4, "words": ["NCOP", "NPA", "SONA", "MTBPS"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "Woolworths Food Items", "difficulty": 1, "words": ["Ready Meals", "Aisle of Dreams", "Olive Oil", "Chocolate Mousse"] },
-      { "category": "Pick n Pay Items", "difficulty": 2, "words": ["Smart Shopper", "No Name", "Live Well", "PnP"] },
-      { "category": "SA Supermarket Loyalty Cards", "difficulty": 3, "words": ["Smart Shopper", "Xtra Savings", "WRewards", "My Spar"] },
-      { "category": "SA Store Jingles/Slogans", "difficulty": 4, "words": ["The Difference", "Inspired By You", "Better and Better", "Real Savings"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Colour Slang (People)", "difficulty": 1, "words": ["Coloured", "White", "Black", "Indian"] },
-      { "category": "SA Race Classification (Apartheid)", "difficulty": 2, "words": ["Bantu", "European", "Cape Malay", "Asiatic"] },
-      { "category": "SA Transformation Terms", "difficulty": 3, "words": ["BEE", "BBBEE", "EE", "Affirmative"] },
-      { "category": "SA Economic Terms", "difficulty": 4, "words": ["GEAR", "NDP", "NEDLAC", "JSE"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Craft Beer Brands", "difficulty": 1, "words": ["Devil's Peak", "Jack Black", "Darling Brew", "CBC"] },
-      { "category": "SA Wine Varietals", "difficulty": 2, "words": ["Pinotage", "Chenin Blanc", "Cabernet", "Shiraz"] },
-      { "category": "SA Spirit Brands", "difficulty": 3, "words": ["Amarula", "KWV", "Bain's", "Inverroche"] },
-      { "category": "SA Non-Alcoholic Drinks", "difficulty": 4, "words": ["Rooibos", "Oros", "Creme Soda", "Stoney"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Election Terms", "difficulty": 1, "words": ["Ballot", "IEC", "Ward", "Constituency"] },
-      { "category": "SA Government Levels", "difficulty": 2, "words": ["National", "Provincial", "Local", "District"] },
-      { "category": "SA Parliament Terms", "difficulty": 3, "words": ["Speaker", "Portfolio", "Whip", "Hansard"] },
-      { "category": "SA Presidents (Post-1994)", "difficulty": 4, "words": ["Mandela", "Mbeki", "Zuma", "Ramaphosa"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Museum Types", "difficulty": 1, "words": ["Apartheid", "Iziko", "Voortrekker", "War"] },
-      { "category": "SA Art Galleries", "difficulty": 2, "words": ["Zeitz MOCAA", "Norval", "Goodman", "Stevenson"] },
-      { "category": "SA Heritage Sites", "difficulty": 3, "words": ["Cradle of Humankind", "iSimangaliso", "Robben Island", "Mapungubwe"] },
-      { "category": "SA Theatres", "difficulty": 4, "words": ["Artscape", "Market Theatre", "State Theatre", "Baxter"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Spices in the Kitchen", "difficulty": 1, "words": ["Aromat", "Rajah", "Robertsons", "Ina Paarman"] },
-      { "category": "SA Sauce Brands", "difficulty": 2, "words": ["All Gold", "Mrs Balls", "Spur", "Steers"] },
-      { "category": "SA Baking Brands", "difficulty": 3, "words": ["Snowflake", "Sasko", "Moir's", "Huletts"] },
-      { "category": "SA Dairy Brands", "difficulty": 4, "words": ["Clover", "Parmalat", "Lancewood", "Dairybelle"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Slang for Drunk", "difficulty": 1, "words": ["Befok", "Dronk", "Gatvolwarm", "Lam"] },
-      { "category": "SA Slang for Leave/Go", "difficulty": 2, "words": ["Voetsek", "Hamba", "Vaya", "Chow"] },
-      { "category": "SA Slang for Eat", "difficulty": 3, "words": ["Chow", "Eet", "Graai", "Pap"] },
-      { "category": "SA Slang for Fight", "difficulty": 4, "words": ["Baklei", "Donner", "Moer", "Klap"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "Johannesburg Areas", "difficulty": 1, "words": ["Braamfontein", "Hillbrow", "Rosebank", "Melville"] },
-      { "category": "Cape Town Areas", "difficulty": 2, "words": ["Observatory", "Woodstock", "Claremont", "Sea Point"] },
-      { "category": "Durban Areas", "difficulty": 3, "words": ["Berea", "Morningside", "Ballito", "Pinetown"] },
-      { "category": "Pretoria Areas", "difficulty": 4, "words": ["Hatfield", "Menlyn", "Brooklyn", "Arcadia"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Water Activities", "difficulty": 1, "words": ["Surfing", "Diving", "Snorkelling", "Paddling"] },
-      { "category": "SA River Activities", "difficulty": 2, "words": ["Rafting", "Tubing", "Kayaking", "Fishing"] },
-      { "category": "SA Mountain Activities", "difficulty": 3, "words": ["Hiking", "Abseiling", "Climbing", "Caving"] },
-      { "category": "SA Bush Activities", "difficulty": 4, "words": ["Game Drive", "Bush Walk", "Birding", "Tracking"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Car Guard Culture", "difficulty": 1, "words": ["Tip", "Whistle", "Wave", "Reflector Vest"] },
-      { "category": "SA Informal Economy Jobs", "difficulty": 2, "words": ["Car Guard", "Windscreen Washer", "Vendor", "Recycler"] },
-      { "category": "SA Township Economy", "difficulty": 3, "words": ["Spaza", "Tavern", "Shisanyama", "Hair Salon"] },
-      { "category": "SA Hustle Culture Terms", "difficulty": 4, "words": ["Side Hustle", "Tender", "Connect", "Plug"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Children's TV Shows", "difficulty": 1, "words": ["Takalani Sesame", "Yo TV", "KTV", "Thabang"] },
-      { "category": "SA Drama Series", "difficulty": 2, "words": ["The Queen", "Gomora", "Scandal", "Rhythm City"] },
-      { "category": "SA Game Shows", "difficulty": 3, "words": ["Noot vir Noot", "Deal or No Deal SA", "Wheel of Fortune SA", "Lotto Show"] },
-      { "category": "SA Documentary Topics", "difficulty": 4, "words": ["Mandela", "Apartheid", "Marikana", "Life Esidimeni"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Things That Are Free", "difficulty": 1, "words": ["Water", "Healthcare", "Education", "Housing"] },
-      { "category": "SA Things That Are Expensive", "difficulty": 2, "words": ["Petrol", "Electricity", "Data", "Medical Aid"] },
-      { "category": "SA Tax Types", "difficulty": 3, "words": ["VAT", "PAYE", "Income Tax", "CGT"] },
-      { "category": "SA Financial Regulators", "difficulty": 4, "words": ["SARB", "FSCA", "SARS", "NCR"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Colour of Provinces (Maps)", "difficulty": 1, "words": ["Blue", "Green", "Yellow", "Red"] },
-      { "category": "SA Provincial Capitals", "difficulty": 2, "words": ["Polokwane", "Mbombela", "Kimberley", "Bhisho"] },
-      { "category": "SA Province Nicknames", "difficulty": 3, "words": ["Gateway", "Sunshine", "Garden", "Warm Heart"] },
-      { "category": "SA Province Premier Titles", "difficulty": 4, "words": ["Premier", "MEC", "Legislature", "Speaker"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Things That Start With 'B'", "difficulty": 1, "words": ["Biltong", "Braai", "Boerewors", "Bobotie"] },
-      { "category": "SA Things That Start With 'K'", "difficulty": 2, "words": ["Kwaito", "Kruger", "KwaZulu", "Koeksister"] },
-      { "category": "SA Things That Start With 'S'", "difficulty": 3, "words": ["Springbok", "Soweto", "Savanna", "Spur"] },
-      { "category": "SA Things That Start With 'M'", "difficulty": 4, "words": ["Mandela", "Mzansi", "Melktert", "Mamelodi"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Spur Menu Items", "difficulty": 1, "words": ["Ribs", "Burger", "Wacky Wed", "Salad Bar"] },
-      { "category": "SA Ocean Basket Items", "difficulty": 2, "words": ["Calamari", "Prawns", "Hake", "Paella"] },
-      { "category": "SA Nandos Items", "difficulty": 3, "words": ["Peri-Peri", "Espetada", "Fino", "Limon"] },
-      { "category": "SA Restaurant Chains", "difficulty": 4, "words": ["Mug & Bean", "RocoMamas", "Hussar Grill", "Col Cacchio"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Types of Crime Shows", "difficulty": 1, "words": ["Carte Blanche", "3rd Degree", "Checkpoint", "Special Assignment"] },
-      { "category": "SA Talk Shows", "difficulty": 2, "words": ["Real Talk", "Afternoon Express", "Trending SA", "Motswako"] },
-      { "category": "SA Sports Shows", "difficulty": 3, "words": ["SuperSport", "Expresso", "Laduma", "Thomas & Sobhiza"] },
-      { "category": "SA Iconic TV Presenters", "difficulty": 4, "words": ["Devi", "Riaan", "Bonang", "Somizi"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Kids Party Foods", "difficulty": 1, "words": ["Crumbs", "Jelly", "Marshmallow", "Cooldrink"] },
-      { "category": "SA Party Bag Items", "difficulty": 2, "words": ["Chappies", "Fizzers", "Whistle", "Balloon"] },
-      { "category": "SA Birthday Traditions", "difficulty": 3, "words": ["Pinata", "Musical Chairs", "Pass Parcel", "Jumping Castle"] },
-      { "category": "SA Party Venues", "difficulty": 4, "words": ["Spur", "Acrobranch", "Rush", "Bounce"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Load Shedding Complaints", "difficulty": 1, "words": ["No WiFi", "Food Spoiled", "Cold Shower", "Dark Streets"] },
-      { "category": "SA Water Crisis Terms", "difficulty": 2, "words": ["Day Zero", "Restriction", "Level 6B", "Tankering"] },
-      { "category": "SA Infrastructure Names", "difficulty": 3, "words": ["Koeberg", "Medupi", "Kusile", "Ingula"] },
-      { "category": "SA Energy Minister Names", "difficulty": 4, "words": ["Mantashe", "Gordhan", "Ramokgopa", "Radebe"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Family Terms (Zulu)", "difficulty": 1, "words": ["Mama", "Baba", "Sisi", "Bhuti"] },
-      { "category": "SA Family Terms (Afrikaans)", "difficulty": 2, "words": ["Ma", "Pa", "Ouma", "Oupa"] },
-      { "category": "SA Respect Terms", "difficulty": 3, "words": ["Ntate", "Mme", "Malume", "Anti"] },
-      { "category": "SA Clan Names (Examples)", "difficulty": 4, "words": ["Zulu", "Dlamini", "Ndlovu", "Khumalo"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Soccer Awards", "difficulty": 1, "words": ["PSL Player", "Golden Boot", "Coach of Year", "Ke Star"] },
-      { "category": "SA Rugby Awards", "difficulty": 2, "words": ["SA Player of Year", "Try of Season", "SA Rugby", "Bok of Year"] },
-      { "category": "SA Cricket Awards", "difficulty": 3, "words": ["CSA Cricketer", "SA Newcomer", "Test Bowler", "ODI Batsman"] },
-      { "category": "SA Sports Halls of Fame", "difficulty": 4, "words": ["SA Sports Hall", "Rugby HOF", "Cricket HOF", "Olympic HOF"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Bakkie Brands", "difficulty": 1, "words": ["Hilux", "Ranger", "Amarok", "Navara"] },
-      { "category": "SA Luxury Car Stereotypes", "difficulty": 2, "words": ["BMW", "Mercedes", "Audi", "Porsche"] },
-      { "category": "SA Car Colours (Popular)", "difficulty": 3, "words": ["White", "Silver", "Grey", "Black"] },
-      { "category": "SA Car Sound System Brands", "difficulty": 4, "words": ["Pioneer", "JBL", "Sony", "Alpine"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Things You Find at Woolies", "difficulty": 1, "words": ["Food", "Clothing", "Beauty", "Homeware"] },
-      { "category": "SA Things You Find at Game", "difficulty": 2, "words": ["Electronics", "Appliances", "Furniture", "Camping"] },
-      { "category": "SA Things You Find at Clicks", "difficulty": 3, "words": ["Medicine", "Beauty", "ClubCard", "Baby"] },
-      { "category": "SA Things You Find at Makro", "difficulty": 4, "words": ["Bulk", "Liquor", "Office", "Wholesale"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Gym Chains", "difficulty": 1, "words": ["Virgin Active", "Planet Fitness", "Zone Fitness", "CrossFit"] },
-      { "category": "SA Running Events", "difficulty": 2, "words": ["Comrades", "Two Oceans", "Soweto Marathon", "Knysna Forest"] },
-      { "category": "SA Cycling Events", "difficulty": 3, "words": ["Cape Town Cycle Tour", "947 Ride Joburg", "Amashova", "sani2c"] },
-      { "category": "SA Swimming Events", "difficulty": 4, "words": ["Midmar Mile", "Robben Island Swim", "Fish Hoek", "Ushaka"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Street Names (Common)", "difficulty": 1, "words": ["Main Road", "Church Street", "Long Street", "Voortrekker"] },
-      { "category": "SA Street Names (Renamed)", "difficulty": 2, "words": ["Mandela", "Biko", "Sisulu", "Tambo"] },
-      { "category": "SA Famous Addresses", "difficulty": 3, "words": ["Vilakazi Street", "Long Street", "Melrose Arch", "Bree Street"] },
-      { "category": "SA Toll Roads", "difficulty": 4, "words": ["N1 Gauteng", "N3 Van Reenen", "N4 Platinum", "Chapman's Peak"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Traditional Healers", "difficulty": 1, "words": ["Sangoma", "Inyanga", "Prophet", "Herbalist"] },
-      { "category": "SA Traditional Medicines", "difficulty": 2, "words": ["Muti", "Imbiza", "Umuthi", "Herbs"] },
-      { "category": "SA Spiritual Practices", "difficulty": 3, "words": ["Ancestors", "Amadlozi", "Dreams", "Divination"] },
-      { "category": "SA Supernatural Beliefs", "difficulty": 4, "words": ["Tokoloshe", "Tikoloshe", "Mamlambo", "Impundulu"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Beach Culture Items", "difficulty": 1, "words": ["Lilo", "Sunscreen", "Cooler Box", "Umbrella"] },
-      { "category": "SA Pool Culture Items", "difficulty": 2, "words": ["Kreepy Krauly", "Chlorine", "Pool Net", "Floatie"] },
-      { "category": "SA Camping Essentials", "difficulty": 3, "words": ["Tent", "Braai Grid", "Cooler", "Headlamp"] },
-      { "category": "SA 4x4 Accessories", "difficulty": 4, "words": ["Snorkel", "Bull Bar", "Winch", "Roof Rack"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Magazine Brands", "difficulty": 1, "words": ["You", "Huisgenoot", "Drum", "Cosmopolitan SA"] },
-      { "category": "SA Book Authors", "difficulty": 2, "words": ["Deon Meyer", "Wilbur Smith", "Zakes Mda", "JM Coetzee"] },
-      { "category": "SA Literary Awards", "difficulty": 3, "words": ["Sunday Times Prize", "Alan Paton", "Barry Ronge", "M-Net"] },
-      { "category": "SA Classic Novels", "difficulty": 4, "words": ["Cry Beloved Country", "Disgrace", "Long Walk", "Shaka Zulu"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Petrol Brands", "difficulty": 1, "words": ["Shell", "BP", "Engen", "Total"] },
-      { "category": "SA Petroleum Terms", "difficulty": 2, "words": ["93", "95", "Diesel", "LPG"] },
-      { "category": "SA Fuel Price Components", "difficulty": 3, "words": ["Basic Price", "Fuel Levy", "RAF Levy", "Margin"] },
-      { "category": "SA Energy Companies", "difficulty": 4, "words": ["Sasol", "Eskom", "PetroSA", "CEF"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Afrikaans TV Shows", "difficulty": 1, "words": ["7de Laan", "Binnelanders", "Getroud met Rugby", "Suidooster"] },
-      { "category": "SA Zulu TV Shows", "difficulty": 2, "words": ["Uzalo", "Imbewu", "Isibaya", "Isithembiso"] },
-      { "category": "SA English TV Shows", "difficulty": 3, "words": ["The River", "Legacy", "Reyka", "Trackers"] },
-      { "category": "SA Streaming Originals", "difficulty": 4, "words": ["Blood and Water", "Queen Sono", "Savage Beauty", "Raised by Wolves"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Things at a Taxi Rank", "difficulty": 1, "words": ["Queue Marshal", "Hawker", "Loudspeaker", "Ticket"] },
-      { "category": "SA Taxi Lingo", "difficulty": 2, "words": ["Skyf", "Back-Back", "One-One", "Soldaat"] },
-      { "category": "SA Commuter Complaints", "difficulty": 3, "words": ["Late", "Overcrowded", "Reckless", "Expensive"] },
-      { "category": "SA Taxi Wars Terms", "difficulty": 4, "words": ["Route", "Association", "Permit", "Conflict"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Sounds You Know", "difficulty": 1, "words": ["Vuvuzela", "Hadeda", "Taxi Hoot", "Load Shedding Click"] },
-      { "category": "SA Morning Sounds", "difficulty": 2, "words": ["Roosters", "Call to Prayer", "Hadeda", "Radio"] },
-      { "category": "SA Weekend Sounds", "difficulty": 3, "words": ["Lawnmower", "Braai Sizzle", "Music", "Pool Splash"] },
-      { "category": "SA Night Sounds", "difficulty": 4, "words": ["Generator", "Dogs Barking", "Crickets", "Alarm"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Things You Negotiate", "difficulty": 1, "words": ["Price", "Lobola", "Salary", "Rent"] },
-      { "category": "SA Things You Queue For", "difficulty": 2, "words": ["Home Affairs", "Licence", "Eskom", "SASSA"] },
-      { "category": "SA Things That Take Long", "difficulty": 3, "words": ["Home Affairs", "Licence Renewal", "Building Plans", "NSFAS"] },
-      { "category": "SA Red Tape Terms", "difficulty": 4, "words": ["Affidavit", "Certified Copy", "Commissioner", "Notary"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Trees (Indigenous)", "difficulty": 1, "words": ["Yellowwood", "Stinkwood", "Baobab", "Wild Fig"] },
-      { "category": "SA Invasive Plants", "difficulty": 2, "words": ["Port Jackson", "Lantana", "Bugweed", "Black Wattle"] },
-      { "category": "SA Flowers", "difficulty": 3, "words": ["Protea", "Strelitzia", "Agapanthus", "Namaqualand Daisy"] },
-      { "category": "SA Fynbos Species", "difficulty": 4, "words": ["Erica", "Restio", "Pincushion", "Buchu"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Afrikaans Curse Words (Mild)", "difficulty": 1, "words": ["Jislaaik", "Sis", "Haibo", "Eish"] },
-      { "category": "SA Expressions of Surprise", "difficulty": 2, "words": ["Yoh", "Hayibo", "Sjoe", "Jirre"] },
-      { "category": "SA Expressions of Agreement", "difficulty": 3, "words": ["Ja-nee", "For sure", "Hundred", "Shap"] },
-      { "category": "SA Expressions of Sympathy", "difficulty": 4, "words": ["Shame", "Sho", "Shem", "Ag man"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Popular Baby Names 2020s", "difficulty": 1, "words": ["Liam", "Amahle", "Junior", "Enzokuhle"] },
-      { "category": "SA Surname Prefixes", "difficulty": 2, "words": ["Van", "De", "Du", "Le"] },
-      { "category": "SA Royal Names", "difficulty": 3, "words": ["Goodwill", "Misuzulu", "Letsie", "Mswati"] },
-      { "category": "SA Place Names from People", "difficulty": 4, "words": ["Johannesburg", "Pietermaritzburg", "Richardsbay", "Potchefstroom"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Telkom Services", "difficulty": 1, "words": ["Landline", "ADSL", "Fibre", "LTE"] },
-      { "category": "SA Fibre Providers", "difficulty": 2, "words": ["Openserve", "Vumatel", "DFA", "Frogfoot"] },
-      { "category": "SA ISPs", "difficulty": 3, "words": ["Rain", "Afrihost", "Cool Ideas", "RSAWEB"] },
-      { "category": "SA Tech Startups", "difficulty": 4, "words": ["Yoco", "Luno", "JUMO", "SweepSouth"] }
-    ]
-  },
-  {
-    "groups": [
-      { "category": "SA Things on a CV (Common)", "difficulty": 1, "words": ["Matric", "Degree", "Experience", "References"] },
-      { "category": "SA Job Search Platforms", "difficulty": 2, "words": ["Careers24", "PNet", "Indeed SA", "LinkedIn"] },
-      { "category": "SA Workplace Terms", "difficulty": 3, "words": ["CCMA", "BCEA", "UIF", "Skills Levy"] },
-      { "category": "SA Labour Law Terms", "difficulty": 4, "words": ["Retrenchment", "LIFO", "Section 189", "Unfair Dismissal"] }
+      {
+        "category": "SA Provinces",
+        "difficulty": 1,
+        "words": [
+          "Gauteng",
+          "Limpopo",
+          "Mpumalanga",
+          "KwaZulu-Natal"
+        ]
+      },
+      {
+        "category": "SA Languages",
+        "difficulty": 2,
+        "words": [
+          "Zulu",
+          "Xhosa",
+          "Tswana",
+          "Venda"
+        ]
+      },
+      {
+        "category": "Braai Essentials",
+        "difficulty": 3,
+        "words": [
+          "Tongs",
+          "Grid",
+          "Firelighters",
+          "Charcoal"
+        ]
+      },
+      {
+        "category": "Eskom Load Shedding Stages",
+        "difficulty": 4,
+        "words": [
+          "Stage 1",
+          "Stage 4",
+          "Stage 6",
+          "Stage 8"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Rugby Teams (Super Rugby)",
+        "difficulty": 1,
+        "words": [
+          "Stormers",
+          "Bulls",
+          "Sharks",
+          "Lions"
+        ]
+      },
+      {
+        "category": "SA Animals (Big Five)",
+        "difficulty": 2,
+        "words": [
+          "Buffalo",
+          "Leopard",
+          "Elephant",
+          "Rhino"
+        ]
+      },
+      {
+        "category": "SA Music Genres",
+        "difficulty": 3,
+        "words": [
+          "Kwaito",
+          "Amapiano",
+          "Maskandi",
+          "Gqom"
+        ]
+      },
+      {
+        "category": "SA Struggle Heroes",
+        "difficulty": 4,
+        "words": [
+          "Mandela",
+          "Biko",
+          "Sisulu",
+          "Tambo"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Fast Food Chains",
+        "difficulty": 1,
+        "words": [
+          "Nandos",
+          "Steers",
+          "Debonairs",
+          "Wimpy"
+        ]
+      },
+      {
+        "category": "SA Drinks",
+        "difficulty": 2,
+        "words": [
+          "Amarula",
+          "Rooibos",
+          "Appletiser",
+          "Savanna"
+        ]
+      },
+      {
+        "category": "SA Slang for Money",
+        "difficulty": 3,
+        "words": [
+          "Bucks",
+          "Randelas",
+          "Mazembe",
+          "Moolah"
+        ]
+      },
+      {
+        "category": "SA TV Channels",
+        "difficulty": 4,
+        "words": [
+          "SABC 1",
+          "SABC 2",
+          "eTV",
+          "Mzansi Magic"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "Cape Town Landmarks",
+        "difficulty": 1,
+        "words": [
+          "Table Mountain",
+          "Robben Island",
+          "V&A Waterfront",
+          "Camps Bay"
+        ]
+      },
+      {
+        "category": "Joburg Landmarks",
+        "difficulty": 2,
+        "words": [
+          "Ponte Tower",
+          "Gold Reef City",
+          "Mandela House",
+          "Carlton Centre"
+        ]
+      },
+      {
+        "category": "Durban Landmarks",
+        "difficulty": 3,
+        "words": [
+          "Moses Mabhida",
+          "uShaka",
+          "Golden Mile",
+          "Suncoast"
+        ]
+      },
+      {
+        "category": "SA National Parks",
+        "difficulty": 4,
+        "words": [
+          "Kruger",
+          "Addo",
+          "Tsitsikamma",
+          "Pilanesberg"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Taxi Hand Signals Mean...",
+        "difficulty": 1,
+        "words": [
+          "Town",
+          "Rank",
+          "Four Ways",
+          "Short Left"
+        ]
+      },
+      {
+        "category": "Things You Hear in a Taxi",
+        "difficulty": 2,
+        "words": [
+          "After robot",
+          "Sharp sharp",
+          "Ngi short",
+          "Two two"
+        ]
+      },
+      {
+        "category": "SA Slang Greetings",
+        "difficulty": 3,
+        "words": [
+          "Howzit",
+          "Aweh",
+          "Heita",
+          "Yebo"
+        ]
+      },
+      {
+        "category": "SA Slang for 'Good'",
+        "difficulty": 4,
+        "words": [
+          "Lekker",
+          "Kief",
+          "Grand",
+          "Hundred"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Beers",
+        "difficulty": 1,
+        "words": [
+          "Castle",
+          "Black Label",
+          "Hansa",
+          "Windhoek"
+        ]
+      },
+      {
+        "category": "SA Snack Brands",
+        "difficulty": 2,
+        "words": [
+          "Simba",
+          "Nik Naks",
+          "Ghost Pops",
+          "Lays"
+        ]
+      },
+      {
+        "category": "SA Chocolate Brands",
+        "difficulty": 3,
+        "words": [
+          "Lunch Bar",
+          "Bar One",
+          "Tex",
+          "Peppermint Crisp"
+        ]
+      },
+      {
+        "category": "SA Biscuit Brands",
+        "difficulty": 4,
+        "words": [
+          "Romany Creams",
+          "Tennis",
+          "Eet-Sum-Mor",
+          "Marie"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Public Holidays",
+        "difficulty": 1,
+        "words": [
+          "Heritage Day",
+          "Freedom Day",
+          "Youth Day",
+          "Workers Day"
+        ]
+      },
+      {
+        "category": "Months They Fall In",
+        "difficulty": 2,
+        "words": [
+          "September",
+          "April",
+          "June",
+          "May"
+        ]
+      },
+      {
+        "category": "SA Political Parties",
+        "difficulty": 3,
+        "words": [
+          "ANC",
+          "DA",
+          "EFF",
+          "MK"
+        ]
+      },
+      {
+        "category": "SA Currencies Through History",
+        "difficulty": 4,
+        "words": [
+          "Rand",
+          "Pound",
+          "Florin",
+          "Shilling"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Traditional Foods",
+        "difficulty": 1,
+        "words": [
+          "Bobotie",
+          "Bunny Chow",
+          "Biltong",
+          "Potjiekos"
+        ]
+      },
+      {
+        "category": "Braai Meats",
+        "difficulty": 2,
+        "words": [
+          "Boerewors",
+          "Sosatie",
+          "Lamb Chops",
+          "Chicken Wings"
+        ]
+      },
+      {
+        "category": "SA Breakfast Items",
+        "difficulty": 3,
+        "words": [
+          "Mieliepap",
+          "Pronutro",
+          "Rusks",
+          "Morvite"
+        ]
+      },
+      {
+        "category": "SA Desserts",
+        "difficulty": 4,
+        "words": [
+          "Melktert",
+          "Koeksister",
+          "Malva Pudding",
+          "Hertzoggies"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "Springbok Captains",
+        "difficulty": 1,
+        "words": [
+          "Siya Kolisi",
+          "Jean de Villiers",
+          "John Smit",
+          "Francois Pienaar"
+        ]
+      },
+      {
+        "category": "SA Cricket Legends",
+        "difficulty": 2,
+        "words": [
+          "Pollock",
+          "Kallis",
+          "De Villiers",
+          "Steyn"
+        ]
+      },
+      {
+        "category": "SA Soccer Teams",
+        "difficulty": 3,
+        "words": [
+          "Chiefs",
+          "Pirates",
+          "Sundowns",
+          "AmaZulu"
+        ]
+      },
+      {
+        "category": "Bafana Bafana Legends",
+        "difficulty": 4,
+        "words": [
+          "Benni",
+          "Shalulile",
+          "Mokoena",
+          "Tshabalala"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Universities (Abbreviations)",
+        "difficulty": 1,
+        "words": [
+          "UCT",
+          "Wits",
+          "Stellies",
+          "Tuks"
+        ]
+      },
+      {
+        "category": "SA Banks",
+        "difficulty": 2,
+        "words": [
+          "FNB",
+          "ABSA",
+          "Nedbank",
+          "Capitec"
+        ]
+      },
+      {
+        "category": "SA Retailers",
+        "difficulty": 3,
+        "words": [
+          "Woolworths",
+          "Pick n Pay",
+          "Checkers",
+          "Spar"
+        ]
+      },
+      {
+        "category": "SA Telecom Companies",
+        "difficulty": 4,
+        "words": [
+          "Vodacom",
+          "MTN",
+          "Cell C",
+          "Telkom"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "Things at a Braai",
+        "difficulty": 1,
+        "words": [
+          "Weber",
+          "Cooler Box",
+          "Braai Master",
+          "Wood"
+        ]
+      },
+      {
+        "category": "SA Road Trip Snacks",
+        "difficulty": 2,
+        "words": [
+          "Droewors",
+          "Padkos",
+          "Chutney",
+          "Provitas"
+        ]
+      },
+      {
+        "category": "SA Petrol Station Items",
+        "difficulty": 3,
+        "words": [
+          "Garage Pie",
+          "Slush Puppy",
+          "Vienna",
+          "Atchar"
+        ]
+      },
+      {
+        "category": "SA Swear Words (Mild)",
+        "difficulty": 4,
+        "words": [
+          "Bliksem",
+          "Donner",
+          "Eina",
+          "Voetsek"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Snake Species",
+        "difficulty": 1,
+        "words": [
+          "Mamba",
+          "Puff Adder",
+          "Boomslang",
+          "Rinkhals"
+        ]
+      },
+      {
+        "category": "SA Bird Species",
+        "difficulty": 2,
+        "words": [
+          "Hadeda",
+          "Hornbill",
+          "Weaver",
+          "Sunbird"
+        ]
+      },
+      {
+        "category": "SA Marine Life",
+        "difficulty": 3,
+        "words": [
+          "Great White",
+          "Sardine",
+          "Penguin",
+          "Abalone"
+        ]
+      },
+      {
+        "category": "SA Antelope Species",
+        "difficulty": 4,
+        "words": [
+          "Springbok",
+          "Kudu",
+          "Impala",
+          "Eland"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Surnames (Very Common)",
+        "difficulty": 1,
+        "words": [
+          "Nkosi",
+          "Van der Merwe",
+          "Dlamini",
+          "Botha"
+        ]
+      },
+      {
+        "category": "SA First Names (Women)",
+        "difficulty": 2,
+        "words": [
+          "Nombuso",
+          "Anele",
+          "Thandi",
+          "Lerato"
+        ]
+      },
+      {
+        "category": "SA First Names (Men)",
+        "difficulty": 3,
+        "words": [
+          "Sipho",
+          "Thabo",
+          "Johan",
+          "Pieter"
+        ]
+      },
+      {
+        "category": "Names That Are Also SA Places",
+        "difficulty": 4,
+        "words": [
+          "Louis",
+          "George",
+          "Alice",
+          "Richmond"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "Afrikaans Words Everyone Knows",
+        "difficulty": 1,
+        "words": [
+          "Braai",
+          "Bakkie",
+          "Bru",
+          "Lekker"
+        ]
+      },
+      {
+        "category": "Zulu Words Everyone Knows",
+        "difficulty": 2,
+        "words": [
+          "Sawubona",
+          "Yebo",
+          "Ubuntu",
+          "Indaba"
+        ]
+      },
+      {
+        "category": "SA English Slang",
+        "difficulty": 3,
+        "words": [
+          "Robot",
+          "Circle",
+          "Tackies",
+          "Ja-nee"
+        ]
+      },
+      {
+        "category": "Tsotsitaal Words",
+        "difficulty": 4,
+        "words": [
+          "Sgelenge",
+          "Sbwl",
+          "Dlala",
+          "Chesa"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Mountain Passes",
+        "difficulty": 1,
+        "words": [
+          "Chapmans Peak",
+          "Franschhoek",
+          "Bainskloof",
+          "Swartberg"
+        ]
+      },
+      {
+        "category": "SA Rivers",
+        "difficulty": 2,
+        "words": [
+          "Orange",
+          "Vaal",
+          "Limpopo",
+          "Tugela"
+        ]
+      },
+      {
+        "category": "SA Beaches",
+        "difficulty": 3,
+        "words": [
+          "Clifton",
+          "Muizenberg",
+          "Umhlanga",
+          "Jeffreys Bay"
+        ]
+      },
+      {
+        "category": "SA Wine Regions",
+        "difficulty": 4,
+        "words": [
+          "Stellenbosch",
+          "Robertson",
+          "Paarl",
+          "Constantia"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA School Subjects",
+        "difficulty": 1,
+        "words": [
+          "Life Orientation",
+          "Maths Lit",
+          "Accounting",
+          "Tourism"
+        ]
+      },
+      {
+        "category": "Matric Exam Terms",
+        "difficulty": 2,
+        "words": [
+          "NSC",
+          "IEB",
+          "Supplementary",
+          "Distinction"
+        ]
+      },
+      {
+        "category": "SA School Types",
+        "difficulty": 3,
+        "words": [
+          "Model C",
+          "Township",
+          "Private",
+          "Technical"
+        ]
+      },
+      {
+        "category": "Things At SA Schools",
+        "difficulty": 4,
+        "words": [
+          "Tuckshop",
+          "Assembly",
+          "Prefect",
+          "Detention"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Clothing Brands",
+        "difficulty": 1,
+        "words": [
+          "Mr Price",
+          "Edgars",
+          "Truworths",
+          "Jet"
+        ]
+      },
+      {
+        "category": "SA Shoe Brands/Stores",
+        "difficulty": 2,
+        "words": [
+          "Bathu",
+          "Sportscene",
+          "Totalsports",
+          "Tekkie Town"
+        ]
+      },
+      {
+        "category": "SA Fashion Items",
+        "difficulty": 3,
+        "words": [
+          "Shweshwe",
+          "Doek",
+          "Madiba Shirt",
+          "Blanket"
+        ]
+      },
+      {
+        "category": "SA Traditional Attire",
+        "difficulty": 4,
+        "words": [
+          "Isicholo",
+          "Xibelani",
+          "Mushanana",
+          "Kaross"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Award Shows",
+        "difficulty": 1,
+        "words": [
+          "SAMAs",
+          "DStv Mzansi Viewers Choice",
+          "SAFTAs",
+          "Feather Awards"
+        ]
+      },
+      {
+        "category": "SA Amapiano Artists",
+        "difficulty": 2,
+        "words": [
+          "Kabza De Small",
+          "DJ Maphorisa",
+          "Focalistic",
+          "Uncle Waffles"
+        ]
+      },
+      {
+        "category": "SA Kwaito Artists",
+        "difficulty": 3,
+        "words": [
+          "Arthur",
+          "Zola",
+          "Mandoza",
+          "Trompies"
+        ]
+      },
+      {
+        "category": "SA Gospel Artists",
+        "difficulty": 4,
+        "words": [
+          "Rebecca Malope",
+          "Joyous Celebration",
+          "Benjamin Dube",
+          "Lebo Sekgobela"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Mining Terms",
+        "difficulty": 1,
+        "words": [
+          "Shaft",
+          "Reef",
+          "Tailings",
+          "Headgear"
+        ]
+      },
+      {
+        "category": "SA Minerals Mined",
+        "difficulty": 2,
+        "words": [
+          "Gold",
+          "Platinum",
+          "Diamond",
+          "Manganese"
+        ]
+      },
+      {
+        "category": "SA Mining Towns",
+        "difficulty": 3,
+        "words": [
+          "Welkom",
+          "Rustenburg",
+          "Kimberley",
+          "Barberton"
+        ]
+      },
+      {
+        "category": "Things Underground in SA",
+        "difficulty": 4,
+        "words": [
+          "Cradle",
+          "Cango Caves",
+          "Sterkfontein",
+          "Sudwala"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "Eskom Vocabulary",
+        "difficulty": 1,
+        "words": [
+          "Load Shedding",
+          "Blackout",
+          "Grid",
+          "Megawatt"
+        ]
+      },
+      {
+        "category": "SA Infrastructure Issues",
+        "difficulty": 2,
+        "words": [
+          "Pothole",
+          "Water Cut",
+          "Cable Theft",
+          "Sewage"
+        ]
+      },
+      {
+        "category": "SA Government Departments",
+        "difficulty": 3,
+        "words": [
+          "SARS",
+          "Home Affairs",
+          "SASSA",
+          "Public Works"
+        ]
+      },
+      {
+        "category": "SA Corruption Scandals",
+        "difficulty": 4,
+        "words": [
+          "Nkandla",
+          "Gupta",
+          "Arms Deal",
+          "VBS"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Dance Moves",
+        "difficulty": 1,
+        "words": [
+          "Vosho",
+          "Gwara Gwara",
+          "Bhenga",
+          "Dlala"
+        ]
+      },
+      {
+        "category": "SA Music Terms",
+        "difficulty": 2,
+        "words": [
+          "Log Drum",
+          "Bacardi",
+          "Vocal Chop",
+          "Bass Line"
+        ]
+      },
+      {
+        "category": "SA Festival Names",
+        "difficulty": 3,
+        "words": [
+          "Oppikoppi",
+          "Rocking the Daisies",
+          "AfrikaBurn",
+          "Splashy Fen"
+        ]
+      },
+      {
+        "category": "SA Dances (Traditional)",
+        "difficulty": 4,
+        "words": [
+          "Gumboot",
+          "Reed Dance",
+          "Indlamu",
+          "Domba"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Car Brands Popular Here",
+        "difficulty": 1,
+        "words": [
+          "Toyota",
+          "VW",
+          "Ford",
+          "BMW"
+        ]
+      },
+      {
+        "category": "SA Taxi Types",
+        "difficulty": 2,
+        "words": [
+          "Quantum",
+          "Siyaya",
+          "Inyathi",
+          "Sprinter"
+        ]
+      },
+      {
+        "category": "SA Road Features",
+        "difficulty": 3,
+        "words": [
+          "Robot",
+          "Circle",
+          "Offramp",
+          "Toll Gate"
+        ]
+      },
+      {
+        "category": "SA Highway Names",
+        "difficulty": 4,
+        "words": [
+          "N1",
+          "N2",
+          "N3",
+          "N12"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Township Names",
+        "difficulty": 1,
+        "words": [
+          "Soweto",
+          "Khayelitsha",
+          "Umlazi",
+          "Mamelodi"
+        ]
+      },
+      {
+        "category": "SA Suburb Stereotypes (Rich)",
+        "difficulty": 2,
+        "words": [
+          "Sandton",
+          "Constantia",
+          "Umhlanga",
+          "Waterkloof"
+        ]
+      },
+      {
+        "category": "SA Cities by Province",
+        "difficulty": 3,
+        "words": [
+          "Bloemfontein",
+          "Nelspruit",
+          "Polokwane",
+          "Mahikeng"
+        ]
+      },
+      {
+        "category": "Old Names for SA Cities",
+        "difficulty": 4,
+        "words": [
+          "Pretoria",
+          "Pietersburg",
+          "Port Elizabeth",
+          "Durban"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Reality TV Shows",
+        "difficulty": 1,
+        "words": [
+          "Idols SA",
+          "Big Brother Mzansi",
+          "The Bachelor SA",
+          "Date My Family"
+        ]
+      },
+      {
+        "category": "SA Soapies",
+        "difficulty": 2,
+        "words": [
+          "Generations",
+          "Isidingo",
+          "7de Laan",
+          "Uzalo"
+        ]
+      },
+      {
+        "category": "SA Comedy Shows",
+        "difficulty": 3,
+        "words": [
+          "Late Nite News",
+          "Tumi Morake",
+          "Trevor Noah",
+          "Marc Lottering"
+        ]
+      },
+      {
+        "category": "Classic SA Films",
+        "difficulty": 4,
+        "words": [
+          "Tsotsi",
+          "District 9",
+          "Sarafina",
+          "Mr Bones"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "Things at Checkers",
+        "difficulty": 1,
+        "words": [
+          "Xtra Savings",
+          "Sixty60",
+          "House Brand",
+          "Shoprite"
+        ]
+      },
+      {
+        "category": "SA App Services",
+        "difficulty": 2,
+        "words": [
+          "Mr D Food",
+          "Bolt",
+          "Takealot",
+          "Snapscan"
+        ]
+      },
+      {
+        "category": "SA Insurance Companies",
+        "difficulty": 3,
+        "words": [
+          "Discovery",
+          "Sanlam",
+          "Old Mutual",
+          "Outsurance"
+        ]
+      },
+      {
+        "category": "SA Tech Companies",
+        "difficulty": 4,
+        "words": [
+          "Naspers",
+          "OneDayOnly",
+          "Yoco",
+          "Aerobotics"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Spaza Shop Items",
+        "difficulty": 1,
+        "words": [
+          "Loose Cigarette",
+          "Airtime",
+          "Fat Cake",
+          "Quarter Loaf"
+        ]
+      },
+      {
+        "category": "SA Street Food",
+        "difficulty": 2,
+        "words": [
+          "Kota",
+          "Pap & Vleis",
+          "Vetkoek",
+          "Smiley"
+        ]
+      },
+      {
+        "category": "SA Condiments",
+        "difficulty": 3,
+        "words": [
+          "Chakalaka",
+          "Mrs Balls",
+          "All Gold",
+          "Atchar"
+        ]
+      },
+      {
+        "category": "SA Cooldrinks",
+        "difficulty": 4,
+        "words": [
+          "Stoney",
+          "Creme Soda",
+          "Iron Brew",
+          "Sparletta"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "Proteas Cricket Grounds",
+        "difficulty": 1,
+        "words": [
+          "Newlands",
+          "Wanderers",
+          "SuperSport Park",
+          "Kingsmead"
+        ]
+      },
+      {
+        "category": "SA Olympic Sports",
+        "difficulty": 2,
+        "words": [
+          "Swimming",
+          "Athletics",
+          "Rugby Sevens",
+          "Boxing"
+        ]
+      },
+      {
+        "category": "SA Comrades Marathon Terms",
+        "difficulty": 3,
+        "words": [
+          "Up Run",
+          "Down Run",
+          "Green Number",
+          "Bill Rowan"
+        ]
+      },
+      {
+        "category": "SA Sports Rivalries",
+        "difficulty": 4,
+        "words": [
+          "Soweto Derby",
+          "Jukskei Derby",
+          "Currie Cup",
+          "Super Rugby"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "Kruger Park Animals",
+        "difficulty": 1,
+        "words": [
+          "Lion",
+          "Hyena",
+          "Giraffe",
+          "Hippo"
+        ]
+      },
+      {
+        "category": "SA Flora",
+        "difficulty": 2,
+        "words": [
+          "Protea",
+          "Baobab",
+          "Yellowwood",
+          "Strelitzia"
+        ]
+      },
+      {
+        "category": "SA Biomes",
+        "difficulty": 3,
+        "words": [
+          "Fynbos",
+          "Savanna",
+          "Karoo",
+          "Grassland"
+        ]
+      },
+      {
+        "category": "SA Conservation Terms",
+        "difficulty": 4,
+        "words": [
+          "SANParks",
+          "Rhino Poaching",
+          "Game Reserve",
+          "Conservancy"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Newspaper Names",
+        "difficulty": 1,
+        "words": [
+          "Sowetan",
+          "Daily Sun",
+          "City Press",
+          "Sunday Times"
+        ]
+      },
+      {
+        "category": "SA Radio Stations",
+        "difficulty": 2,
+        "words": [
+          "Metro FM",
+          "Ukhozi FM",
+          "5FM",
+          "Jacaranda"
+        ]
+      },
+      {
+        "category": "SA News Channels",
+        "difficulty": 3,
+        "words": [
+          "eNCA",
+          "Newzroom Afrika",
+          "SABC News",
+          "Morning Live"
+        ]
+      },
+      {
+        "category": "SA Media Moguls",
+        "difficulty": 4,
+        "words": [
+          "Koos Bekker",
+          "Iqbal Survé",
+          "Deon du Plessis",
+          "Given Mkhari"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Constitution Rights",
+        "difficulty": 1,
+        "words": [
+          "Dignity",
+          "Equality",
+          "Freedom",
+          "Privacy"
+        ]
+      },
+      {
+        "category": "SA Historic Dates",
+        "difficulty": 2,
+        "words": [
+          "1994",
+          "1976",
+          "1961",
+          "1948"
+        ]
+      },
+      {
+        "category": "SA Apartheid Terms",
+        "difficulty": 3,
+        "words": [
+          "Bantustans",
+          "Pass Laws",
+          "Group Areas",
+          "Homeland"
+        ]
+      },
+      {
+        "category": "SA Truth & Reconciliation",
+        "difficulty": 4,
+        "words": [
+          "Tutu",
+          "Amnesty",
+          "Reparation",
+          "Testimony"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Weather Terms",
+        "difficulty": 1,
+        "words": [
+          "Berg Wind",
+          "Cape Doctor",
+          "Highveld Storm",
+          "Southeaster"
+        ]
+      },
+      {
+        "category": "SA Natural Disasters",
+        "difficulty": 2,
+        "words": [
+          "Knysna Fires",
+          "KZN Floods",
+          "Drought",
+          "Hailstorm"
+        ]
+      },
+      {
+        "category": "SA Seasons Activities",
+        "difficulty": 3,
+        "words": [
+          "Braai",
+          "Whale Watching",
+          "Ski",
+          "Sardine Run"
+        ]
+      },
+      {
+        "category": "SA Climate Zones",
+        "difficulty": 4,
+        "words": [
+          "Mediterranean",
+          "Subtropical",
+          "Semi-arid",
+          "Temperate"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Wedding Traditions",
+        "difficulty": 1,
+        "words": [
+          "Lobola",
+          "Umembeso",
+          "Umkhehlo",
+          "White Wedding"
+        ]
+      },
+      {
+        "category": "SA Funeral Traditions",
+        "difficulty": 2,
+        "words": [
+          "Night Vigil",
+          "After Tears",
+          "Tombstone",
+          "Cleansing"
+        ]
+      },
+      {
+        "category": "SA Initiation Terms",
+        "difficulty": 3,
+        "words": [
+          "Ulwaluko",
+          "Lebollo",
+          "Bush School",
+          "Coming of Age"
+        ]
+      },
+      {
+        "category": "SA Cultural Ceremonies",
+        "difficulty": 4,
+        "words": [
+          "Umhlanga",
+          "Musevhetho",
+          "Ukuthwasa",
+          "Intonjane"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Rand Coin Values",
+        "difficulty": 1,
+        "words": [
+          "R5",
+          "R2",
+          "R1",
+          "50c"
+        ]
+      },
+      {
+        "category": "SA Rand Note Values",
+        "difficulty": 2,
+        "words": [
+          "R10",
+          "R20",
+          "R50",
+          "R100"
+        ]
+      },
+      {
+        "category": "SA Rand Note Animals",
+        "difficulty": 3,
+        "words": [
+          "Rhino",
+          "Elephant",
+          "Lion",
+          "Buffalo"
+        ]
+      },
+      {
+        "category": "What's on SA Coins",
+        "difficulty": 4,
+        "words": [
+          "Wildebeest",
+          "Kudu",
+          "Springbok",
+          "Crane"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Pharmacy Items",
+        "difficulty": 1,
+        "words": [
+          "Panado",
+          "Grandpa",
+          "Lennon's",
+          "Allergex"
+        ]
+      },
+      {
+        "category": "SA Home Remedies",
+        "difficulty": 2,
+        "words": [
+          "Rooibos",
+          "Umhlonyane",
+          "Buchu",
+          "Aloe"
+        ]
+      },
+      {
+        "category": "SA Medical Aid Schemes",
+        "difficulty": 3,
+        "words": [
+          "Discovery",
+          "Bonitas",
+          "Momentum",
+          "Gems"
+        ]
+      },
+      {
+        "category": "SA Hospital Types",
+        "difficulty": 4,
+        "words": [
+          "Charlotte Maxeke",
+          "Baragwanath",
+          "Groote Schuur",
+          "Tygerberg"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Slang for Police",
+        "difficulty": 1,
+        "words": [
+          "Maphodisa",
+          "Five-O",
+          "Ama Yellow",
+          "Boere"
+        ]
+      },
+      {
+        "category": "SA Crime Types (Sadly Common)",
+        "difficulty": 2,
+        "words": [
+          "Hijacking",
+          "Load Shedding Theft",
+          "Smash and Grab",
+          "Cable Theft"
+        ]
+      },
+      {
+        "category": "SA Security Features",
+        "difficulty": 3,
+        "words": [
+          "Electric Fence",
+          "Boom Gate",
+          "Armed Response",
+          "Spike Strip"
+        ]
+      },
+      {
+        "category": "SA Private Security Companies",
+        "difficulty": 4,
+        "words": [
+          "ADT",
+          "Fidelity",
+          "G4S",
+          "Hi-Tech"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Garden Route Towns",
+        "difficulty": 1,
+        "words": [
+          "Knysna",
+          "Plettenberg Bay",
+          "Wilderness",
+          "Sedgefield"
+        ]
+      },
+      {
+        "category": "SA West Coast Towns",
+        "difficulty": 2,
+        "words": [
+          "Langebaan",
+          "Saldanha",
+          "Paternoster",
+          "Yzerfontein"
+        ]
+      },
+      {
+        "category": "SA Karoo Towns",
+        "difficulty": 3,
+        "words": [
+          "Graaff-Reinet",
+          "Prince Albert",
+          "Nieu-Bethesda",
+          "Beaufort West"
+        ]
+      },
+      {
+        "category": "SA Towns Named After People",
+        "difficulty": 4,
+        "words": [
+          "Pietermaritzburg",
+          "Grahamstown",
+          "Ladysmith",
+          "Nelspruit"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Hip Hop Artists",
+        "difficulty": 1,
+        "words": [
+          "Nasty C",
+          "Cassper",
+          "AKA",
+          "Kwesta"
+        ]
+      },
+      {
+        "category": "SA House DJs",
+        "difficulty": 2,
+        "words": [
+          "Black Coffee",
+          "Shimza",
+          "Zinhle",
+          "Da Capo"
+        ]
+      },
+      {
+        "category": "SA Rock Bands",
+        "difficulty": 3,
+        "words": [
+          "Springbok Nude Girls",
+          "Fokofpolisiekar",
+          "Seether",
+          "Civil Twilight"
+        ]
+      },
+      {
+        "category": "Classic SA Songs",
+        "difficulty": 4,
+        "words": [
+          "Pata Pata",
+          "Nkalakatha",
+          "Weeping",
+          "African Dream"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Afrikaans Idioms (Translated)",
+        "difficulty": 1,
+        "words": [
+          "Fingers in the Hair",
+          "Hit the Nail",
+          "Warm Potato",
+          "Donkey Bridge"
+        ]
+      },
+      {
+        "category": "Afrikaans Animals as Insults",
+        "difficulty": 2,
+        "words": [
+          "Donkey",
+          "Baboon",
+          "Goat",
+          "Jackal"
+        ]
+      },
+      {
+        "category": "SA English Unique Words",
+        "difficulty": 3,
+        "words": [
+          "Now-now",
+          "Just now",
+          "Shame",
+          "Is it"
+        ]
+      },
+      {
+        "category": "SA Words That Confuse Foreigners",
+        "difficulty": 4,
+        "words": [
+          "Robot",
+          "Cafe",
+          "Braai",
+          "Bakkies"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA University Rag Traditions",
+        "difficulty": 1,
+        "words": [
+          "Float",
+          "Jool",
+          "RAG",
+          "Charity"
+        ]
+      },
+      {
+        "category": "SA Student Life Terms",
+        "difficulty": 2,
+        "words": [
+          "Res",
+          "Koshuis",
+          "NSFAS",
+          "Registration"
+        ]
+      },
+      {
+        "category": "SA Gap Year Activities",
+        "difficulty": 3,
+        "words": [
+          "Volunteering",
+          "Travel",
+          "Au Pair",
+          "Working Holiday"
+        ]
+      },
+      {
+        "category": "SA Matric Dance Terms",
+        "difficulty": 4,
+        "words": [
+          "Matric Ball",
+          "After Party",
+          "Dress Code",
+          "Limo"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Internet Slang",
+        "difficulty": 1,
+        "words": [
+          "Shem",
+          "Neh",
+          "Mos",
+          "Nogal"
+        ]
+      },
+      {
+        "category": "SA Social Media Stars",
+        "difficulty": 2,
+        "words": [
+          "Lasizwe",
+          "Mihlali",
+          "Bonang",
+          "Minnie Dlamini"
+        ]
+      },
+      {
+        "category": "SA TikTok Trends",
+        "difficulty": 3,
+        "words": [
+          "John Vuli Gate",
+          "Umlando",
+          "Amalanga",
+          "Siyathandana"
+        ]
+      },
+      {
+        "category": "SA Podcast Names",
+        "difficulty": 4,
+        "words": [
+          "Podcast and Chill",
+          "Real Talk",
+          "The Fat Wallet",
+          "Unpacked"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Train Services",
+        "difficulty": 1,
+        "words": [
+          "Gautrain",
+          "Metrorail",
+          "Blue Train",
+          "Shosholoza Meyl"
+        ]
+      },
+      {
+        "category": "SA Airlines",
+        "difficulty": 2,
+        "words": [
+          "SAA",
+          "Kulula",
+          "FlySafair",
+          "Mango"
+        ]
+      },
+      {
+        "category": "SA Bus Services",
+        "difficulty": 3,
+        "words": [
+          "MyCiTi",
+          "Rea Vaya",
+          "Greyhound",
+          "Intercape"
+        ]
+      },
+      {
+        "category": "SA Transport Terms",
+        "difficulty": 4,
+        "words": [
+          "e-toll",
+          "Sanral",
+          "PRASA",
+          "Transnet"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Braai Wood Types",
+        "difficulty": 1,
+        "words": [
+          "Sekelbos",
+          "Kameeldoring",
+          "Rooikrans",
+          "Black Wattle"
+        ]
+      },
+      {
+        "category": "SA Braai Side Dishes",
+        "difficulty": 2,
+        "words": [
+          "Mieliepap",
+          "Braaibroodjie",
+          "Potato Salad",
+          "Coleslaw"
+        ]
+      },
+      {
+        "category": "Braai Roles",
+        "difficulty": 3,
+        "words": [
+          "Braai Master",
+          "Fire Starter",
+          "Meat Buyer",
+          "DJ"
+        ]
+      },
+      {
+        "category": "Braai Day Alternatives",
+        "difficulty": 4,
+        "words": [
+          "Heritage Day",
+          "National Braai Day",
+          "Shaka Day",
+          "24 September"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Lottery Terms",
+        "difficulty": 1,
+        "words": [
+          "Lotto",
+          "PowerBall",
+          "Daily Lotto",
+          "Pick 3"
+        ]
+      },
+      {
+        "category": "SA Gambling Terms",
+        "difficulty": 2,
+        "words": [
+          "Slots",
+          "Fafi",
+          "Tab",
+          "Tote"
+        ]
+      },
+      {
+        "category": "SA Casino Names",
+        "difficulty": 3,
+        "words": [
+          "Montecasino",
+          "GrandWest",
+          "Sun City",
+          "Emperors Palace"
+        ]
+      },
+      {
+        "category": "SA Horse Racing Terms",
+        "difficulty": 4,
+        "words": [
+          "Durban July",
+          "Met",
+          "Turffontein",
+          "Kenilworth"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Property Types",
+        "difficulty": 1,
+        "words": [
+          "Complex",
+          "Estate",
+          "Cluster",
+          "Freestanding"
+        ]
+      },
+      {
+        "category": "SA Property Website Names",
+        "difficulty": 2,
+        "words": [
+          "Property24",
+          "Private Property",
+          "RE/MAX",
+          "Seeff"
+        ]
+      },
+      {
+        "category": "SA Neighbourhood Security",
+        "difficulty": 3,
+        "words": [
+          "CPF",
+          "Neighbourhood Watch",
+          "Patroller",
+          "WhatsApp Group"
+        ]
+      },
+      {
+        "category": "SA Housing Crisis Terms",
+        "difficulty": 4,
+        "words": [
+          "RDP",
+          "Backyard Dwelling",
+          "Shack",
+          "Land Invasion"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA School Sport",
+        "difficulty": 1,
+        "words": [
+          "Rugby",
+          "Cricket",
+          "Netball",
+          "Athletics"
+        ]
+      },
+      {
+        "category": "SA School Traditions",
+        "difficulty": 2,
+        "words": [
+          "War Cry",
+          "Interhouse",
+          "Prestige Day",
+          "Old Boys"
+        ]
+      },
+      {
+        "category": "SA Elite Boys Schools",
+        "difficulty": 3,
+        "words": [
+          "Grey College",
+          "Paul Roos",
+          "Bishops",
+          "KES"
+        ]
+      },
+      {
+        "category": "SA Elite Girls Schools",
+        "difficulty": 4,
+        "words": [
+          "Herschel",
+          "Roedean",
+          "DSG",
+          "Bloemhof"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Languages (Nguni Group)",
+        "difficulty": 1,
+        "words": [
+          "Zulu",
+          "Xhosa",
+          "Swati",
+          "Ndebele"
+        ]
+      },
+      {
+        "category": "SA Languages (Sotho Group)",
+        "difficulty": 2,
+        "words": [
+          "Sepedi",
+          "Sesotho",
+          "Setswana",
+          "Silozi"
+        ]
+      },
+      {
+        "category": "SA Languages (Other Official)",
+        "difficulty": 3,
+        "words": [
+          "Afrikaans",
+          "English",
+          "Tshivenda",
+          "Xitsonga"
+        ]
+      },
+      {
+        "category": "SA Unofficial Languages",
+        "difficulty": 4,
+        "words": [
+          "Fanagalo",
+          "Kaaps",
+          "Tsotsitaal",
+          "Isicamtho"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Hardware Store Brands",
+        "difficulty": 1,
+        "words": [
+          "Builders",
+          "Cashbuild",
+          "Mica",
+          "CTM"
+        ]
+      },
+      {
+        "category": "SA DIY Terms (Uniquely SA)",
+        "difficulty": 2,
+        "words": [
+          "Geysers",
+          "Wendy House",
+          "Lapa",
+          "Stoep"
+        ]
+      },
+      {
+        "category": "SA Architecture Features",
+        "difficulty": 3,
+        "words": [
+          "Cape Dutch",
+          "Rondavel",
+          "Ndebele Art",
+          "Flat Roof"
+        ]
+      },
+      {
+        "category": "SA Home Security Features",
+        "difficulty": 4,
+        "words": [
+          "Trellidor",
+          "Burglar Bars",
+          "Palisade",
+          "Beams"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Water Terms",
+        "difficulty": 1,
+        "words": [
+          "Day Zero",
+          "Restrictions",
+          "JoJo Tank",
+          "Borehole"
+        ]
+      },
+      {
+        "category": "SA Farming Terms",
+        "difficulty": 2,
+        "words": [
+          "Plaas",
+          "Boer",
+          "Mealie",
+          "Kraal"
+        ]
+      },
+      {
+        "category": "SA Wine Terms",
+        "difficulty": 3,
+        "words": [
+          "Pinotage",
+          "Chenin Blanc",
+          "Estate",
+          "Cellar"
+        ]
+      },
+      {
+        "category": "SA Agriculture Products",
+        "difficulty": 4,
+        "words": [
+          "Rooibos",
+          "Macadamia",
+          "Citrus",
+          "Sugarcane"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Army Terms",
+        "difficulty": 1,
+        "words": [
+          "SANDF",
+          "Troopie",
+          "Basics",
+          "Beret"
+        ]
+      },
+      {
+        "category": "SA Border War Terms",
+        "difficulty": 2,
+        "words": [
+          "Angola",
+          "Conscription",
+          "National Service",
+          "Casspir"
+        ]
+      },
+      {
+        "category": "SA Defense Equipment",
+        "difficulty": 3,
+        "words": [
+          "Ratel",
+          "Rooivalk",
+          "Denel",
+          "Gripen"
+        ]
+      },
+      {
+        "category": "SA Military Bases",
+        "difficulty": 4,
+        "words": [
+          "Saldanha",
+          "Bloemfontein",
+          "Thaba Tshwane",
+          "Simon's Town"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Christmas Traditions",
+        "difficulty": 1,
+        "words": [
+          "Braai",
+          "Beach",
+          "Cricket",
+          "Sunshine"
+        ]
+      },
+      {
+        "category": "SA Easter Traditions",
+        "difficulty": 2,
+        "words": [
+          "Hot Cross Buns",
+          "Pickled Fish",
+          "Church",
+          "Family"
+        ]
+      },
+      {
+        "category": "SA December Holiday Spots",
+        "difficulty": 3,
+        "words": [
+          "Ballito",
+          "Plett",
+          "Hermanus",
+          "Margate"
+        ]
+      },
+      {
+        "category": "SA Long Weekend Activities",
+        "difficulty": 4,
+        "words": [
+          "Road Trip",
+          "Picnic",
+          "Heritage",
+          "Strandloper"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "Things in a SA Kitchen",
+        "difficulty": 1,
+        "words": [
+          "Potjie Pot",
+          "Mielie Meal",
+          "Mrs Balls",
+          "Le Creuset"
+        ]
+      },
+      {
+        "category": "SA Household Brands",
+        "difficulty": 2,
+        "words": [
+          "Sunlight",
+          "Domestos",
+          "Doom",
+          "Jik"
+        ]
+      },
+      {
+        "category": "SA Garden Features",
+        "difficulty": 3,
+        "words": [
+          "Bougainvillea",
+          "Swimming Pool",
+          "Lapa",
+          "Stoep"
+        ]
+      },
+      {
+        "category": "SA Domestic Terms",
+        "difficulty": 4,
+        "words": [
+          "Domestic Worker",
+          "Security Guard",
+          "Gardener",
+          "Pool Man"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Numbers in Zulu",
+        "difficulty": 1,
+        "words": [
+          "Kunye",
+          "Kubili",
+          "Kuthathu",
+          "Kune"
+        ]
+      },
+      {
+        "category": "SA Counting in Afrikaans",
+        "difficulty": 2,
+        "words": [
+          "Een",
+          "Twee",
+          "Drie",
+          "Vier"
+        ]
+      },
+      {
+        "category": "SA Counting in Sesotho",
+        "difficulty": 3,
+        "words": [
+          "Nngwe",
+          "Pedi",
+          "Tharo",
+          "Nne"
+        ]
+      },
+      {
+        "category": "SA Counting in Xitsonga",
+        "difficulty": 4,
+        "words": [
+          "Yin'we",
+          "Mbirhi",
+          "Nharhu",
+          "Mune"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Music Festival Headliners (Type)",
+        "difficulty": 1,
+        "words": [
+          "DJ",
+          "Band",
+          "MC",
+          "Singer"
+        ]
+      },
+      {
+        "category": "SA Club Types",
+        "difficulty": 2,
+        "words": [
+          "Shisa Nyama",
+          "Groove",
+          "Tavern",
+          "Lounge"
+        ]
+      },
+      {
+        "category": "SA Party Drinks",
+        "difficulty": 3,
+        "words": [
+          "Hunters",
+          "Brutal Fruit",
+          "Smirnoff Spin",
+          "Flying Fish"
+        ]
+      },
+      {
+        "category": "SA Cider Brands",
+        "difficulty": 4,
+        "words": [
+          "Savanna",
+          "Stella Cider",
+          "Strongbow",
+          "Extreme"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Soccer Nicknames",
+        "difficulty": 1,
+        "words": [
+          "Amakhosi",
+          "Buccaneers",
+          "Brazilians",
+          "Usuthu"
+        ]
+      },
+      {
+        "category": "SA Rugby Nicknames",
+        "difficulty": 2,
+        "words": [
+          "Springboks",
+          "Blue Bulls",
+          "Stormers",
+          "Sharks"
+        ]
+      },
+      {
+        "category": "SA Cricket Nicknames",
+        "difficulty": 3,
+        "words": [
+          "Proteas",
+          "Titans",
+          "Warriors",
+          "Cobras"
+        ]
+      },
+      {
+        "category": "SA Athletics Stars",
+        "difficulty": 4,
+        "words": [
+          "Caster",
+          "Wayde",
+          "Akani",
+          "Luvo"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Farm Animals",
+        "difficulty": 1,
+        "words": [
+          "Boerbok",
+          "Nguni",
+          "Dorper",
+          "Brahman"
+        ]
+      },
+      {
+        "category": "SA Game Animals",
+        "difficulty": 2,
+        "words": [
+          "Gemsbok",
+          "Blesbok",
+          "Tsessebe",
+          "Bontebok"
+        ]
+      },
+      {
+        "category": "SA Monkey Species",
+        "difficulty": 3,
+        "words": [
+          "Vervet",
+          "Baboon",
+          "Bushbaby",
+          "Samango"
+        ]
+      },
+      {
+        "category": "SA Ocean Predators",
+        "difficulty": 4,
+        "words": [
+          "Great White",
+          "Tiger Shark",
+          "Ragged Tooth",
+          "Zambezi"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Afrikaans Songs (Classics)",
+        "difficulty": 1,
+        "words": [
+          "De La Rey",
+          "Toe Vat My",
+          "Kaptein",
+          "Dingaan"
+        ]
+      },
+      {
+        "category": "SA Wedding Songs",
+        "difficulty": 2,
+        "words": [
+          "Nguye Lo",
+          "Umthandazo",
+          "Ngiyak'thanda",
+          "Makoti"
+        ]
+      },
+      {
+        "category": "SA Protest Songs",
+        "difficulty": 3,
+        "words": [
+          "Shosholoza",
+          "Senzenina",
+          "Nkosi Sikelel",
+          "Toyi-Toyi"
+        ]
+      },
+      {
+        "category": "SA National Symbols",
+        "difficulty": 4,
+        "words": [
+          "Protea",
+          "Springbok",
+          "Blue Crane",
+          "Yellowwood"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Cape Malay Foods",
+        "difficulty": 1,
+        "words": [
+          "Samoosa",
+          "Koeksister",
+          "Denningvleis",
+          "Breyani"
+        ]
+      },
+      {
+        "category": "SA Indian Foods (Durban)",
+        "difficulty": 2,
+        "words": [
+          "Bunny Chow",
+          "Roti",
+          "Vada Pav",
+          "Dhal"
+        ]
+      },
+      {
+        "category": "SA Afrikaner Foods",
+        "difficulty": 3,
+        "words": [
+          "Beskuit",
+          "Potbrood",
+          "Boerewors",
+          "Biltong"
+        ]
+      },
+      {
+        "category": "SA Indigenous Foods",
+        "difficulty": 4,
+        "words": [
+          "Morogo",
+          "Umngqusho",
+          "Masonja",
+          "Amadumbe"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Road Trip Stops",
+        "difficulty": 1,
+        "words": [
+          "Wimpy",
+          "Engen",
+          "Total",
+          "Shell Ultra City"
+        ]
+      },
+      {
+        "category": "SA Long Distance Routes",
+        "difficulty": 2,
+        "words": [
+          "N1 Cape to Joburg",
+          "N2 Coast",
+          "N3 Durban",
+          "N4 Platinum"
+        ]
+      },
+      {
+        "category": "SA Toll Names",
+        "difficulty": 3,
+        "words": [
+          "Huguenot",
+          "Du Toits Kloof",
+          "Kranskop",
+          "Oribi Gorge"
+        ]
+      },
+      {
+        "category": "SA Border Posts",
+        "difficulty": 4,
+        "words": [
+          "Beitbridge",
+          "Lebombo",
+          "Maseru Bridge",
+          "Kopfontein"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Winter Things",
+        "difficulty": 1,
+        "words": [
+          "Heater",
+          "Blanket",
+          "Soup",
+          "Fireplace"
+        ]
+      },
+      {
+        "category": "SA Summer Things",
+        "difficulty": 2,
+        "words": [
+          "Pool",
+          "Lilo",
+          "Ice Cream",
+          "Sunscreen"
+        ]
+      },
+      {
+        "category": "SA Autumn Things",
+        "difficulty": 3,
+        "words": [
+          "Naartjie",
+          "Easter",
+          "Harvest",
+          "School Holiday"
+        ]
+      },
+      {
+        "category": "SA Spring Things",
+        "difficulty": 4,
+        "words": [
+          "Jacaranda",
+          "Namaqualand",
+          "Rugby Finals",
+          "Wind"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Primary School Memories",
+        "difficulty": 1,
+        "words": [
+          "Tuckshop",
+          "Break Time",
+          "Kennetjie",
+          "Three Sticks"
+        ]
+      },
+      {
+        "category": "SA High School Memories",
+        "difficulty": 2,
+        "words": [
+          "Matric Dance",
+          "Prefect",
+          "Derby Day",
+          "Farewell"
+        ]
+      },
+      {
+        "category": "SA Childhood Games",
+        "difficulty": 3,
+        "words": [
+          "Diketo",
+          "Klip-klip",
+          "Drie Blikkies",
+          "Asgat"
+        ]
+      },
+      {
+        "category": "SA Childhood Sweets",
+        "difficulty": 4,
+        "words": [
+          "Wilson Toffee",
+          "Fizzers",
+          "Chappies",
+          "Astros"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Twitter/X Trends",
+        "difficulty": 1,
+        "words": [
+          "Mzansi",
+          "Shem",
+          "Askies",
+          "Yerrrr"
+        ]
+      },
+      {
+        "category": "SA WhatsApp Culture",
+        "difficulty": 2,
+        "words": [
+          "Voice Note",
+          "Forwarded",
+          "Blue Tick",
+          "Status"
+        ]
+      },
+      {
+        "category": "SA Data Bundles",
+        "difficulty": 3,
+        "words": [
+          "1GB",
+          "Night Owl",
+          "Social Bundle",
+          "WhatsApp Bundle"
+        ]
+      },
+      {
+        "category": "SA Network Slogans",
+        "difficulty": 4,
+        "words": [
+          "Power to You",
+          "Everywhere You Go",
+          "Take it Easy",
+          "Future Connected"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Government Buildings",
+        "difficulty": 1,
+        "words": [
+          "Union Buildings",
+          "Parliament",
+          "City Hall",
+          "Civic Centre"
+        ]
+      },
+      {
+        "category": "SA Historic Buildings",
+        "difficulty": 2,
+        "words": [
+          "Castle of Good Hope",
+          "Voortrekker Monument",
+          "Constitution Hill",
+          "Apartheid Museum"
+        ]
+      },
+      {
+        "category": "SA Stadiums",
+        "difficulty": 3,
+        "words": [
+          "FNB Stadium",
+          "Cape Town Stadium",
+          "Ellis Park",
+          "Loftus"
+        ]
+      },
+      {
+        "category": "SA Shopping Malls (Iconic)",
+        "difficulty": 4,
+        "words": [
+          "Sandton City",
+          "Canal Walk",
+          "Gateway",
+          "Mall of Africa"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Dog Breeds (Popular Here)",
+        "difficulty": 1,
+        "words": [
+          "Boerboel",
+          "Rhodesian Ridgeback",
+          "Jack Russell",
+          "Staffie"
+        ]
+      },
+      {
+        "category": "SA Horse Breeds",
+        "difficulty": 2,
+        "words": [
+          "Boerperd",
+          "Basuto Pony",
+          "Nooitgedacht",
+          "Cape Horse"
+        ]
+      },
+      {
+        "category": "SA Livestock Breeds",
+        "difficulty": 3,
+        "words": [
+          "Bonsmara",
+          "Drakensberger",
+          "Afrino",
+          "Meatmaster"
+        ]
+      },
+      {
+        "category": "SA Indigenous Dog Facts",
+        "difficulty": 4,
+        "words": [
+          "Africanis",
+          "Pavement Special",
+          "Rescue",
+          "SPCA"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Load Shedding Essentials",
+        "difficulty": 1,
+        "words": [
+          "Candles",
+          "Inverter",
+          "Solar Panel",
+          "Gas Stove"
+        ]
+      },
+      {
+        "category": "SA Load Shedding Apps",
+        "difficulty": 2,
+        "words": [
+          "EskomSePush",
+          "Load Shedding",
+          "City Power",
+          "GridWatch"
+        ]
+      },
+      {
+        "category": "SA Power Terms",
+        "difficulty": 3,
+        "words": [
+          "Koeberg",
+          "Medupi",
+          "Kusile",
+          "Eskom"
+        ]
+      },
+      {
+        "category": "SA Energy Alternatives",
+        "difficulty": 4,
+        "words": [
+          "Solar",
+          "Wind Farm",
+          "Battery",
+          "Generator"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Music Award Categories",
+        "difficulty": 1,
+        "words": [
+          "Best Pop",
+          "Best Kwaito",
+          "Best Gospel",
+          "Best Amapiano"
+        ]
+      },
+      {
+        "category": "SA Record Labels",
+        "difficulty": 2,
+        "words": [
+          "Kalawa Jazmee",
+          "Ambitiouz",
+          "Open Mic",
+          "Sony SA"
+        ]
+      },
+      {
+        "category": "SA Music Venues",
+        "difficulty": 3,
+        "words": [
+          "Bassline",
+          "Shimmy Beach",
+          "Zone 6",
+          "Taboo"
+        ]
+      },
+      {
+        "category": "SA Music Instruments",
+        "difficulty": 4,
+        "words": [
+          "Uhadi",
+          "Vuvuzela",
+          "Marimba",
+          "Concertina"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Chip Flavours",
+        "difficulty": 1,
+        "words": [
+          "Tomato",
+          "Salt & Vinegar",
+          "Cheese & Onion",
+          "BBQ"
+        ]
+      },
+      {
+        "category": "SA Ice Cream Brands",
+        "difficulty": 2,
+        "words": [
+          "Magnum",
+          "Dairymaid",
+          "Ola",
+          "Nestle"
+        ]
+      },
+      {
+        "category": "SA Sweet Treats",
+        "difficulty": 3,
+        "words": [
+          "Beacon",
+          "Cadbury",
+          "Chappies",
+          "Manhattan"
+        ]
+      },
+      {
+        "category": "SA Cereal Brands",
+        "difficulty": 4,
+        "words": [
+          "Pronutro",
+          "Weet-Bix",
+          "Morvite",
+          "Jungle Oats"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Traffic Officer Terms",
+        "difficulty": 1,
+        "words": [
+          "Licence",
+          "Roadblock",
+          "Fine",
+          "Breathalyser"
+        ]
+      },
+      {
+        "category": "SA Driving Test Terms",
+        "difficulty": 2,
+        "words": [
+          "K53",
+          "Yard",
+          "Learners",
+          "Eye Test"
+        ]
+      },
+      {
+        "category": "SA Vehicle Documents",
+        "difficulty": 3,
+        "words": [
+          "Disc",
+          "Licence Card",
+          "Roadworthy",
+          "Natis"
+        ]
+      },
+      {
+        "category": "SA Traffic Violations",
+        "difficulty": 4,
+        "words": [
+          "Speeding",
+          "Red Light",
+          "Cellphone",
+          "No Licence"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Garden Route Activities",
+        "difficulty": 1,
+        "words": [
+          "Bungee",
+          "Zipline",
+          "Bloukrans",
+          "Canopy Tour"
+        ]
+      },
+      {
+        "category": "SA Adventure Activities",
+        "difficulty": 2,
+        "words": [
+          "Shark Diving",
+          "Paragliding",
+          "Sandboarding",
+          "Abseiling"
+        ]
+      },
+      {
+        "category": "SA Hiking Trails",
+        "difficulty": 3,
+        "words": [
+          "Otter Trail",
+          "Drakensberg",
+          "Table Mountain",
+          "Wild Coast"
+        ]
+      },
+      {
+        "category": "SA Surf Spots",
+        "difficulty": 4,
+        "words": [
+          "J-Bay",
+          "Dungeons",
+          "Cave Rock",
+          "Kommetjie"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Christmas Foods",
+        "difficulty": 1,
+        "words": [
+          "Malva Pudding",
+          "Trifle",
+          "Gammon",
+          "Potato Salad"
+        ]
+      },
+      {
+        "category": "SA Heritage Day Foods",
+        "difficulty": 2,
+        "words": [
+          "Boerewors",
+          "Pap",
+          "Chakalaka",
+          "Sosatie"
+        ]
+      },
+      {
+        "category": "SA Picnic Foods",
+        "difficulty": 3,
+        "words": [
+          "Biltong",
+          "Droewors",
+          "Provita",
+          "Cheese Spread"
+        ]
+      },
+      {
+        "category": "SA Pantry Staples",
+        "difficulty": 4,
+        "words": [
+          "Mielie Meal",
+          "Sunflower Oil",
+          "Aromat",
+          "Rajah"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Protest Actions",
+        "difficulty": 1,
+        "words": [
+          "March",
+          "Strike",
+          "Shutdown",
+          "Boycott"
+        ]
+      },
+      {
+        "category": "SA Student Movement Terms",
+        "difficulty": 2,
+        "words": [
+          "Fees Must Fall",
+          "Rhodes Must Fall",
+          "Decolonise",
+          "Fallist"
+        ]
+      },
+      {
+        "category": "SA Trade Unions",
+        "difficulty": 3,
+        "words": [
+          "COSATU",
+          "NUMSA",
+          "SADTU",
+          "NUM"
+        ]
+      },
+      {
+        "category": "SA Political Abbreviations",
+        "difficulty": 4,
+        "words": [
+          "NCOP",
+          "NPA",
+          "SONA",
+          "MTBPS"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "Woolworths Food Items",
+        "difficulty": 1,
+        "words": [
+          "Ready Meals",
+          "Aisle of Dreams",
+          "Olive Oil",
+          "Chocolate Mousse"
+        ]
+      },
+      {
+        "category": "Pick n Pay Items",
+        "difficulty": 2,
+        "words": [
+          "Smart Shopper",
+          "No Name",
+          "Live Well",
+          "PnP"
+        ]
+      },
+      {
+        "category": "SA Supermarket Loyalty Cards",
+        "difficulty": 3,
+        "words": [
+          "Clicks ClubCard",
+          "Xtra Savings",
+          "WRewards",
+          "My Spar"
+        ]
+      },
+      {
+        "category": "SA Store Jingles/Slogans",
+        "difficulty": 4,
+        "words": [
+          "The Difference",
+          "Inspired By You",
+          "Better and Better",
+          "Real Savings"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Colour Slang (People)",
+        "difficulty": 1,
+        "words": [
+          "Coloured",
+          "White",
+          "Black",
+          "Indian"
+        ]
+      },
+      {
+        "category": "SA Race Classification (Apartheid)",
+        "difficulty": 2,
+        "words": [
+          "Bantu",
+          "European",
+          "Cape Malay",
+          "Asiatic"
+        ]
+      },
+      {
+        "category": "SA Transformation Terms",
+        "difficulty": 3,
+        "words": [
+          "BEE",
+          "BBBEE",
+          "EE",
+          "Affirmative"
+        ]
+      },
+      {
+        "category": "SA Economic Terms",
+        "difficulty": 4,
+        "words": [
+          "GEAR",
+          "NDP",
+          "NEDLAC",
+          "JSE"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Craft Beer Brands",
+        "difficulty": 1,
+        "words": [
+          "Devil's Peak",
+          "Jack Black",
+          "Darling Brew",
+          "CBC"
+        ]
+      },
+      {
+        "category": "SA Wine Varietals",
+        "difficulty": 2,
+        "words": [
+          "Pinotage",
+          "Chenin Blanc",
+          "Cabernet",
+          "Shiraz"
+        ]
+      },
+      {
+        "category": "SA Spirit Brands",
+        "difficulty": 3,
+        "words": [
+          "Amarula",
+          "KWV",
+          "Bain's",
+          "Inverroche"
+        ]
+      },
+      {
+        "category": "SA Non-Alcoholic Drinks",
+        "difficulty": 4,
+        "words": [
+          "Rooibos",
+          "Oros",
+          "Creme Soda",
+          "Stoney"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Election Terms",
+        "difficulty": 1,
+        "words": [
+          "Ballot",
+          "IEC",
+          "Ward",
+          "Constituency"
+        ]
+      },
+      {
+        "category": "SA Government Levels",
+        "difficulty": 2,
+        "words": [
+          "National",
+          "Provincial",
+          "Local",
+          "District"
+        ]
+      },
+      {
+        "category": "SA Parliament Terms",
+        "difficulty": 3,
+        "words": [
+          "Speaker",
+          "Portfolio",
+          "Whip",
+          "Hansard"
+        ]
+      },
+      {
+        "category": "SA Presidents (Post-1994)",
+        "difficulty": 4,
+        "words": [
+          "Mandela",
+          "Mbeki",
+          "Zuma",
+          "Ramaphosa"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Museum Types",
+        "difficulty": 1,
+        "words": [
+          "Apartheid",
+          "Iziko",
+          "Voortrekker",
+          "War"
+        ]
+      },
+      {
+        "category": "SA Art Galleries",
+        "difficulty": 2,
+        "words": [
+          "Zeitz MOCAA",
+          "Norval",
+          "Goodman",
+          "Stevenson"
+        ]
+      },
+      {
+        "category": "SA Heritage Sites",
+        "difficulty": 3,
+        "words": [
+          "Cradle of Humankind",
+          "iSimangaliso",
+          "Robben Island",
+          "Mapungubwe"
+        ]
+      },
+      {
+        "category": "SA Theatres",
+        "difficulty": 4,
+        "words": [
+          "Artscape",
+          "Market Theatre",
+          "State Theatre",
+          "Baxter"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Spices in the Kitchen",
+        "difficulty": 1,
+        "words": [
+          "Aromat",
+          "Rajah",
+          "Robertsons",
+          "Ina Paarman"
+        ]
+      },
+      {
+        "category": "SA Sauce Brands",
+        "difficulty": 2,
+        "words": [
+          "All Gold",
+          "Mrs Balls",
+          "Spur",
+          "Steers"
+        ]
+      },
+      {
+        "category": "SA Baking Brands",
+        "difficulty": 3,
+        "words": [
+          "Snowflake",
+          "Sasko",
+          "Moir's",
+          "Huletts"
+        ]
+      },
+      {
+        "category": "SA Dairy Brands",
+        "difficulty": 4,
+        "words": [
+          "Clover",
+          "Parmalat",
+          "Lancewood",
+          "Dairybelle"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Slang for Drunk",
+        "difficulty": 1,
+        "words": [
+          "Befok",
+          "Dronk",
+          "Gatvolwarm",
+          "Lam"
+        ]
+      },
+      {
+        "category": "SA Slang for Leave/Go",
+        "difficulty": 2,
+        "words": [
+          "Voetsek",
+          "Hamba",
+          "Vaya",
+          "Chow"
+        ]
+      },
+      {
+        "category": "SA Slang for Eat",
+        "difficulty": 3,
+        "words": [
+          "Smaak",
+          "Eet",
+          "Graai",
+          "Pap"
+        ]
+      },
+      {
+        "category": "SA Slang for Fight",
+        "difficulty": 4,
+        "words": [
+          "Baklei",
+          "Donner",
+          "Moer",
+          "Klap"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "Johannesburg Areas",
+        "difficulty": 1,
+        "words": [
+          "Braamfontein",
+          "Hillbrow",
+          "Rosebank",
+          "Melville"
+        ]
+      },
+      {
+        "category": "Cape Town Areas",
+        "difficulty": 2,
+        "words": [
+          "Observatory",
+          "Woodstock",
+          "Claremont",
+          "Sea Point"
+        ]
+      },
+      {
+        "category": "Durban Areas",
+        "difficulty": 3,
+        "words": [
+          "Berea",
+          "Morningside",
+          "Ballito",
+          "Pinetown"
+        ]
+      },
+      {
+        "category": "Pretoria Areas",
+        "difficulty": 4,
+        "words": [
+          "Hatfield",
+          "Menlyn",
+          "Brooklyn",
+          "Arcadia"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Water Activities",
+        "difficulty": 1,
+        "words": [
+          "Surfing",
+          "Diving",
+          "Snorkelling",
+          "Paddling"
+        ]
+      },
+      {
+        "category": "SA River Activities",
+        "difficulty": 2,
+        "words": [
+          "Rafting",
+          "Tubing",
+          "Kayaking",
+          "Fishing"
+        ]
+      },
+      {
+        "category": "SA Mountain Activities",
+        "difficulty": 3,
+        "words": [
+          "Hiking",
+          "Abseiling",
+          "Climbing",
+          "Caving"
+        ]
+      },
+      {
+        "category": "SA Bush Activities",
+        "difficulty": 4,
+        "words": [
+          "Game Drive",
+          "Bush Walk",
+          "Birding",
+          "Tracking"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Car Guard Culture",
+        "difficulty": 1,
+        "words": [
+          "Tip",
+          "Whistle",
+          "Wave",
+          "Reflector Vest"
+        ]
+      },
+      {
+        "category": "SA Informal Economy Jobs",
+        "difficulty": 2,
+        "words": [
+          "Car Guard",
+          "Windscreen Washer",
+          "Vendor",
+          "Recycler"
+        ]
+      },
+      {
+        "category": "SA Township Economy",
+        "difficulty": 3,
+        "words": [
+          "Spaza",
+          "Tavern",
+          "Shisanyama",
+          "Hair Salon"
+        ]
+      },
+      {
+        "category": "SA Hustle Culture Terms",
+        "difficulty": 4,
+        "words": [
+          "Side Hustle",
+          "Tender",
+          "Connect",
+          "Plug"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Children's TV Shows",
+        "difficulty": 1,
+        "words": [
+          "Takalani Sesame",
+          "Yo TV",
+          "KTV",
+          "Thabang"
+        ]
+      },
+      {
+        "category": "SA Drama Series",
+        "difficulty": 2,
+        "words": [
+          "The Queen",
+          "Gomora",
+          "Scandal",
+          "Rhythm City"
+        ]
+      },
+      {
+        "category": "SA Game Shows",
+        "difficulty": 3,
+        "words": [
+          "Noot vir Noot",
+          "Deal or No Deal SA",
+          "Wheel of Fortune SA",
+          "Lotto Show"
+        ]
+      },
+      {
+        "category": "SA Documentary Topics",
+        "difficulty": 4,
+        "words": [
+          "Mandela",
+          "Apartheid",
+          "Marikana",
+          "Life Esidimeni"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Things That Are Free",
+        "difficulty": 1,
+        "words": [
+          "Water",
+          "Healthcare",
+          "Education",
+          "Housing"
+        ]
+      },
+      {
+        "category": "SA Things That Are Expensive",
+        "difficulty": 2,
+        "words": [
+          "Petrol",
+          "Electricity",
+          "Data",
+          "Medical Aid"
+        ]
+      },
+      {
+        "category": "SA Tax Types",
+        "difficulty": 3,
+        "words": [
+          "VAT",
+          "PAYE",
+          "Income Tax",
+          "CGT"
+        ]
+      },
+      {
+        "category": "SA Financial Regulators",
+        "difficulty": 4,
+        "words": [
+          "SARB",
+          "FSCA",
+          "SARS",
+          "NCR"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Colour of Provinces (Maps)",
+        "difficulty": 1,
+        "words": [
+          "Blue",
+          "Green",
+          "Yellow",
+          "Red"
+        ]
+      },
+      {
+        "category": "SA Provincial Capitals",
+        "difficulty": 2,
+        "words": [
+          "Polokwane",
+          "Mbombela",
+          "Kimberley",
+          "Bhisho"
+        ]
+      },
+      {
+        "category": "SA Province Nicknames",
+        "difficulty": 3,
+        "words": [
+          "Gateway",
+          "Sunshine",
+          "Garden",
+          "Warm Heart"
+        ]
+      },
+      {
+        "category": "SA Province Premier Titles",
+        "difficulty": 4,
+        "words": [
+          "Premier",
+          "MEC",
+          "Legislature",
+          "Speaker"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Things That Start With 'B'",
+        "difficulty": 1,
+        "words": [
+          "Biltong",
+          "Braai",
+          "Boerewors",
+          "Bobotie"
+        ]
+      },
+      {
+        "category": "SA Things That Start With 'K'",
+        "difficulty": 2,
+        "words": [
+          "Kwaito",
+          "Kruger",
+          "KwaZulu",
+          "Koeksister"
+        ]
+      },
+      {
+        "category": "SA Things That Start With 'S'",
+        "difficulty": 3,
+        "words": [
+          "Springbok",
+          "Soweto",
+          "Savanna",
+          "Spur"
+        ]
+      },
+      {
+        "category": "SA Things That Start With 'M'",
+        "difficulty": 4,
+        "words": [
+          "Mandela",
+          "Mzansi",
+          "Melktert",
+          "Mamelodi"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Spur Menu Items",
+        "difficulty": 1,
+        "words": [
+          "Ribs",
+          "Burger",
+          "Wacky Wed",
+          "Salad Bar"
+        ]
+      },
+      {
+        "category": "SA Ocean Basket Items",
+        "difficulty": 2,
+        "words": [
+          "Calamari",
+          "Prawns",
+          "Hake",
+          "Paella"
+        ]
+      },
+      {
+        "category": "SA Nandos Items",
+        "difficulty": 3,
+        "words": [
+          "Peri-Peri",
+          "Espetada",
+          "Fino",
+          "Limon"
+        ]
+      },
+      {
+        "category": "SA Restaurant Chains",
+        "difficulty": 4,
+        "words": [
+          "Mug & Bean",
+          "RocoMamas",
+          "Hussar Grill",
+          "Col Cacchio"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Types of Crime Shows",
+        "difficulty": 1,
+        "words": [
+          "Carte Blanche",
+          "3rd Degree",
+          "Checkpoint",
+          "Special Assignment"
+        ]
+      },
+      {
+        "category": "SA Talk Shows",
+        "difficulty": 2,
+        "words": [
+          "Real Talk",
+          "Afternoon Express",
+          "Trending SA",
+          "Motswako"
+        ]
+      },
+      {
+        "category": "SA Sports Shows",
+        "difficulty": 3,
+        "words": [
+          "SuperSport",
+          "Expresso",
+          "Laduma",
+          "Thomas & Sobhiza"
+        ]
+      },
+      {
+        "category": "SA Iconic TV Presenters",
+        "difficulty": 4,
+        "words": [
+          "Devi",
+          "Riaan",
+          "Bonang",
+          "Somizi"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Kids Party Foods",
+        "difficulty": 1,
+        "words": [
+          "Crumbs",
+          "Jelly",
+          "Marshmallow",
+          "Cooldrink"
+        ]
+      },
+      {
+        "category": "SA Party Bag Items",
+        "difficulty": 2,
+        "words": [
+          "Chappies",
+          "Fizzers",
+          "Whistle",
+          "Balloon"
+        ]
+      },
+      {
+        "category": "SA Birthday Traditions",
+        "difficulty": 3,
+        "words": [
+          "Pinata",
+          "Musical Chairs",
+          "Pass Parcel",
+          "Jumping Castle"
+        ]
+      },
+      {
+        "category": "SA Party Venues",
+        "difficulty": 4,
+        "words": [
+          "Spur",
+          "Acrobranch",
+          "Rush",
+          "Bounce"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Load Shedding Complaints",
+        "difficulty": 1,
+        "words": [
+          "No WiFi",
+          "Food Spoiled",
+          "Cold Shower",
+          "Dark Streets"
+        ]
+      },
+      {
+        "category": "SA Water Crisis Terms",
+        "difficulty": 2,
+        "words": [
+          "Day Zero",
+          "Restriction",
+          "Level 6B",
+          "Tankering"
+        ]
+      },
+      {
+        "category": "SA Infrastructure Names",
+        "difficulty": 3,
+        "words": [
+          "Koeberg",
+          "Medupi",
+          "Kusile",
+          "Ingula"
+        ]
+      },
+      {
+        "category": "SA Energy Minister Names",
+        "difficulty": 4,
+        "words": [
+          "Mantashe",
+          "Gordhan",
+          "Ramokgopa",
+          "Radebe"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Family Terms (Zulu)",
+        "difficulty": 1,
+        "words": [
+          "Mama",
+          "Baba",
+          "Sisi",
+          "Bhuti"
+        ]
+      },
+      {
+        "category": "SA Family Terms (Afrikaans)",
+        "difficulty": 2,
+        "words": [
+          "Ma",
+          "Pa",
+          "Ouma",
+          "Oupa"
+        ]
+      },
+      {
+        "category": "SA Respect Terms",
+        "difficulty": 3,
+        "words": [
+          "Ntate",
+          "Mme",
+          "Malume",
+          "Anti"
+        ]
+      },
+      {
+        "category": "SA Clan Names (Examples)",
+        "difficulty": 4,
+        "words": [
+          "Zulu",
+          "Dlamini",
+          "Ndlovu",
+          "Khumalo"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Soccer Awards",
+        "difficulty": 1,
+        "words": [
+          "PSL Player",
+          "Golden Boot",
+          "Coach of Year",
+          "Ke Star"
+        ]
+      },
+      {
+        "category": "SA Rugby Awards",
+        "difficulty": 2,
+        "words": [
+          "SA Player of Year",
+          "Try of Season",
+          "SA Rugby",
+          "Bok of Year"
+        ]
+      },
+      {
+        "category": "SA Cricket Awards",
+        "difficulty": 3,
+        "words": [
+          "CSA Cricketer",
+          "SA Newcomer",
+          "Test Bowler",
+          "ODI Batsman"
+        ]
+      },
+      {
+        "category": "SA Sports Halls of Fame",
+        "difficulty": 4,
+        "words": [
+          "SA Sports Hall",
+          "Rugby HOF",
+          "Cricket HOF",
+          "Olympic HOF"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Bakkie Brands",
+        "difficulty": 1,
+        "words": [
+          "Hilux",
+          "Ranger",
+          "Amarok",
+          "Navara"
+        ]
+      },
+      {
+        "category": "SA Luxury Car Stereotypes",
+        "difficulty": 2,
+        "words": [
+          "BMW",
+          "Mercedes",
+          "Audi",
+          "Porsche"
+        ]
+      },
+      {
+        "category": "SA Car Colours (Popular)",
+        "difficulty": 3,
+        "words": [
+          "White",
+          "Silver",
+          "Grey",
+          "Black"
+        ]
+      },
+      {
+        "category": "SA Car Sound System Brands",
+        "difficulty": 4,
+        "words": [
+          "Pioneer",
+          "JBL",
+          "Sony",
+          "Alpine"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Things You Find at Woolies",
+        "difficulty": 1,
+        "words": [
+          "Food",
+          "Clothing",
+          "Beauty",
+          "Homeware"
+        ]
+      },
+      {
+        "category": "SA Things You Find at Game",
+        "difficulty": 2,
+        "words": [
+          "Electronics",
+          "Appliances",
+          "Furniture",
+          "Camping"
+        ]
+      },
+      {
+        "category": "SA Things You Find at Clicks",
+        "difficulty": 3,
+        "words": [
+          "Medicine",
+          "Pharmacy",
+          "ClubCard",
+          "Baby"
+        ]
+      },
+      {
+        "category": "SA Things You Find at Makro",
+        "difficulty": 4,
+        "words": [
+          "Bulk",
+          "Liquor",
+          "Office",
+          "Wholesale"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Gym Chains",
+        "difficulty": 1,
+        "words": [
+          "Virgin Active",
+          "Planet Fitness",
+          "Zone Fitness",
+          "CrossFit"
+        ]
+      },
+      {
+        "category": "SA Running Events",
+        "difficulty": 2,
+        "words": [
+          "Comrades",
+          "Two Oceans",
+          "Soweto Marathon",
+          "Knysna Forest"
+        ]
+      },
+      {
+        "category": "SA Cycling Events",
+        "difficulty": 3,
+        "words": [
+          "Cape Town Cycle Tour",
+          "947 Ride Joburg",
+          "Amashova",
+          "sani2c"
+        ]
+      },
+      {
+        "category": "SA Swimming Events",
+        "difficulty": 4,
+        "words": [
+          "Midmar Mile",
+          "Robben Island Swim",
+          "Fish Hoek",
+          "Ushaka"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Street Names (Common)",
+        "difficulty": 1,
+        "words": [
+          "Main Road",
+          "Church Street",
+          "Long Street",
+          "Voortrekker"
+        ]
+      },
+      {
+        "category": "SA Street Names (Renamed)",
+        "difficulty": 2,
+        "words": [
+          "Mandela",
+          "Biko",
+          "Sisulu",
+          "Tambo"
+        ]
+      },
+      {
+        "category": "SA Famous Addresses",
+        "difficulty": 3,
+        "words": [
+          "Vilakazi Street",
+          "Sandton City",
+          "Melrose Arch",
+          "Bree Street"
+        ]
+      },
+      {
+        "category": "SA Toll Roads",
+        "difficulty": 4,
+        "words": [
+          "N1 Gauteng",
+          "N3 Van Reenen",
+          "N4 Platinum",
+          "Chapman's Peak"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Traditional Healers",
+        "difficulty": 1,
+        "words": [
+          "Sangoma",
+          "Inyanga",
+          "Prophet",
+          "Herbalist"
+        ]
+      },
+      {
+        "category": "SA Traditional Medicines",
+        "difficulty": 2,
+        "words": [
+          "Muti",
+          "Imbiza",
+          "Umuthi",
+          "Herbs"
+        ]
+      },
+      {
+        "category": "SA Spiritual Practices",
+        "difficulty": 3,
+        "words": [
+          "Ancestors",
+          "Amadlozi",
+          "Dreams",
+          "Divination"
+        ]
+      },
+      {
+        "category": "SA Supernatural Beliefs",
+        "difficulty": 4,
+        "words": [
+          "Tokoloshe",
+          "Tikoloshe",
+          "Mamlambo",
+          "Impundulu"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Beach Culture Items",
+        "difficulty": 1,
+        "words": [
+          "Lilo",
+          "Sunscreen",
+          "Cooler Box",
+          "Umbrella"
+        ]
+      },
+      {
+        "category": "SA Pool Culture Items",
+        "difficulty": 2,
+        "words": [
+          "Kreepy Krauly",
+          "Chlorine",
+          "Pool Net",
+          "Floatie"
+        ]
+      },
+      {
+        "category": "SA Camping Essentials",
+        "difficulty": 3,
+        "words": [
+          "Tent",
+          "Braai Grid",
+          "Cooler",
+          "Headlamp"
+        ]
+      },
+      {
+        "category": "SA 4x4 Accessories",
+        "difficulty": 4,
+        "words": [
+          "Snorkel",
+          "Bull Bar",
+          "Winch",
+          "Roof Rack"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Magazine Brands",
+        "difficulty": 1,
+        "words": [
+          "You",
+          "Huisgenoot",
+          "Drum",
+          "Cosmopolitan SA"
+        ]
+      },
+      {
+        "category": "SA Book Authors",
+        "difficulty": 2,
+        "words": [
+          "Deon Meyer",
+          "Wilbur Smith",
+          "Zakes Mda",
+          "JM Coetzee"
+        ]
+      },
+      {
+        "category": "SA Literary Awards",
+        "difficulty": 3,
+        "words": [
+          "Sunday Times Prize",
+          "Alan Paton",
+          "Barry Ronge",
+          "M-Net"
+        ]
+      },
+      {
+        "category": "SA Classic Novels",
+        "difficulty": 4,
+        "words": [
+          "Cry Beloved Country",
+          "Disgrace",
+          "Long Walk",
+          "Shaka Zulu"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Petrol Brands",
+        "difficulty": 1,
+        "words": [
+          "Shell",
+          "BP",
+          "Engen",
+          "Total"
+        ]
+      },
+      {
+        "category": "SA Petroleum Terms",
+        "difficulty": 2,
+        "words": [
+          "93",
+          "95",
+          "Diesel",
+          "LPG"
+        ]
+      },
+      {
+        "category": "SA Fuel Price Components",
+        "difficulty": 3,
+        "words": [
+          "Basic Price",
+          "Fuel Levy",
+          "RAF Levy",
+          "Margin"
+        ]
+      },
+      {
+        "category": "SA Energy Companies",
+        "difficulty": 4,
+        "words": [
+          "Sasol",
+          "Eskom",
+          "PetroSA",
+          "CEF"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Afrikaans TV Shows",
+        "difficulty": 1,
+        "words": [
+          "7de Laan",
+          "Binnelanders",
+          "Getroud met Rugby",
+          "Suidooster"
+        ]
+      },
+      {
+        "category": "SA Zulu TV Shows",
+        "difficulty": 2,
+        "words": [
+          "Uzalo",
+          "Imbewu",
+          "Isibaya",
+          "Isithembiso"
+        ]
+      },
+      {
+        "category": "SA English TV Shows",
+        "difficulty": 3,
+        "words": [
+          "The River",
+          "Legacy",
+          "Reyka",
+          "Trackers"
+        ]
+      },
+      {
+        "category": "SA Streaming Originals",
+        "difficulty": 4,
+        "words": [
+          "Blood and Water",
+          "Queen Sono",
+          "Savage Beauty",
+          "Raised by Wolves"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Things at a Taxi Rank",
+        "difficulty": 1,
+        "words": [
+          "Queue Marshal",
+          "Hawker",
+          "Loudspeaker",
+          "Ticket"
+        ]
+      },
+      {
+        "category": "SA Taxi Lingo",
+        "difficulty": 2,
+        "words": [
+          "Skyf",
+          "Back-Back",
+          "One-One",
+          "Soldaat"
+        ]
+      },
+      {
+        "category": "SA Commuter Complaints",
+        "difficulty": 3,
+        "words": [
+          "Late",
+          "Overcrowded",
+          "Reckless",
+          "Expensive"
+        ]
+      },
+      {
+        "category": "SA Taxi Wars Terms",
+        "difficulty": 4,
+        "words": [
+          "Route",
+          "Association",
+          "Permit",
+          "Conflict"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Sounds You Know",
+        "difficulty": 1,
+        "words": [
+          "Vuvuzela",
+          "Hadeda",
+          "Taxi Hoot",
+          "Load Shedding Click"
+        ]
+      },
+      {
+        "category": "SA Morning Sounds",
+        "difficulty": 2,
+        "words": [
+          "Roosters",
+          "Call to Prayer",
+          "Coffee Pot",
+          "Radio"
+        ]
+      },
+      {
+        "category": "SA Weekend Sounds",
+        "difficulty": 3,
+        "words": [
+          "Lawnmower",
+          "Braai Sizzle",
+          "Music",
+          "Pool Splash"
+        ]
+      },
+      {
+        "category": "SA Night Sounds",
+        "difficulty": 4,
+        "words": [
+          "Generator",
+          "Dogs Barking",
+          "Crickets",
+          "Alarm"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Things You Negotiate",
+        "difficulty": 1,
+        "words": [
+          "Price",
+          "Lobola",
+          "Salary",
+          "Rent"
+        ]
+      },
+      {
+        "category": "SA Things You Queue For",
+        "difficulty": 2,
+        "words": [
+          "Home Affairs",
+          "Licence",
+          "Eskom",
+          "SASSA"
+        ]
+      },
+      {
+        "category": "SA Things That Take Long",
+        "difficulty": 3,
+        "words": [
+          "Driving Test",
+          "Licence Renewal",
+          "Building Plans",
+          "NSFAS"
+        ]
+      },
+      {
+        "category": "SA Red Tape Terms",
+        "difficulty": 4,
+        "words": [
+          "Affidavit",
+          "Certified Copy",
+          "Commissioner",
+          "Notary"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Trees (Indigenous)",
+        "difficulty": 1,
+        "words": [
+          "Yellowwood",
+          "Stinkwood",
+          "Baobab",
+          "Wild Fig"
+        ]
+      },
+      {
+        "category": "SA Invasive Plants",
+        "difficulty": 2,
+        "words": [
+          "Port Jackson",
+          "Lantana",
+          "Bugweed",
+          "Black Wattle"
+        ]
+      },
+      {
+        "category": "SA Flowers",
+        "difficulty": 3,
+        "words": [
+          "Protea",
+          "Strelitzia",
+          "Agapanthus",
+          "Namaqualand Daisy"
+        ]
+      },
+      {
+        "category": "SA Fynbos Species",
+        "difficulty": 4,
+        "words": [
+          "Erica",
+          "Restio",
+          "Pincushion",
+          "Buchu"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Afrikaans Curse Words (Mild)",
+        "difficulty": 1,
+        "words": [
+          "Jislaaik",
+          "Sis",
+          "Haibo",
+          "Eish"
+        ]
+      },
+      {
+        "category": "SA Expressions of Surprise",
+        "difficulty": 2,
+        "words": [
+          "Yoh",
+          "Hayibo",
+          "Sjoe",
+          "Jirre"
+        ]
+      },
+      {
+        "category": "SA Expressions of Agreement",
+        "difficulty": 3,
+        "words": [
+          "Ja-nee",
+          "For sure",
+          "Hundred",
+          "Shap"
+        ]
+      },
+      {
+        "category": "SA Expressions of Sympathy",
+        "difficulty": 4,
+        "words": [
+          "Shame",
+          "Sho",
+          "Shem",
+          "Ag man"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Popular Baby Names 2020s",
+        "difficulty": 1,
+        "words": [
+          "Liam",
+          "Amahle",
+          "Junior",
+          "Enzokuhle"
+        ]
+      },
+      {
+        "category": "SA Surname Prefixes",
+        "difficulty": 2,
+        "words": [
+          "Van",
+          "De",
+          "Du",
+          "Le"
+        ]
+      },
+      {
+        "category": "SA Royal Names",
+        "difficulty": 3,
+        "words": [
+          "Goodwill",
+          "Misuzulu",
+          "Letsie",
+          "Mswati"
+        ]
+      },
+      {
+        "category": "SA Place Names from People",
+        "difficulty": 4,
+        "words": [
+          "Johannesburg",
+          "Pietermaritzburg",
+          "Richardsbay",
+          "Potchefstroom"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Telkom Services",
+        "difficulty": 1,
+        "words": [
+          "Landline",
+          "ADSL",
+          "Fibre",
+          "LTE"
+        ]
+      },
+      {
+        "category": "SA Fibre Providers",
+        "difficulty": 2,
+        "words": [
+          "Openserve",
+          "Vumatel",
+          "DFA",
+          "Frogfoot"
+        ]
+      },
+      {
+        "category": "SA ISPs",
+        "difficulty": 3,
+        "words": [
+          "Rain",
+          "Afrihost",
+          "Cool Ideas",
+          "RSAWEB"
+        ]
+      },
+      {
+        "category": "SA Tech Startups",
+        "difficulty": 4,
+        "words": [
+          "Yoco",
+          "Luno",
+          "JUMO",
+          "SweepSouth"
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "category": "SA Things on a CV (Common)",
+        "difficulty": 1,
+        "words": [
+          "Matric",
+          "Degree",
+          "Experience",
+          "References"
+        ]
+      },
+      {
+        "category": "SA Job Search Platforms",
+        "difficulty": 2,
+        "words": [
+          "Careers24",
+          "PNet",
+          "Indeed SA",
+          "LinkedIn"
+        ]
+      },
+      {
+        "category": "SA Workplace Terms",
+        "difficulty": 3,
+        "words": [
+          "CCMA",
+          "BCEA",
+          "UIF",
+          "Skills Levy"
+        ]
+      },
+      {
+        "category": "SA Labour Law Terms",
+        "difficulty": 4,
+        "words": [
+          "Retrenchment",
+          "LIFO",
+          "Section 189",
+          "Unfair Dismissal"
+        ]
+      }
     ]
   }
 ]

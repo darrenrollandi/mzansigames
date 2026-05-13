@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { getPuzzleIndex } from "@/lib/puzzle-generator";
 import {
   evaluateGuess,
@@ -10,6 +10,11 @@ import {
 } from "@/lib/wordle-logic";
 import Keyboard from "@/components/Keyboard";
 import Modal from "@/components/Modal";
+import GameHeader from "@/components/GameHeader";
+import ShareButton from "@/components/ShareButton";
+import { useDailyState } from "@/lib/storage";
+import { useGameStats, winPercent } from "@/lib/stats";
+import { buildWordleShare } from "@/lib/share";
 import answers from "@/data/wordle-answers.json";
 import validWords from "@/data/wordle-valid.json";
 
@@ -23,12 +28,19 @@ interface GuessEntry {
   results: LetterResult[];
 }
 
-// Merge both lists for validation (answers are always valid guesses)
+type PersistedState = {
+  guesses: GuessEntry[];
+  status: GameStatus;
+  reportedResult: boolean;
+};
+
 const allValid = Array.from(
-  new Set([...validWords.map((w) => w.toLowerCase()), ...answers.map((w) => w.toLowerCase())])
+  new Set([
+    ...validWords.map((w) => w.toLowerCase()),
+    ...answers.map((w) => w.toLowerCase()),
+  ])
 );
 
-// SA-flavoured messages for winning
 const WIN_MESSAGES = [
   "Eish, you got it! Lekker!",
   "Yoh, what a legend!",
@@ -39,38 +51,48 @@ const WIN_MESSAGES = [
 ];
 
 export default function WordlePage() {
-  const [todayAnswer, setTodayAnswer] = useState("");
-  const [previousGuesses, setPreviousGuesses] = useState<GuessEntry[]>([]);
+  const { puzzleIndex, todayAnswer } = useMemo(() => {
+    const idx = getPuzzleIndex(new Date(), answers.length);
+    return { puzzleIndex: idx, todayAnswer: answers[idx].toLowerCase() };
+  }, []);
+
+  const [persisted, setPersisted, hydrated] = useDailyState<PersistedState>(
+    "wordle",
+    { guesses: [], status: "playing", reportedResult: false }
+  );
+
   const [currentGuess, setCurrentGuess] = useState("");
-  const [gameStatus, setGameStatus] = useState<GameStatus>("playing");
   const [shakeRow, setShakeRow] = useState(false);
   const [revealingRow, setRevealingRow] = useState(-1);
   const [bounceRow, setBounceRow] = useState(-1);
   const [toastMessage, setToastMessage] = useState("");
   const [modalOpen, setModalOpen] = useState(false);
 
-  // Pick today's word on mount
-  useEffect(() => {
-    const idx = getPuzzleIndex(new Date(), answers.length);
-    setTodayAnswer(answers[idx].toLowerCase());
-  }, []);
+  const previousGuesses = persisted.guesses;
+  const gameStatus = persisted.status;
+  const { stats, recordResult } = useGameStats("wordle");
 
-  // Show toast briefly
+  // Surface the end-game modal automatically when a finished game is reloaded.
+  useEffect(() => {
+    if (!hydrated) return;
+    if (gameStatus !== "playing") setModalOpen(true);
+    // Only run when hydration completes — subsequent transitions handle their own modal.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [hydrated]);
+
   const showToast = useCallback((msg: string) => {
     setToastMessage(msg);
     setTimeout(() => setToastMessage(""), 2000);
   }, []);
 
-  // Show modal after a short delay (let animations finish)
   const showEndModal = useCallback((delay: number) => {
     setTimeout(() => setModalOpen(true), delay);
   }, []);
 
-  // Handle a key press (physical or on-screen)
   const handleKey = useCallback(
     (key: string) => {
+      if (!hydrated) return;
       if (gameStatus !== "playing" || !todayAnswer) return;
-      // While a row is being revealed, block input
       if (revealingRow >= 0) return;
 
       if (key === "Backspace") {
@@ -97,24 +119,25 @@ export default function WordlePage() {
         const newGuess: GuessEntry = { guess: currentGuess, results };
         const rowIndex = previousGuesses.length;
 
-        // Start reveal animation
         setRevealingRow(rowIndex);
-
-        // After the flip animation completes for all tiles
         const revealDuration = WORD_LENGTH * 300 + 300;
         setTimeout(() => {
-          setPreviousGuesses((prev) => [...prev, newGuess]);
+          const isWin = results.every((r) => r.status === "correct");
+          const isLoss = !isWin && rowIndex + 1 >= MAX_GUESSES;
+          const nextStatus: GameStatus = isWin ? "won" : isLoss ? "lost" : "playing";
+          setPersisted((prev) => ({
+            ...prev,
+            guesses: [...prev.guesses, newGuess],
+            status: nextStatus,
+          }));
           setCurrentGuess("");
           setRevealingRow(-1);
 
-          const isWin = results.every((r) => r.status === "correct");
           if (isWin) {
-            setGameStatus("won");
             setBounceRow(rowIndex);
             setTimeout(() => setBounceRow(-1), 1500);
             showEndModal(1600);
-          } else if (rowIndex + 1 >= MAX_GUESSES) {
-            setGameStatus("lost");
+          } else if (isLoss) {
             showEndModal(800);
           }
         }, revealDuration);
@@ -122,12 +145,12 @@ export default function WordlePage() {
         return;
       }
 
-      // Regular letter
       if (/^[a-zA-Z]$/.test(key) && currentGuess.length < WORD_LENGTH) {
         setCurrentGuess((g) => g + key.toLowerCase());
       }
     },
     [
+      hydrated,
       gameStatus,
       todayAnswer,
       currentGuess,
@@ -135,13 +158,34 @@ export default function WordlePage() {
       revealingRow,
       showToast,
       showEndModal,
+      setPersisted,
     ]
   );
 
-  // Physical keyboard listener
+  // Record stats once the game ends.
+  useEffect(() => {
+    if (!hydrated) return;
+    if (persisted.reportedResult) return;
+    if (gameStatus === "won") {
+      recordResult("won", { guesses: previousGuesses.length });
+      setPersisted((p) => ({ ...p, reportedResult: true }));
+    } else if (gameStatus === "lost") {
+      recordResult("lost");
+      setPersisted((p) => ({ ...p, reportedResult: true }));
+    }
+  }, [
+    hydrated,
+    gameStatus,
+    persisted.reportedResult,
+    previousGuesses.length,
+    recordResult,
+    setPersisted,
+  ]);
+
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
       if (e.ctrlKey || e.metaKey || e.altKey) return;
+      if (modalOpen) return;
       if (e.key === "Backspace" || e.key === "Enter" || /^[a-zA-Z]$/.test(e.key)) {
         e.preventDefault();
         handleKey(e.key);
@@ -149,11 +193,10 @@ export default function WordlePage() {
     };
     window.addEventListener("keydown", handler);
     return () => window.removeEventListener("keydown", handler);
-  }, [handleKey]);
+  }, [handleKey, modalOpen]);
 
   const letterStates = getLetterStates(previousGuesses);
 
-  // Tile background based on result status
   function getTileBg(status: LetterResult["status"] | null): string {
     switch (status) {
       case "correct":
@@ -167,10 +210,8 @@ export default function WordlePage() {
     }
   }
 
-  // Build the grid
   function renderGrid() {
     const rows = [];
-
     for (let r = 0; r < MAX_GUESSES; r++) {
       const isRevealing = revealingRow === r;
       const isBouncing = bounceRow === r;
@@ -178,6 +219,7 @@ export default function WordlePage() {
       const guessEntry = previousGuesses[r];
       const isCurrentRow = r === previousGuesses.length && !guessEntry;
 
+      const revealResults = isRevealing ? evaluateGuess(currentGuess, todayAnswer) : null;
       const tiles = [];
       for (let c = 0; c < WORD_LENGTH; c++) {
         let letter = "";
@@ -187,18 +229,14 @@ export default function WordlePage() {
         let shouldBounce = false;
 
         if (guessEntry) {
-          // Completed guess row
           letter = guessEntry.results[c].letter;
           status = guessEntry.results[c].status;
-        } else if (isRevealing) {
-          // This row is being revealed (we have the guess in currentGuess still)
-          const results = evaluateGuess(currentGuess, todayAnswer);
+        } else if (isRevealing && revealResults) {
           letter = currentGuess[c] || "";
-          status = results[c]?.status || null;
+          status = revealResults[c]?.status ?? null;
           shouldFlip = true;
           flipDelay = c * 300;
         } else if (isCurrentRow) {
-          // Current input row
           letter = currentGuess[c] || "";
         }
 
@@ -208,13 +246,18 @@ export default function WordlePage() {
 
         const hasLetter = letter !== "";
         const borderPop =
-          isCurrentRow && hasLetter && !status
-            ? "border-zinc-500"
-            : "";
+          isCurrentRow && hasLetter && !status ? "border-zinc-500" : "";
+        const ariaLabel = letter
+          ? status
+            ? `${letter.toUpperCase()} — ${status}`
+            : letter.toUpperCase()
+          : "empty";
 
         tiles.push(
           <div
             key={c}
+            role="img"
+            aria-label={ariaLabel}
             className={`
               w-14 h-14 sm:w-16 sm:h-16
               flex items-center justify-center
@@ -249,73 +292,107 @@ export default function WordlePage() {
         </div>
       );
     }
-
     return rows;
   }
 
-  const winMessage =
-    WIN_MESSAGES[previousGuesses.length % WIN_MESSAGES.length];
+  const winMessage = WIN_MESSAGES[previousGuesses.length % WIN_MESSAGES.length];
+  const shareText = useMemo(
+    () =>
+      buildWordleShare(
+        puzzleIndex + 1,
+        previousGuesses,
+        gameStatus === "won"
+      ),
+    [puzzleIndex, previousGuesses, gameStatus]
+  );
 
   return (
-    <div className="flex flex-col items-center min-h-screen bg-[var(--background)] text-[var(--foreground)]">
-      {/* Header */}
-      <header className="w-full border-b border-[var(--tile-border)] py-3">
-        <h1 className="text-center text-2xl sm:text-3xl font-bold tracking-wider">
-          SA Wordle
-        </h1>
-      </header>
+    <div className="flex flex-col items-center text-[var(--foreground)] px-4 pb-6">
+      <GameHeader
+        game="wordle"
+        title="SA Wordle"
+        subtitle={`Puzzle #${puzzleIndex + 1}`}
+      />
 
-      {/* Toast notification */}
+      <div
+        className="sr-only"
+        role="status"
+        aria-live="polite"
+      >
+        {toastMessage}
+      </div>
+
       {toastMessage && (
-        <div className="fixed top-16 left-1/2 -translate-x-1/2 z-40 bg-white text-black font-bold text-sm px-4 py-2 rounded-md shadow-lg">
+        <div
+          role="alert"
+          className="fixed top-20 left-1/2 -translate-x-1/2 z-40 bg-white text-black font-bold text-sm px-4 py-2 rounded-md shadow-lg"
+        >
           {toastMessage}
         </div>
       )}
 
-      {/* Game area */}
-      <main className="flex flex-col flex-1 items-center justify-between w-full max-w-lg mx-auto px-4 py-4 gap-4">
-        {/* Grid */}
-        <div className="flex flex-col gap-1.5 mt-2">{renderGrid()}</div>
-
-        {/* Keyboard */}
+      <main className="flex flex-col flex-1 items-center justify-between w-full max-w-lg mx-auto gap-4 mt-2">
+        <div className="flex flex-col gap-1.5">{renderGrid()}</div>
         <div className="w-full pb-2">
           <Keyboard onKeyPress={handleKey} letterStates={letterStates} />
         </div>
       </main>
 
-      {/* End-game modal */}
       <Modal
         isOpen={modalOpen}
         onClose={() => setModalOpen(false)}
-        title={gameStatus === "won" ? "Winner!" : "Better luck next time"}
+        title={gameStatus === "won" ? "Winner!" : gameStatus === "lost" ? "Better luck next time" : "SA Wordle"}
       >
-        {gameStatus === "won" ? (
-          <div className="space-y-4">
-            <p className="text-xl font-semibold text-[var(--game-green)]">
-              {winMessage}
-            </p>
-            <p className="text-sm text-[var(--foreground)]/70">
-              You got it in {previousGuesses.length}{" "}
-              {previousGuesses.length === 1 ? "guess" : "guesses"}.
-            </p>
-            <p className="text-lg font-mono uppercase tracking-widest">
-              {todayAnswer}
-            </p>
+        <div className="space-y-4">
+          {gameStatus === "won" ? (
+            <>
+              <p className="text-xl font-semibold text-[var(--game-green)]">
+                {winMessage}
+              </p>
+              <p className="text-sm text-[var(--foreground)]/70">
+                You got it in {previousGuesses.length}{" "}
+                {previousGuesses.length === 1 ? "guess" : "guesses"}.
+              </p>
+              <p className="text-lg font-mono uppercase tracking-widest">
+                {todayAnswer}
+              </p>
+            </>
+          ) : (
+            <>
+              <p className="text-lg text-[var(--foreground)]/80">
+                Ag shame, the word was:
+              </p>
+              <p className="text-2xl font-mono font-bold uppercase tracking-widest text-[var(--game-green)]">
+                {todayAnswer}
+              </p>
+              <p className="text-sm text-[var(--foreground)]/60">
+                Come back tomorrow for a new word!
+              </p>
+            </>
+          )}
+
+          <div className="grid grid-cols-3 gap-3 pt-2 border-t border-[var(--tile-border)]">
+            <Stat label="Played" value={stats.played} />
+            <Stat label="Win %" value={`${winPercent(stats)}%`} />
+            <Stat label="Streak" value={stats.currentStreak} />
           </div>
-        ) : (
-          <div className="space-y-4">
-            <p className="text-lg text-[var(--foreground)]/80">
-              Ag shame, the word was:
-            </p>
-            <p className="text-2xl font-mono font-bold uppercase tracking-widest text-[var(--game-green)]">
-              {todayAnswer}
-            </p>
-            <p className="text-sm text-[var(--foreground)]/60">
-              Come back tomorrow for a new word!
-            </p>
+
+          <div className="flex justify-center pt-2">
+            <ShareButton text={shareText} />
           </div>
-        )}
+        </div>
       </Modal>
+    </div>
+  );
+}
+
+function Stat({ label, value }: { label: string; value: number | string }) {
+  return (
+    <div className="flex flex-col items-center">
+      <span className="text-xl font-bold">{value}</span>
+      <span className="text-[10px] uppercase tracking-wider text-[var(--foreground)]/60">
+        {label}
+      </span>
     </div>
   );
 }
