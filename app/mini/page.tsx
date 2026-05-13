@@ -58,6 +58,7 @@ export default function MiniCrosswordPage() {
   const [checked, setChecked] = useState(false);
   const [checkResults, setCheckResults] = useState<boolean[][] | null>(null);
   const [modalOpen, setModalOpen] = useState(false);
+  const [popCell, setPopCell] = useState<string | null>(null);
   const gridRef = useRef<HTMLDivElement>(null);
 
   const won = useMemo(() => isComplete(userGrid, puzzle), [userGrid, puzzle]);
@@ -135,6 +136,11 @@ export default function MiniCrosswordPage() {
         next[row][col] = letter;
         return { ...prev, userGrid: next };
       });
+      if (letter) {
+        const key = `${row},${col}`;
+        setPopCell(key);
+        setTimeout(() => setPopCell((cur) => (cur === key ? null : cur)), 200);
+      }
     },
     [setPersisted]
   );
@@ -283,7 +289,7 @@ export default function MiniCrosswordPage() {
                   isBlack ? 'block' : `row ${r + 1} column ${c + 1}${userGrid[r][c] ? ` letter ${userGrid[r][c]}` : ''}`
                 }
                 onClick={() => handleCellClick(r, c)}
-                className={`relative flex items-center justify-center border border-[var(--tile-border)] select-none font-bold text-lg ${getCellBg(r, c)} ${isBlack ? 'cursor-default' : 'cursor-pointer'}`}
+                className={`relative flex items-center justify-center border border-[var(--tile-border)] select-none font-bold text-lg transition-colors ${getCellBg(r, c)} ${isBlack ? 'cursor-default' : 'cursor-pointer'} ${popCell === `${r},${c}` ? 'animate-pop' : ''}`}
                 style={{ aspectRatio: '1' }}
               >
                 {clueNums.length > 0 && (

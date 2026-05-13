@@ -38,6 +38,8 @@ type Persisted = {
   game: GameState;
   attempts: ConnectionsAttempt[];
   reportedResult: boolean;
+  hintedWords: string[];
+  hintsUsed: number;
 };
 
 export default function ConnectionsPage() {
@@ -52,6 +54,8 @@ export default function ConnectionsPage() {
       game: initializeGame(puzzle),
       attempts: [],
       reportedResult: false,
+      hintedWords: [],
+      hintsUsed: 0,
     }
   );
 
@@ -167,6 +171,48 @@ export default function ConnectionsPage() {
     setGame((prev) => ({ ...prev, remainingWords: shuffleWords(prev.remainingWords) }));
   }, [setGame]);
 
+  const handleHint = useCallback(() => {
+    if (game.gameStatus !== 'playing') return;
+    // Pick the easiest unsolved group; reveal one of its words that isn't already hinted.
+    const solvedSet = new Set(game.solvedGroups.map((g) => g.category));
+    const unsolved = puzzle.groups
+      .filter((g) => !solvedSet.has(g.category))
+      .sort((a, b) => a.difficulty - b.difficulty);
+    if (unsolved.length === 0) return;
+    let pickGroup: Group | null = null;
+    let pickWord: string | null = null;
+    for (const g of unsolved) {
+      const remaining = g.words.filter(
+        (w) => game.remainingWords.includes(w) && !persisted.hintedWords.includes(w)
+      );
+      if (remaining.length > 0) {
+        pickGroup = g;
+        pickWord = remaining[0];
+        break;
+      }
+    }
+    if (!pickGroup || !pickWord) return;
+
+    const wordToHint = pickWord;
+    const groupLabel = DIFFICULTY_LABELS[pickGroup.difficulty];
+    const isLast = game.mistakes + 1 >= MAX_MISTAKES;
+
+    setPersisted((prev) => ({
+      ...prev,
+      hintedWords: [...prev.hintedWords, wordToHint],
+      hintsUsed: prev.hintsUsed + 1,
+      game: {
+        ...prev.game,
+        mistakes: prev.game.mistakes + 1,
+        gameStatus: isLast ? 'lost' : prev.game.gameStatus,
+        selectedWords: isLast ? [] : prev.game.selectedWords,
+      },
+    }));
+
+    setShakeWords(false);
+    setToast(`Hint: "${wordToHint}" is in the ${groupLabel} group`);
+  }, [game, puzzle, persisted.hintedWords, setPersisted]);
+
   // On loss, reveal remaining groups with a stagger.
   useEffect(() => {
     if (game.gameStatus !== 'lost') return;
@@ -260,7 +306,7 @@ export default function ConnectionsPage() {
         {allSolvedGroups.map((group) => (
           <div
             key={group.category}
-            className="rounded-lg p-3 text-center font-semibold animate-[fadeIn_0.4s_ease-in]"
+            className="rounded-lg p-3 text-center font-semibold animate-fade-in"
             style={{
               backgroundColor: DIFFICULTY_COLORS[group.difficulty],
               color: '#1a1a1a',
@@ -284,12 +330,14 @@ export default function ConnectionsPage() {
         >
           {game.remainingWords.map((word) => {
             const isSelected = game.selectedWords.includes(word);
+            const isHinted = persisted.hintedWords.includes(word);
             return (
               <button
                 key={word}
                 onClick={() => toggleWord(word)}
                 disabled={game.gameStatus !== 'playing'}
                 aria-pressed={isSelected}
+                aria-label={isHinted ? `${word} (hinted)` : word}
                 className={`
                   flex items-center justify-center rounded-lg p-2 text-center
                   text-[11px] font-bold uppercase leading-tight tracking-wide
@@ -298,8 +346,10 @@ export default function ConnectionsPage() {
                   focus:outline-none focus:ring-2 focus:ring-[var(--game-green)]
                   ${
                     isSelected
-                      ? 'bg-zinc-200 text-zinc-900 ring-2 ring-white scale-[0.97]'
-                      : 'bg-zinc-700 text-zinc-100 hover:bg-zinc-600'
+                      ? 'bg-zinc-200 text-zinc-900 ring-2 ring-white scale-[0.97] animate-pop'
+                      : isHinted
+                        ? 'bg-purple-700/60 text-purple-100 ring-2 ring-purple-400 animate-hint-pulse'
+                        : 'bg-zinc-700 text-zinc-100 hover:bg-zinc-600'
                   }
                   ${shakeWords && isSelected ? 'animate-shake' : ''}
                 `}
@@ -332,6 +382,16 @@ export default function ConnectionsPage() {
             className="rounded-full border border-zinc-600 px-5 py-2 text-sm font-medium text-zinc-200 transition-colors hover:bg-zinc-800 disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer focus:outline-none focus:ring-2 focus:ring-[var(--game-green)]"
           >
             Deselect All
+          </button>
+          <button
+            onClick={handleHint}
+            disabled={game.gameStatus !== 'playing'}
+            title="Reveal one word's group (costs a mistake)"
+            className="inline-flex items-center gap-1.5 rounded-full border border-purple-500/60 px-4 py-2 text-sm font-medium text-purple-200 transition-colors hover:bg-purple-500/10 disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer focus:outline-none focus:ring-2 focus:ring-purple-400"
+          >
+            <span aria-hidden="true">💡</span>
+            Hint
+            <span className="text-[10px] text-purple-300/70">(uses a life)</span>
           </button>
           <button
             onClick={handleSubmit}
