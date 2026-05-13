@@ -75,8 +75,6 @@ export function checkGuess(
     return { correct: false };
   }
 
-  const selectedSet = new Set(selected);
-
   for (const group of puzzle.groups) {
     const groupSet = new Set(group.words);
     const overlap = selected.filter((w) => groupSet.has(w)).length;
