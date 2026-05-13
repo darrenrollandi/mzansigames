@@ -32,6 +32,7 @@ type PersistedState = {
   guesses: GuessEntry[];
   status: GameStatus;
   reportedResult: boolean;
+  hintsUsed: number;
 };
 
 const allValid = Array.from(
@@ -58,7 +59,7 @@ export default function WordlePage() {
 
   const [persisted, setPersisted, hydrated] = useDailyState<PersistedState>(
     "wordle",
-    { guesses: [], status: "playing", reportedResult: false }
+    { guesses: [], status: "playing", reportedResult: false, hintsUsed: 0 }
   );
 
   const [currentGuess, setCurrentGuess] = useState("");
@@ -88,6 +89,64 @@ export default function WordlePage() {
   const showEndModal = useCallback((delay: number) => {
     setTimeout(() => setModalOpen(true), delay);
   }, []);
+
+  const handleHint = useCallback(() => {
+    if (!hydrated || gameStatus !== "playing") return;
+    if (revealingRow >= 0) return;
+    if (previousGuesses.length >= MAX_GUESSES) return;
+
+    // Find positions the player already knows are correct.
+    const known = new Set<number>();
+    for (const g of previousGuesses) {
+      for (let i = 0; i < g.results.length; i++) {
+        if (g.results[i].status === "correct") known.add(i);
+      }
+    }
+    let pos = -1;
+    for (let i = 0; i < WORD_LENGTH; i++) {
+      if (!known.has(i)) { pos = i; break; }
+    }
+    if (pos < 0) {
+      showToast("All letters already known");
+      return;
+    }
+
+    const results: LetterResult[] = Array.from({ length: WORD_LENGTH }, (_, i) =>
+      i === pos
+        ? { letter: todayAnswer[i], status: "correct" as const }
+        : { letter: "", status: "absent" as const }
+    );
+    const hintEntry: GuessEntry = {
+      guess: results.map((r) => r.letter || " ").join(""),
+      results,
+    };
+    const rowIndex = previousGuesses.length;
+    const isLast = rowIndex + 1 >= MAX_GUESSES;
+
+    setRevealingRow(rowIndex);
+    const revealDuration = WORD_LENGTH * 200 + 200;
+    setTimeout(() => {
+      setPersisted((prev) => ({
+        ...prev,
+        guesses: [...prev.guesses, hintEntry],
+        hintsUsed: prev.hintsUsed + 1,
+        status: isLast ? "lost" : prev.status,
+      }));
+      setCurrentGuess("");
+      setRevealingRow(-1);
+      if (isLast) showEndModal(800);
+      else showToast("Letter revealed — one guess used");
+    }, revealDuration);
+  }, [
+    hydrated,
+    gameStatus,
+    revealingRow,
+    previousGuesses,
+    todayAnswer,
+    setPersisted,
+    showEndModal,
+    showToast,
+  ]);
 
   const handleKey = useCallback(
     (key: string) => {
@@ -333,6 +392,30 @@ export default function WordlePage() {
 
       <main className="flex flex-col flex-1 items-center justify-between w-full max-w-lg mx-auto gap-4 mt-2">
         <div className="flex flex-col gap-1.5">{renderGrid()}</div>
+
+        <div className="flex items-center justify-center gap-3 -mb-2">
+          <button
+            type="button"
+            onClick={handleHint}
+            disabled={
+              gameStatus !== "playing" ||
+              previousGuesses.length >= MAX_GUESSES ||
+              revealingRow >= 0
+            }
+            title="Reveal a correct letter (uses one of your 6 guesses)"
+            className="inline-flex items-center gap-1.5 rounded-full border border-[var(--tile-border)] px-3 py-1 text-xs font-semibold text-[var(--foreground)]/80 hover:text-[var(--foreground)] hover:border-[var(--foreground)]/40 disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer focus:outline-none focus:ring-2 focus:ring-[var(--game-green)]"
+          >
+            <span aria-hidden="true">💡</span>
+            Hint
+            <span className="text-[10px] text-[var(--foreground)]/50">(uses a guess)</span>
+          </button>
+          {persisted.hintsUsed > 0 && (
+            <span className="text-[11px] text-[var(--foreground)]/60">
+              {persisted.hintsUsed} used
+            </span>
+          )}
+        </div>
+
         <div className="w-full pb-2">
           <Keyboard onKeyPress={handleKey} letterStates={letterStates} />
         </div>

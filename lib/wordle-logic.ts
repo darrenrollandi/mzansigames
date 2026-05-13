@@ -63,6 +63,7 @@ export function getLetterStates(
 
   for (const { results } of guesses) {
     for (const { letter, status } of results) {
+      if (!letter) continue;
       const l = letter.toLowerCase();
       const current = states[l];
       if (!current) {

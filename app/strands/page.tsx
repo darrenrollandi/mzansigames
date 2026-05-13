@@ -50,6 +50,8 @@ export default function StrandsPage() {
   const [message, setMessage] = useState('');
   const [shakeSelection, setShakeSelection] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
+  const [popCell, setPopCell] = useState<string | null>(null);
+  const [celebrateCells, setCelebrateCells] = useState<Set<string>>(new Set());
 
   const foundCellsMap = useMemo(() => {
     const m = new Map<string, CellStatus>();
@@ -105,33 +107,33 @@ export default function StrandsPage() {
     const result = checkWord(word, selectedCells, puzzle);
 
     if (result.isSpangram && result.wordPath) {
-      setPersisted((prev) => {
-        const newFoundCells = [
+      const cellKeys = result.wordPath.cells.map(([r, c]) => cellKey(r, c));
+      setPersisted((prev) => ({
+        ...prev,
+        foundCells: [
           ...prev.foundCells,
-          ...result.wordPath!.cells.map(([r, c]) => ({ key: cellKey(r, c), status: 'spangram' as const })),
-        ];
-        return {
-          ...prev,
-          foundCells: newFoundCells,
-          foundSpangram: true,
-          foundWords: [...prev.foundWords, word],
-          shareSequence: [...prev.shareSequence, 'spangram'],
-        };
-      });
+          ...cellKeys.map((k) => ({ key: k, status: 'spangram' as const })),
+        ],
+        foundSpangram: true,
+        foundWords: [...prev.foundWords, word],
+        shareSequence: [...prev.shareSequence, 'spangram'],
+      }));
+      setCelebrateCells(new Set(cellKeys));
+      setTimeout(() => setCelebrateCells(new Set()), 600);
       flashMessage('Spangram found!');
     } else if (result.isTheme && result.wordPath) {
-      setPersisted((prev) => {
-        const newFoundCells = [
+      const cellKeys = result.wordPath.cells.map(([r, c]) => cellKey(r, c));
+      setPersisted((prev) => ({
+        ...prev,
+        foundCells: [
           ...prev.foundCells,
-          ...result.wordPath!.cells.map(([r, c]) => ({ key: cellKey(r, c), status: 'theme' as const })),
-        ];
-        return {
-          ...prev,
-          foundCells: newFoundCells,
-          foundWords: [...prev.foundWords, word],
-          shareSequence: [...prev.shareSequence, 'theme'],
-        };
-      });
+          ...cellKeys.map((k) => ({ key: k, status: 'theme' as const })),
+        ],
+        foundWords: [...prev.foundWords, word],
+        shareSequence: [...prev.shareSequence, 'theme'],
+      }));
+      setCelebrateCells(new Set(cellKeys));
+      setTimeout(() => setCelebrateCells(new Set()), 600);
       flashMessage(`"${word}" found!`);
     } else if (result.isValid) {
       setPersisted((prev) => {
@@ -160,6 +162,12 @@ export default function StrandsPage() {
     setSelectedCells([]);
   }, [selectedCells, puzzle, persisted.nonThemeCount, setPersisted, flashMessage]);
 
+  const triggerPop = useCallback((r: number, c: number) => {
+    const key = cellKey(r, c);
+    setPopCell(key);
+    setTimeout(() => setPopCell((cur) => (cur === key ? null : cur)), 200);
+  }, []);
+
   const handleCellClick = useCallback(
     (row: number, col: number) => {
       if (won) return;
@@ -184,13 +192,15 @@ export default function StrandsPage() {
         const last = selectedCells[selectedCells.length - 1];
         if (!isAdjacent(last, [row, col])) {
           setSelectedCells([[row, col]]);
+          triggerPop(row, col);
           return;
         }
       }
 
       setSelectedCells([...selectedCells, [row, col]]);
+      triggerPop(row, col);
     },
-    [won, foundCellsMap, selectedCells, submitWord]
+    [won, foundCellsMap, selectedCells, submitWord, triggerPop]
   );
 
   const handleHint = useCallback(() => {
@@ -333,7 +343,10 @@ export default function StrandsPage() {
         >
           {puzzle.grid.map((row, r) =>
             row.map((letter, c) => {
-              const status = foundCellsMap.get(cellKey(r, c));
+              const key = cellKey(r, c);
+              const status = foundCellsMap.get(key);
+              const isPopping = popCell === key;
+              const isCelebrating = celebrateCells.has(key);
               return (
                 <button
                   key={`${r}-${c}`}
@@ -344,7 +357,7 @@ export default function StrandsPage() {
                   aria-label={`Row ${r + 1} column ${c + 1} letter ${letter}`}
                   className={`aspect-square flex items-center justify-center rounded-full font-bold text-base sm:text-lg transition-all select-none focus:outline-none focus:ring-2 focus:ring-[var(--game-green)] ${getCellBg(r, c)} ${
                     status ? 'cursor-default' : 'cursor-pointer active:scale-95'
-                  }`}
+                  } ${isPopping ? 'animate-pop' : ''} ${isCelebrating ? 'animate-celebrate' : ''}`}
                 >
                   {letter}
                 </button>
